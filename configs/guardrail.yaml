@@ -1,0 +1,89 @@
+# CardioRAG: CV-Safety Guardrail Configuration
+# PLAN(1) §2.4
+#
+# IMPORTANT — runtime note: this file is NOT loaded by the codebase at runtime.
+# The guardrail rules live in src/cardiorag/normalize.py (EMERGENCY_ZH/EN,
+# OOB_DOSE_ADJUST/OOB_STOP_MED/OOB_SURGERY/OOB_EN). This YAML documents the
+# configuration surface for transparency and is kept in sync with normalize.py.
+#
+# Clinical basis (full citation chain: data/seed/sources.json):
+#   * emergency_keywords_zh/en — emergency routing red flags:
+#       chest pain + cold sweat / sudden dyspnea / syncope / cardiac arrest signs
+#       → ESC 2023 ACS §5 (ACS presentation), ESC 2024 CCS §4 (symptom
+#       recognition), AHA 2020 CPR & ECC guidelines (basic emergency triage).
+#       High-recall by design: false positives route to 120/911 (safe failure).
+#   * out_of_bounds_categories — patient-safety refusal boundaries:
+#       dose_adjustment        → ESC 2024 AF §11 (DOAC dose by CrCl/HAS-BLED),
+#                                AHA/ACC/HFSA 2022 HF §7 (GDMT titration)
+#       medication_discontinuation → ESC 2024 CCS §10, ESC 2023 ACS §10
+#                                (antithrombotic stop = physician decision)
+#       procedure_decision     → ESC 2024 CCS §7 revascularization, ESC 2024 AF
+#                                §9 (AF-CARE pillar A), Heart-Team principle
+#   * disclaimer_zh/en — patient-education disclaimer appended to every answer.
+
+emergency_keywords_zh:
+  - "胸痛.*冷汗"
+  - "突发呼吸困难"
+  - "晕厥"
+  - "心搏骤停"
+  - "心脏骤停"
+  - "剧烈胸痛"
+  - "急性呼吸困难"
+  - "突然晕倒"
+  - "心跳停止"
+
+emergency_keywords_en:
+  - "chest pain.*radiating"
+  - "sudden dyspnea"
+  - "syncope"
+  - "signs of cardiac arrest"
+  - "severe chest pain"
+  - "acute shortness of breath"
+  - "sudden collapse"
+
+emergency_response_zh: |
+  🚨 **紧急提醒**：根据您的描述，这可能是需要立即就医的紧急情况。
+  请立即拨打 120 或前往最近急诊科。
+
+emergency_response_en: |
+  🚨 **EMERGENCY ALERT**: Based on your description, this may be a medical emergency.
+  Please call 911 or go to the nearest ER immediately.
+
+out_of_bounds_categories:
+  dose_adjustment:
+    description: Specific medication dose adjustment advice
+    patterns_zh:
+      - "你应该.*(加量|减量|调整.*剂量|改为.*mg|增加.*mg|减少.*mg)"
+    patterns_en:
+      - "you should (increase|decrease|adjust|change).*(dose|mg)"
+    refusal_zh: "用药剂量调整需要医师根据您的完整病情评估后决定，建议预约门诊。"
+    refusal_en: "Medication dose adjustments require physician evaluation. Please schedule an appointment."
+
+  medication_discontinuation:
+    description: Advice to stop/discontinue medications
+    patterns_zh:
+      - "(建议你.*停用|应该停用|停药|停止服用)"
+    patterns_en:
+      - "(you should|recommend).*(stop|discontinue).*(medication|drug|medicine)"
+    refusal_zh: "是否停药需要医师综合评估，请勿自行停药。建议与主治医师当面讨论。"
+    refusal_en: "Do not stop medications without consulting your physician."
+
+  procedure_decision:
+    description: Decision about surgery/intervention (PCI, CABG, ablation)
+    patterns_zh:
+      - "你需要做.*(PCI|CABG|消融|手术|支架|搭桥|介入)"
+    patterns_en:
+      - "(you need|should undergo|require).*(PCI|CABG|ablation|surgery|stent|bypass)"
+    refusal_zh: "手术决策需要心血管团队综合评估，请与主治医师当面讨论。"
+    refusal_en: "Procedure decisions require a full cardiovascular team evaluation."
+
+disclaimer_zh: |
+  ---
+  *免责声明：本回答由 AI 根据临床指南生成，仅供患者教育参考。
+  所有临床决策请咨询执业医师。如出现胸痛、呼吸困难、晕厥等紧急症状，请立即就医。*
+
+disclaimer_en: |
+  ---
+  *Disclaimer: This response is AI-generated from clinical guidelines for patient education only.
+  All clinical decisions must be discussed with a licensed physician.
+  Seek immediate medical attention for emergency symptoms.*

@@ -1,0 +1,31 @@
+# CardioRAG: 4 RAG configurations for ablation study
+# PLAN(1) §2.6
+
+configs:
+  vanilla:
+    description: Pure LLM, no retrieval (baseline C1)
+    retrieval: none
+    kg_source: none
+    guardrail: false
+    lightrag_mode: null
+
+  naive_rag:
+    description: Vector-only retrieval, no graph organization (C2)
+    retrieval: vector
+    kg_source: generic_medical
+    guardrail: false
+    lightrag_mode: null
+
+  lightrag_generic:
+    description: LightRAG hybrid with generic medical KG, not guideline-only (C3)
+    retrieval: lightrag
+    kg_source: generic_medical
+    guardrail: false
+    lightrag_mode: hybrid
+
+  cardiorag_full:
+    description: Complete CardioRAG system: LightRAG + CardioKG + guardrail (C4)
+    retrieval: lightrag
+    kg_source: cardiokg
+    guardrail: true
+    lightrag_mode: hybrid

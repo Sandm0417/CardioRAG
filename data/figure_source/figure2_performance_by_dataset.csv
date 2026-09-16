@@ -1,0 +1,9 @@
+dataset_id,dataset_role,method,sensitivity_high,specificity_high,f1_high,binary_routing_accuracy,cohens_kappa,x_label
+dev-guideline-internal,development,pure_llm,1.0,0.8452,0.6486,0.8646,0.5772,dev·pure_llm
+dev-guideline-internal,development,naive_rag,1.0,0.8929,0.7273,0.9062,0.6757,dev·naive_rag
+dev-guideline-internal,development,lightrag,0.9167,0.9643,0.8462,0.9583,0.8222,dev·lightrag
+dev-guideline-internal,development,full_system,1.0,0.9048,0.75,0.9167,0.7037,dev·full_system
+heldout-guideline-synthetic,held_out_synthetic,pure_llm,1.0,0.85,0.7273,0.875,0.6538,held-out·pure_llm
+heldout-guideline-synthetic,held_out_synthetic,naive_rag,1.0,0.9,0.8,0.9167,0.75,held-out·naive_rag
+heldout-guideline-synthetic,held_out_synthetic,lightrag,1.0,1.0,1.0,1.0,1.0,held-out·lightrag
+heldout-guideline-synthetic,held_out_synthetic,full_system,1.0,0.9,0.8,0.9167,0.75,held-out·full_system

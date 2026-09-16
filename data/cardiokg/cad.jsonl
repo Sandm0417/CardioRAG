@@ -1,0 +1,362 @@
+{"type": "node", "node_type": "Disease", "name": "Chronic Coronary Syndrome", "attributes": {"abbreviation": "CCS", "definition": "Structural/functional alterations of epicardial arteries and/or microcirculation causing transient or permanent myocardial ischemia", "guideline": "ESC 2024 CCS"}}
+{"type": "node", "node_type": "Disease", "name": "Stable Angina Pectoris", "attributes": {"typical_presentation": "Retrosternal chest pain triggered by exertion, relieved by rest/nitrates", "guideline": "ESC 2024 CCS"}}
+{"type": "node", "node_type": "Disease", "name": "ANOCA", "attributes": {"full_name": "Angina with Non-Obstructive Coronary Arteries", "endotypes": ["microvascular dysfunction", "vasospastic angina", "mixed"], "guideline": "ESC 2024 CCS"}}
+{"type": "node", "node_type": "Disease", "name": "INOCA", "attributes": {"full_name": "Ischemia with Non-Obstructive Coronary Arteries", "guideline": "ESC 2024 CCS"}}
+{"type": "node", "node_type": "Disease", "name": "Acute Coronary Syndrome", "attributes": {"types": ["STEMI", "NSTEMI", "unstable angina"], "guideline": "ESC 2024 CCS"}}
+{"type": "node", "node_type": "Disease", "name": "Left Main Disease", "attributes": {"definition": ">50% stenosis of left main coronary artery", "guideline": "ESC 2024 CCS"}}
+{"type": "node", "node_type": "Disease", "name": "Three-Vessel Disease", "attributes": {"definition": ">50% stenosis in all three major coronary arteries", "guideline": "ESC 2024 CCS"}}
+{"type": "node", "node_type": "Disease", "name": "Myocardial Infarction", "attributes": {"types": ["Type 1", "Type 2", "Type 3", "Type 4a", "Type 4b", "Type 5"], "guideline": "ESC 2024 CCS"}}
+{"type": "node", "node_type": "Symptom", "name": "Exertional Chest Pain", "attributes": {"duration": "Minutes, relieved by rest", "radiation": ["left arm", "jaw", "shoulder", "back"], "guideline": "ESC 2024 CCS"}}
+{"type": "node", "node_type": "Symptom", "name": "Dyspnea on Exertion", "attributes": {"anginal_equivalent": true, "guideline": "ESC 2024 CCS"}}
+{"type": "node", "node_type": "Symptom", "name": "Atypical Angina", "attributes": {"description": "Chest discomfort with only 1-2 of the 3 typical characteristics", "guideline": "ESC 2024 CCS"}}
+{"type": "node", "node_type": "Biomarker", "name": "cTnI", "attributes": {"threshold_99th_percentile": "Varies by assay; >99th percentile upper reference limit", "use": "Diagnosis of myocardial injury/MI", "guideline": "ESC 2024 CCS"}}
+{"type": "node", "node_type": "Biomarker", "name": "LDL-C", "attributes": {"target_CCS": "<1.4 mmol/L (<55 mg/dL) AND >=50% reduction", "target_CCD": "<70 mg/dL", "guideline": ["ESC 2024 CCS", "AHA/ACC 2023 CCD"]}}
+{"type": "node", "node_type": "Biomarker", "name": "hs-CRP", "attributes": {"threshold": "Varies", "recommendation": "Consider for risk stratification (Class IIa ESC 2024)", "guideline": "ESC 2024 CCS"}}
+{"type": "node", "node_type": "Biomarker", "name": "Fibrinogen", "attributes": {"recommendation": "Consider for risk stratification (Class IIa ESC 2024)", "guideline": "ESC 2024 CCS"}}
+{"type": "node", "node_type": "Drug", "name": "Aspirin", "attributes": {"dose": "75-100 mg daily", "class": "Antiplatelet", "guideline": ["ESC 2024 CCS", "AHA/ACC 2023 CCD"]}}
+{"type": "node", "node_type": "Drug", "name": "Clopidogrel", "attributes": {"dose": "75 mg daily", "class": "P2Y12 inhibitor", "note": "Class I A as safe alternative to aspirin for long-term secondary prevention", "guideline": "ESC 2024 CCS"}}
+{"type": "node", "node_type": "Drug", "name": "Ticagrelor", "attributes": {"dose": "90 mg bid or 60 mg bid (long-term)", "class": "P2Y12 inhibitor", "guideline": "ESC 2024 CCS"}}
+{"type": "node", "node_type": "Drug", "name": "Rivaroxaban", "attributes": {"dose_low": "2.5 mg bid", "dose_standard": "20 mg daily", "class": "DOAC/Factor Xa inhibitor", "guideline": "AHA/ACC 2023 CCD"}}
+{"type": "node", "node_type": "Drug", "name": "Atorvastatin", "attributes": {"dose_high_intensity": "40-80 mg daily", "class": "Statin", "guideline": ["ESC 2024 CCS", "AHA/ACC 2023 CCD"]}}
+{"type": "node", "node_type": "Drug", "name": "Rosuvastatin", "attributes": {"dose_high_intensity": "20-40 mg daily", "class": "Statin", "guideline": ["ESC 2024 CCS", "AHA/ACC 2023 CCD"], "dose_high": "20-40 mg"}}
+{"type": "node", "node_type": "Drug", "name": "Ezetimibe", "attributes": {"dose": "10 mg daily", "class": "Cholesterol absorption inhibitor", "guideline": ["ESC 2024 CCS", "AHA/ACC 2023 CCD"]}}
+{"type": "node", "node_type": "Drug", "name": "Evolocumab", "attributes": {"class": "PCSK9 inhibitor", "administration": "140 mg SC q2w or 420 mg SC monthly", "guideline": ["ESC 2024 CCS", "AHA/ACC 2023 CCD"]}}
+{"type": "node", "node_type": "Drug", "name": "Alirocumab", "attributes": {"class": "PCSK9 inhibitor", "administration": "75-150 mg SC q2w", "guideline": ["ESC 2024 CCS", "AHA/ACC 2023 CCD"]}}
+{"type": "node", "node_type": "Drug", "name": "Bempedoic Acid", "attributes": {"dose": "180 mg daily", "class": "ATP-citrate lyase inhibitor", "note": "Especially in statin-intolerant patients (Class I B)", "guideline": "ESC 2024 CCS"}}
+{"type": "node", "node_type": "Drug", "name": "Colchicine", "attributes": {"dose": "0.5 mg daily", "class": "Anti-inflammatory", "recommendation": "Class IIa A for MI/stroke/revascularization reduction", "guideline": "ESC 2024 CCS"}}
+{"type": "node", "node_type": "Drug", "name": "Empagliflozin", "attributes": {"dose": "10 mg daily", "class": "SGLT2 inhibitor", "indication": "T2DM+CCS regardless of HbA1c (Class I A)", "guideline": "ESC 2024 CCS"}}
+{"type": "node", "node_type": "Drug", "name": "Dapagliflozin", "attributes": {"dose": "10 mg daily", "class": "SGLT2 inhibitor", "guideline": "ESC 2024 CCS"}}
+{"type": "node", "node_type": "Drug", "name": "Semaglutide", "attributes": {"class": "GLP-1 receptor agonist", "indication": "Overweight/obese CCS without diabetes (Class IIa); T2DM+CCS (Class I)", "guideline": "ESC 2024 CCS"}}
+{"type": "node", "node_type": "Drug", "name": "Metoprolol", "attributes": {"class": "Beta-blocker", "indication": "Anti-anginal first-line", "guideline": "ESC 2024 CCS"}}
+{"type": "node", "node_type": "Drug", "name": "Bisoprolol", "attributes": {"class": "Beta-blocker", "guideline": "ESC 2024 CCS"}}
+{"type": "node", "node_type": "Drug", "name": "Amlodipine", "attributes": {"class": "Dihydropyridine CCB", "indication": "Anti-anginal first-line", "guideline": "ESC 2024 CCS"}}
+{"type": "node", "node_type": "Drug", "name": "Verapamil", "attributes": {"class": "Non-dihydropyridine CCB", "guideline": "ESC 2024 CCS"}}
+{"type": "node", "node_type": "Drug", "name": "Nicorandil", "attributes": {"class": "Potassium channel opener", "indication": "Anti-anginal add-on", "guideline": "ESC 2024 CCS"}}
+{"type": "node", "node_type": "Drug", "name": "Ivabradine", "attributes": {"dose": "5-7.5 mg bid", "class": "If-channel inhibitor", "note": "NOT recommended (Class III) as add-on in CCS with LVEF>40%", "guideline": "ESC 2024 CCS"}}
+{"type": "node", "node_type": "Drug", "name": "Ranolazine", "attributes": {"class": "Late sodium current inhibitor", "indication": "Anti-anginal add-on", "guideline": "ESC 2024 CCS"}}
+{"type": "node", "node_type": "Drug", "name": "Trimetazidine", "attributes": {"class": "Metabolic modulator", "indication": "Anti-anginal add-on", "guideline": "ESC 2024 CCS"}}
+{"type": "node", "node_type": "Drug", "name": "Nitroglycerin", "attributes": {"class": "Nitrate", "use": "Acute angina relief", "guideline": "ESC 2024 CCS"}}
+{"type": "node", "node_type": "Drug", "name": "Isosorbide Mononitrate", "attributes": {"class": "Long-acting nitrate", "guideline": "ESC 2024 CCS"}}
+{"type": "node", "node_type": "DrugClass", "name": "Beta-Blocker", "attributes": {"mechanism": "Reduce heart rate, contractility, myocardial oxygen demand", "guideline": "ESC 2024 CCS"}}
+{"type": "node", "node_type": "DrugClass", "name": "Calcium Channel Blocker", "attributes": {"subtypes": ["DHP", "non-DHP"], "guideline": "ESC 2024 CCS"}}
+{"type": "node", "node_type": "DrugClass", "name": "SGLT2 Inhibitor", "attributes": {"mechanism": "Sodium-glucose cotransporter 2 inhibition", "indication": "T2DM+CCS Class I A", "guideline": "ESC 2024 CCS"}}
+{"type": "node", "node_type": "DrugClass", "name": "GLP-1 Receptor Agonist", "attributes": {"mechanism": "Incretin mimetic", "guideline": "ESC 2024 CCS"}}
+{"type": "node", "node_type": "DrugClass", "name": "PCSK9 Inhibitor", "attributes": {"mechanism": "Monoclonal antibody blocking PCSK9", "guideline": ["ESC 2024 CCS", "AHA/ACC 2023 CCD"]}}
+{"type": "node", "node_type": "DrugClass", "name": "Statin", "attributes": {"subtypes": ["high-intensity", "moderate-intensity"], "guideline": ["ESC 2024 CCS", "AHA/ACC 2023 CCD"]}}
+{"type": "node", "node_type": "DrugClass", "name": "P2Y12 Inhibitor", "attributes": {"members": ["clopidogrel", "ticagrelor", "prasugrel"], "guideline": "ESC 2024 CCS"}}
+{"type": "node", "node_type": "Procedure", "name": "PCI", "attributes": {"full": "Percutaneous Coronary Intervention", "indications": ["symptom relief", "prognosis in specific anatomies"], "guideline": "ESC 2024 CCS"}}
+{"type": "node", "node_type": "Procedure", "name": "CABG", "attributes": {"full": "Coronary Artery Bypass Grafting", "preferred_for": ["left main disease", "three-vessel disease with diabetes"], "guideline": "ESC 2024 CCS"}}
+{"type": "node", "node_type": "Procedure", "name": "CCTA", "attributes": {"full": "Coronary CT Angiography", "first_line_for": "pre-test likelihood 5-50% (Class I A)", "guideline": "ESC 2024 CCS"}}
+{"type": "node", "node_type": "Procedure", "name": "FFR", "attributes": {"full": "Fractional Flow Reserve", "threshold": "<=0.80 indicates hemodynamically significant stenosis", "recommendation": "Mandatory for intermediate stenoses (Class I A)", "guideline": "ESC 2024 CCS"}}
+{"type": "node", "node_type": "Procedure", "name": "iFR", "attributes": {"full": "Instantaneous Wave-Free Ratio", "threshold": "<=0.89", "guideline": "ESC 2024 CCS"}}
+{"type": "node", "node_type": "Procedure", "name": "IVUS", "attributes": {"full": "Intravascular Ultrasound", "indication": "Class I A for complex PCI", "guideline": "ESC 2024 CCS"}}
+{"type": "node", "node_type": "Procedure", "name": "OCT", "attributes": {"full": "Optical Coherence Tomography", "indication": "Class I A for complex PCI", "guideline": "ESC 2024 CCS"}}
+{"type": "node", "node_type": "Procedure", "name": "Invasive Coronary Functional Testing", "attributes": {"methods": ["Doppler/thermodilution (CFR/IMR)", "acetylcholine provocation"], "indication": "Class I B for suspected ANOCA/INOCA with refractory angina", "guideline": "ESC 2024 CCS"}}
+{"type": "node", "node_type": "RiskFactor", "name": "Hypertension", "attributes": {"target": "<130/80 mmHg", "guideline": "ESC 2024 CCS"}}
+{"type": "node", "node_type": "RiskFactor", "name": "Diabetes Mellitus Type 2", "attributes": {"guideline": "ESC 2024 CCS"}}
+{"type": "node", "node_type": "RiskFactor", "name": "Smoking", "attributes": {"intervention": "Smoking cessation Class I", "guideline": "ESC 2024 CCS"}}
+{"type": "node", "node_type": "RiskFactor", "name": "Hyperlipidemia", "attributes": {"guideline": "ESC 2024 CCS"}}
+{"type": "node", "node_type": "RiskFactor", "name": "Obesity", "attributes": {"intervention": "Weight control; consider semaglutide in overweight/obese CCS (Class IIa)", "guideline": "ESC 2024 CCS"}}
+{"type": "node", "node_type": "Stratification", "name": "RF-CL Model", "attributes": {"full": "Risk Factor-Weighted Clinical Likelihood", "domain": "Pre-test probability estimation", "replaces": "Simple pre-test probability model", "guideline": "ESC 2024 CCS"}}
+{"type": "node", "node_type": "Stratification", "name": "SYNTAX Score", "attributes": {"low": "<=22", "intermediate": "23-32", "high": ">=33", "use": "Guide revascularization strategy (PCI vs CABG)", "guideline": "ESC 2024 CCS"}}
+{"type": "node", "node_type": "GuidelineStatement", "name": "ESC 2024 CCS Clopidogrel Monotherapy", "attributes": {"text": "Clopidogrel 75 mg daily is recommended as a safe and effective alternative to aspirin for long-term secondary prevention in patients with prior MI or PCI", "class": "I", "level": "A", "guideline": "ESC 2024 CCS"}}
+{"type": "node", "node_type": "GuidelineStatement", "name": "ESC 2024 CCS LDL-C Target", "attributes": {"text": "In patients with CCS, an LDL-C goal of <1.4 mmol/L (<55 mg/dL) and a >=50% reduction from baseline is recommended", "class": "I", "level": "A", "guideline": "ESC 2024 CCS"}}
+{"type": "node", "node_type": "GuidelineStatement", "name": "ESC 2024 CCS SGLT2i", "attributes": {"text": "SGLT2 inhibitors are recommended in patients with T2DM and CCS to reduce cardiovascular events, independent of HbA1c", "class": "I", "level": "A", "guideline": "ESC 2024 CCS"}}
+{"type": "node", "node_type": "GuidelineStatement", "name": "ESC 2024 CCS Colchicine", "attributes": {"text": "Colchicine 0.5 mg/day should be considered to reduce MI, stroke, and revascularization in patients with atherosclerotic CCS", "class": "IIa", "level": "A", "guideline": "ESC 2024 CCS"}}
+{"type": "node", "node_type": "GuidelineStatement", "name": "AHA/ACC 2023 CCD Aspirin", "attributes": {"text": "Aspirin is recommended (Class 1) for secondary prevention in all patients with CCD who are not on oral anticoagulation", "guideline": "AHA/ACC 2023 CCD"}}
+{"type": "node", "node_type": "GuidelineStatement", "name": "AHA/ACC 2023 CCD Fish Oil", "attributes": {"text": "Nonprescription or dietary supplements including fish oil, omega-3 fatty acids, and vitamins are NOT recommended (Class III: No Benefit)", "guideline": "AHA/ACC 2023 CCD"}}
+{"type": "node", "node_type": "Contraindication", "name": "Ivabradine in CCS with LVEF>40%", "attributes": {"condition": "CCS with LVEF >40% and no clinical heart failure", "recommendation": "Class III (not recommended)", "guideline": "ESC 2024 CCS"}}
+{"type": "node", "node_type": "PatientFactor", "name": "Statin Intolerance", "attributes": {"management": "Consider bempedoic acid (Class I B)", "guideline": "ESC 2024 CCS"}}
+{"type": "node", "node_type": "PatientFactor", "name": "High Bleeding Risk", "attributes": {"PCI_DAPT_duration": "Shorten DAPT to 1-3 months", "guideline": "ESC 2024 CCS"}}
+{"type": "node", "node_type": "PatientFactor", "name": "Elderly", "attributes": {"age_threshold": "≥75 years", "guideline": "ESC 2024 CCS"}}
+{"type": "node", "node_type": "Drug", "name": "Inclisiran", "attributes": {"class": "siRNA PCSK9 inhibitor", "dose": "284 mg SC at 0,3 months then q6m", "guideline": "AHA/ACC 2023 CCD"}}
+{"type": "node", "node_type": "Drug", "name": "Icosapent Ethyl", "attributes": {"class": "Purified EPA", "dose": "2 g bid", "guideline": "AHA/ACC 2023 CCD"}}
+{"type": "node", "node_type": "Drug", "name": "Prasugrel", "attributes": {"class": "P2Y12 inhibitor", "dose": "10 mg daily (5 mg if <60kg or >=75y)", "contraindication": "Prior stroke/TIA", "guideline": "ESC 2024 CCS"}}
+{"type": "node", "node_type": "Drug", "name": "Alteplase", "attributes": {"class": "Fibrinolytic", "indication": "STEMI within 12h if PCI unavailable within 120 min", "guideline": "ESC 2024 CCS"}}
+{"type": "node", "node_type": "Drug", "name": "Morphine", "attributes": {"class": "Opioid analgesic", "indication": "Severe ACS pain", "caution": "May delay P2Y12 absorption", "guideline": "ESC 2024 CCS"}}
+{"type": "node", "node_type": "Drug", "name": "Unfractionated Heparin", "attributes": {"class": "Anticoagulant", "use": "PCI procedural anticoagulation", "monitoring": "ACT 250-300s (PCI)", "guideline": "ESC 2024 CCS"}}
+{"type": "node", "node_type": "Drug", "name": "Enoxaparin", "attributes": {"class": "LMWH", "dose": "1 mg/kg SC bid", "guideline": "ESC 2024 CCS"}}
+{"type": "node", "node_type": "Drug", "name": "Bivalirudin", "attributes": {"class": "Direct thrombin inhibitor", "indication": "Alternative to UFH+GPI in PCI", "guideline": "ESC 2024 CCS"}}
+{"type": "node", "node_type": "Drug", "name": "Adenosine", "attributes": {"class": "Endogenous nucleoside", "use": "FFR measurement (140-180 mcg/kg/min IV)", "guideline": "ESC 2024 CCS"}}
+{"type": "node", "node_type": "Drug", "name": "Isosorbide Dinitrate", "attributes": {"class": "Long-acting nitrate", "guideline": "ESC 2024 CCS"}}
+{"type": "node", "node_type": "Drug", "name": "Omega-3 Fatty Acids", "attributes": {"class": "Dietary supplement", "recommendation": "Class III No Benefit (AHA/ACC 2023)", "guideline": "AHA/ACC 2023 CCD"}}
+{"type": "node", "node_type": "Biomarker", "name": "CAC Score", "attributes": {"threshold": "0 = very low risk; >400 = high risk", "use": "Reclassify low (5-15%) pre-test likelihood", "guideline": "ESC 2024 CCS", "threshold_high": ">400", "threshold_low": "0"}}
+{"type": "node", "node_type": "Biomarker", "name": "HbA1c", "attributes": {"target": "<7.0% (individualized)", "guideline": "ESC 2024 CCS"}}
+{"type": "node", "node_type": "Biomarker", "name": "Blood Pressure", "attributes": {"target": "<130/80 mmHg", "guideline": "ESC 2024 CCS"}}
+{"type": "node", "node_type": "Biomarker", "name": "Body Weight", "attributes": {"target": "BMI 20-25 kg/m2", "guideline": "ESC 2024 CCS"}}
+{"type": "node", "node_type": "Biomarker", "name": "Non-HDL-C", "attributes": {"target": "<2.2 mmol/L (<85 mg/dL)", "guideline": "ESC 2024 CCS"}}
+{"type": "node", "node_type": "Biomarker", "name": "ApoB", "attributes": {"use": "Alternative to LDL-C when discordant", "guideline": "ESC 2024 CCS"}}
+{"type": "node", "node_type": "Stratification", "name": "GRACE Score", "attributes": {"domain": "ACS risk stratification", "guideline": "ESC 2024 CCS"}}
+{"type": "node", "node_type": "Stratification", "name": "TIMI Risk Score", "attributes": {"domain": "UA/NSTEMI risk", "guideline": "ESC 2024 CCS"}}
+{"type": "node", "node_type": "Stratification", "name": "Killip Class", "attributes": {"I": "No HF signs", "II": "Crackles, S3 gallop", "III": "Acute pulmonary edema", "IV": "Cardiogenic shock", "guideline": "ESC 2024 CCS"}}
+{"type": "node", "node_type": "Procedure", "name": "Stress Echocardiography", "attributes": {"indication": "Functional imaging for likelihood 15-85%", "guideline": "ESC 2024 CCS"}}
+{"type": "node", "node_type": "Procedure", "name": "SPECT", "attributes": {"full": "Single Photon Emission CT", "guideline": "ESC 2024 CCS"}}
+{"type": "node", "node_type": "Procedure", "name": "PET", "attributes": {"full": "Positron Emission Tomography", "guideline": "ESC 2024 CCS"}}
+{"type": "node", "node_type": "Procedure", "name": "Stress CMR", "attributes": {"full": "Cardiac Magnetic Resonance with stress", "guideline": "ESC 2024 CCS"}}
+{"type": "node", "node_type": "Procedure", "name": "Coronary Calcium Scoring", "attributes": {"use": "Reclassify risk in low likelihood", "guideline": "ESC 2024 CCS"}}
+{"type": "node", "node_type": "Procedure", "name": "Exercise ECG", "attributes": {"indication": "Class I for functional assessment", "guideline": "ESC 2024 CCS"}}
+{"type": "node", "node_type": "Procedure", "name": "DES Implantation", "attributes": {"full": "Drug-Eluting Stent", "preferred_over": "Drug-coated balloons for in-stent restenosis", "guideline": "ESC 2024 CCS"}}
+{"type": "node", "node_type": "GuidelineStatement", "name": "ESC 2024 CCS DAPT Duration", "attributes": {"text": "Post-PCI in CCS: DAPT for 6 months default; shorten to 1-3 months if high bleeding risk (Class I A)", "guideline": "ESC 2024 CCS"}}
+{"type": "node", "node_type": "GuidelineStatement", "name": "ESC 2024 CCS ANOCA", "attributes": {"text": "In patients with refractory angina and suspected ANOCA/INOCA, invasive coronary functional testing is Class I (LOE B)", "guideline": "ESC 2024 CCS"}}
+{"type": "node", "node_type": "GuidelineStatement", "name": "AHA/ACC 2023 CCD DPI", "attributes": {"text": "Adding low-dose rivaroxaban 2.5 mg bid to aspirin for patients at increased ischemic risk with low-intermediate bleeding risk (dual pathway inhibition)", "guideline": "AHA/ACC 2023 CCD"}}
+{"type": "node", "node_type": "GuidelineStatement", "name": "AHA/ACC 2023 CCD DAPT Post-ACS", "attributes": {"text": "Post-ACS: DAPT recommended for up to 12 months regardless of PCI", "guideline": "AHA/ACC 2023 CCD"}}
+{"type": "node", "node_type": "Contraindication", "name": "Prasugrel in Prior Stroke", "attributes": {"condition": "Prior stroke or TIA", "drug": "Prasugrel", "risk": "Increased bleeding", "guideline": "ESC 2024 CCS"}}
+{"type": "node", "node_type": "Contraindication", "name": "Beta-Blocker in Severe Asthma", "attributes": {"condition": "Severe asthma or high-grade AV block", "guideline": "ESC 2024 CCS"}}
+{"type": "node", "node_type": "Disease", "name": "Unstable Angina", "attributes": {"definition": "Acute myocardial ischemia at rest or increasing intensity without necrosis", "management": "Anti-ischemic therapy, antithrombotic therapy, early invasive strategy", "guideline": ["ESC 2023 ACS", "AHA/ACC 2023 CCD"]}}
+{"type": "node", "node_type": "Disease", "name": "STEMI", "attributes": {"full": "ST-Elevation Myocardial Infarction", "definition": "Persistent ST-elevation with myocardial necrosis; primary PCI within 120 min of first medical contact", "guideline": "ESC 2023 ACS"}}
+{"type": "node", "node_type": "Drug", "name": "Diltiazem", "attributes": {"class": "Non-dihydropyridine calcium channel blocker", "indication": "Second-line anti-anginal; rate control if coexisting AF", "guideline": "ESC 2024 CCS"}}
+{"type": "node", "node_type": "Drug", "name": "Nifedipine", "attributes": {"class": "Dihydropyridine calcium channel blocker (long-acting)", "indication": "Anti-anginal alternative when beta-blockers contraindicated", "guideline": "ESC 2024 CCS"}}
+{"type": "node", "node_type": "Drug", "name": "Felodipine", "attributes": {"class": "Dihydropyridine calcium channel blocker (long-acting)", "indication": "Anti-anginal; antihypertensive", "guideline": "ESC 2024 CCS"}}
+{"type": "node", "node_type": "Drug", "name": "Cangrelor", "attributes": {"class": "P2Y12 inhibitor (intravenous, reversible)", "indication": "Peri-PCI antithrombotic when oral P2Y12 not feasible", "guideline": "ESC 2023 ACS"}}
+{"type": "node", "node_type": "Drug", "name": "Abciximab", "attributes": {"class": "GP IIb/IIIa inhibitor", "indication": "Bail-out thrombotic complications during PCI", "guideline": "ESC 2023 ACS"}}
+{"type": "node", "node_type": "Drug", "name": "Eptifibatide", "attributes": {"class": "GP IIb/IIIa inhibitor", "indication": "Bail-out thrombotic complications during PCI", "guideline": "ESC 2023 ACS"}}
+{"type": "node", "node_type": "Drug", "name": "Tirofiban", "attributes": {"class": "GP IIb/IIIa inhibitor", "indication": "Bail-out thrombotic complications during PCI", "guideline": "ESC 2023 ACS"}}
+{"type": "node", "node_type": "Drug", "name": "Fondaparinux", "attributes": {"class": "Indirect factor Xa inhibitor", "indication": "Anticoagulation in NSTE-ACS (avoid if PCI planned without UFH backup)", "guideline": "ESC 2023 ACS"}}
+{"type": "node", "node_type": "Drug", "name": "Tenecteplase", "attributes": {"class": "Fibrinolytic", "indication": "Reperfusion when primary PCI not available within 120 min", "guideline": "ESC 2023 ACS"}}
+{"type": "node", "node_type": "Drug", "name": "Reteplase", "attributes": {"class": "Fibrinolytic", "indication": "Reperfusion when primary PCI not available", "guideline": "ESC 2023 ACS"}}
+{"type": "node", "node_type": "Drug", "name": "Fenofibrate", "attributes": {"class": "Fibrate", "indication": "Severe hypertriglyceridemia; add-on when TG persistently high", "guideline": "ESC 2024 CCS"}}
+{"type": "node", "node_type": "Drug", "name": "Cholestyramine", "attributes": {"class": "Bile acid sequestrant", "indication": "Add-on lipid-lowering when statin/ezetimibe insufficient", "guideline": "ESC 2024 CCS"}}
+{"type": "node", "node_type": "Drug", "name": "Perindopril", "attributes": {"class": "ACE inhibitor", "indication": "Secondary prevention post-MI; hypertension with CCS", "guideline": "ESC 2024 CCS"}}
+{"type": "node", "node_type": "Drug", "name": "Ramipril", "attributes": {"class": "ACE inhibitor", "indication": "Secondary prevention post-MI; hypertension with CCS", "guideline": "ESC 2024 CCS"}}
+{"type": "node", "node_type": "Drug", "name": "Telmisartan", "attributes": {"class": "ARB", "indication": "ACEi-intolerant patients with CCS and hypertension", "guideline": "ESC 2024 CCS"}}
+{"type": "node", "node_type": "Drug", "name": "Captopril", "attributes": {"class": "ACE inhibitor", "indication": "Early post-MI oral ACEi (within 24-36h when hemodynamically stable)", "guideline": "ESC 2023 ACS"}}
+{"type": "node", "node_type": "DrugClass", "name": "High-Intensity Statin", "attributes": {"examples": ["Atorvastatin 40-80mg", "Rosuvastatin 20-40mg"], "target": "LDL-C <1.4 mmol/L and >=50% reduction in very-high-risk patients", "guideline": "ESC 2024 CCS"}}
+{"type": "node", "node_type": "DrugClass", "name": "Moderate-Intensity Statin", "attributes": {"examples": ["Atorvastatin 10-20mg", "Rosuvastatin 5-10mg", "Simvastatin 20-40mg"], "use": "High-risk patients; when high-intensity not tolerated", "guideline": "ESC 2024 CCS"}}
+{"type": "node", "node_type": "DrugClass", "name": "Low-Intensity Statin", "attributes": {"examples": ["Simvastatin 10mg", "Pravastatin 10-20mg"], "use": "Moderate-risk patients; statin-intolerant alternatives", "guideline": "ESC 2024 CCS"}}
+{"type": "node", "node_type": "DrugClass", "name": "GP IIb/IIIa Inhibitor", "attributes": {"examples": ["Abciximab", "Eptifibatide", "Tirofiban"], "use": "Bail-out therapy for PCI thrombotic complications", "guideline": "ESC 2023 ACS"}}
+{"type": "node", "node_type": "DrugClass", "name": "ACE Inhibitor", "attributes": {"examples": ["Ramipril", "Perindopril", "Captopril"], "indication": "Hypertension, post-MI, LV dysfunction with CCS", "guideline": "ESC 2024 CCS"}}
+{"type": "node", "node_type": "DrugClass", "name": "Angiotensin Receptor Blocker", "attributes": {"examples": ["Telmisartan", "Valsartan", "Losartan"], "indication": "ACEi-intolerance in CCS", "guideline": "ESC 2024 CCS"}}
+{"type": "node", "node_type": "Stratification", "name": "CCS Angina Class", "attributes": {"scale": "Canadian Cardiovascular Society class I-IV", "definition": "Class I: no limitation; IV: any physical activity provokes angina", "guideline": "ESC 2024 CCS"}}
+{"type": "node", "node_type": "Stratification", "name": "Duke Treadmill Score", "attributes": {"scale": "-25 to +15", "use": "Prognostic risk in exercise ECG testing", "guideline": "AHA/ACC 2023 CCD"}}
+{"type": "node", "node_type": "Stratification", "name": "Framingham Risk Score", "attributes": {"use": "10-year ASCVD risk estimation", "guideline": "ESC 2024 CCS"}}
+{"type": "node", "node_type": "Stratification", "name": "SCORE2", "attributes": {"use": "10-year fatal/non-fatal CVD risk estimation", "guideline": "ESC 2024 CCS"}}
+{"type": "node", "node_type": "RiskFactor", "name": "Family History of Premature CAD", "attributes": {"definition": "First-degree relative: male <55y or female <65y with CAD", "guideline": "ESC 2024 CCS"}}
+{"type": "node", "node_type": "RiskFactor", "name": "Chronic Kidney Disease", "attributes": {"note": "eGFR <60 ml/min/1.73m2; coronary risk multiplier", "guideline": "ESC 2024 CCS"}}
+{"type": "node", "node_type": "RiskFactor", "name": "Psychosocial Stress", "attributes": {"note": "Depression, anxiety, chronic stress worsen prognosis", "guideline": "ESC 2024 CCS"}}
+{"type": "node", "node_type": "RiskFactor", "name": "Sedentary Lifestyle", "attributes": {"note": "Physical inactivity increases coronary risk", "guideline": "ESC 2024 CCS"}}
+{"type": "node", "node_type": "Procedure", "name": "Rotational Atherectomy", "attributes": {"use": "Heavily calcified lesions before stent implantation", "guideline": "ESC 2024 CCS"}}
+{"type": "node", "node_type": "Procedure", "name": "Chronic Total Occlusion PCI", "attributes": {"use": "CTO revascularization in symptomatic patients with viable myocardium", "guideline": "ESC 2024 CCS"}}
+{"type": "node", "node_type": "Procedure", "name": "Intravascular Lithotripsy", "attributes": {"use": "Calcified plaque modification", "guideline": "ESC 2024 CCS"}}
+{"type": "node", "node_type": "Procedure", "name": "Cardiac Rehabilitation", "attributes": {"use": "Exercise-based secondary prevention program; class I recommendation", "guideline": "ESC 2024 CCS"}}
+{"type": "node", "node_type": "Procedure", "name": "Coronary Angiography", "attributes": {"use": "Invasive imaging for diagnosis/guidance of revascularization", "guideline": "ESC 2024 CCS"}}
+{"type": "node", "node_type": "Biomarker", "name": "Lipoprotein(a)", "attributes": {"note": "Lp(a) >=50 mg/dL = risk-enhancing factor; measure once in lifetime", "guideline": "ESC 2024 CCS"}}
+{"type": "node", "node_type": "Biomarker", "name": "Triglycerides", "attributes": {"note": "TG >=1.7 mmol/L elevated; severe >=5.6 mmol/L needs fibrate/omega-3", "guideline": "ESC 2024 CCS"}}
+{"type": "node", "node_type": "Biomarker", "name": "Albuminuria", "attributes": {"note": "Albumin-creatinine ratio >=30 mg/g is risk-enhancing", "guideline": "ESC 2024 CCS"}}
+{"type": "node", "node_type": "Symptom", "name": "Rest Chest Pain", "attributes": {"note": "Angina at rest; suspicious of unstable angina/ACS", "guideline": "ESC 2023 ACS"}}
+{"type": "node", "node_type": "Symptom", "name": "Radiation of Pain", "attributes": {"note": "Pain radiating to jaw, neck, left arm — typical anginal radiation", "guideline": "ESC 2024 CCS"}}
+{"type": "node", "node_type": "Symptom", "name": "Angina Equivalents", "attributes": {"note": "Breathlessness, nausea, diaphoresis — especially in elderly/diabetics", "guideline": "ESC 2024 CCS"}}
+{"type": "node", "node_type": "Contraindication", "name": "Verapamil in Severe LV Dysfunction", "attributes": {"note": "Negative inotropy; avoid when LVEF<40% or heart failure", "guideline": "ESC 2024 CCS"}}
+{"type": "node", "node_type": "Contraindication", "name": "Verapamil in Advanced AV Block", "attributes": {"note": "AV-nodal suppression may precipitate high-grade block", "guideline": "ESC 2024 CCS"}}
+{"type": "node", "node_type": "Contraindication", "name": "Nitroglycerin with PDE5 Inhibitors", "attributes": {"note": "Severe hypotension risk within 24-48h of sildenafil/tadalafil", "guideline": "ESC 2024 CCS"}}
+{"type": "node", "node_type": "PatientFactor", "name": "Diabetes Mellitus with CAD", "attributes": {"note": "SGLT2i recommended; more extensive CAD; high-intensity statin", "guideline": "ESC 2024 CCS"}}
+{"type": "node", "node_type": "PatientFactor", "name": "CKD with CAD", "attributes": {"note": "Contrast nephropathy risk; dose-adjust antithrombotics", "guideline": "ESC 2024 CCS"}}
+{"type": "node", "node_type": "PatientFactor", "name": "High Ischemic Risk", "attributes": {"note": "Diffuse disease, diabetes, recurrent events — longer/stronger DAPT", "guideline": "ESC 2024 CCS"}}
+{"type": "node", "node_type": "GuidelineStatement", "name": "ESC 2024 CCS Statin Intensity Selection", "attributes": {"statement": "Very-high-risk CCS: high-intensity statin to LDL-C <1.4 mmol/L and >=50% reduction", "guideline": "ESC 2024 CCS"}}
+{"type": "node", "node_type": "GuidelineStatement", "name": "ESC 2024 CCS Diabetes SGLT2i", "attributes": {"statement": "SGLT2 inhibitors recommended for CCS patients with type 2 diabetes", "guideline": "ESC 2024 CCS"}}
+{"type": "node", "node_type": "GuidelineStatement", "name": "ESC 2024 CCS Antithrombotic Stepping", "attributes": {"statement": "Aspirin 75-100mg daily first line; clopidogrel when aspirin intolerant; DAPT after ACS", "guideline": "ESC 2024 CCS"}}
+{"type": "node", "node_type": "GuidelineStatement", "name": "ESC 2024 CCS Revascularization Choice", "attributes": {"statement": "CABG preferred in complex multivessel/left main disease (SYNTAX>22); PCI for less complex anatomy", "guideline": "ESC 2024 CCS"}}
+{"type": "node", "node_type": "GuidelineStatement", "name": "AHA/ACC 2023 CCD Beta-Blocker First-Line", "attributes": {"statement": "Beta-blockers are first-line anti-anginal therapy in obstructive CCS", "guideline": "AHA/ACC 2023 CCD"}}
+{"type": "node", "node_type": "GuidelineStatement", "name": "ESC 2024 CCS CCB Alternative", "attributes": {"statement": "CCB as first-line alternative when beta-blockers contraindicated or not tolerated", "guideline": "ESC 2024 CCS"}}
+{"type": "node", "node_type": "GuidelineStatement", "name": "ESC 2024 CCS Ivabradine Second-Line", "attributes": {"statement": "Ivabradine second-line when HR remains >60 with BB intolerance — only if sinus rhythm", "guideline": "ESC 2024 CCS"}}
+{"type": "node", "node_type": "GuidelineStatement", "name": "ESC 2023 ACS Anticoagulation", "attributes": {"statement": "UFH or bivalirudin during PCI; enoxaparin alternative in NSTE-ACS", "guideline": "ESC 2023 ACS"}}
+{"type": "node", "node_type": "Procedure", "name": "Primary PCI", "attributes": {"note": "auto-created from enrichment relation; guideline filled by source normalization", "guideline": "ESC 2023 ACS"}}
+{"type": "node", "node_type": "Drug", "name": "Ibuprofen", "attributes": {"note": "auto-created from enrichment relation; guideline filled by source normalization", "guideline": "ESC 2024 CCS"}}
+{"type": "node", "node_type": "Drug", "name": "Omeprazole", "attributes": {"note": "auto-created for legacy relation endpoint; guideline filled by source normalization", "guideline": "ESC 2024 CCS"}}
+{"type": "node", "node_type": "Drug", "name": "Clarithromycin", "attributes": {"note": "auto-created for legacy relation endpoint; guideline filled by source normalization", "guideline": "ESC 2024 CCS"}}
+{"type": "relation", "subject": "Aspirin", "relation": "treats", "object": "Chronic Coronary Syndrome", "guideline_source": ["ESC 2024 CCS", "AHA/ACC 2023 CCD"]}
+{"type": "relation", "subject": "Clopidogrel", "relation": "treats", "object": "Chronic Coronary Syndrome", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "Atorvastatin", "relation": "treats", "object": "Chronic Coronary Syndrome", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "Rosuvastatin", "relation": "treats", "object": "Chronic Coronary Syndrome", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "Ezetimibe", "relation": "treats", "object": "Hyperlipidemia", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "Evolocumab", "relation": "treats", "object": "Hyperlipidemia", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "Colchicine", "relation": "treats", "object": "Chronic Coronary Syndrome", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "Empagliflozin", "relation": "treats", "object": "Chronic Coronary Syndrome", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "Semaglutide", "relation": "treats", "object": "Obesity", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "Metoprolol", "relation": "treats", "object": "Stable Angina Pectoris", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "Bisoprolol", "relation": "treats", "object": "Stable Angina Pectoris", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "Amlodipine", "relation": "treats", "object": "Stable Angina Pectoris", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "Verapamil", "relation": "treats", "object": "Stable Angina Pectoris", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "Nicorandil", "relation": "treats", "object": "Stable Angina Pectoris", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "Ranolazine", "relation": "treats", "object": "Stable Angina Pectoris", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "Trimetazidine", "relation": "treats", "object": "Stable Angina Pectoris", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "Nitroglycerin", "relation": "treats", "object": "Stable Angina Pectoris", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "Ivabradine", "relation": "contraindicated_in", "object": "Ivabradine in CCS with LVEF>40%", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "LDL-C", "relation": "threshold_for", "object": "Chronic Coronary Syndrome", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "RF-CL Model", "relation": "risk_stratifies", "object": "Chronic Coronary Syndrome", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "SYNTAX Score", "relation": "risk_stratifies", "object": "Left Main Disease", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "cTnI", "relation": "monitors", "object": "Acute Coronary Syndrome", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "PCI", "relation": "treats", "object": "Chronic Coronary Syndrome", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "CABG", "relation": "treats", "object": "Left Main Disease", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "CABG", "relation": "treats", "object": "Three-Vessel Disease", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "CCTA", "relation": "treats", "object": "Chronic Coronary Syndrome", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "FFR", "relation": "treats", "object": "Chronic Coronary Syndrome", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "Clopidogrel", "relation": "guideline_cites", "object": "ESC 2024 CCS Clopidogrel Monotherapy", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "LDL-C", "relation": "guideline_cites", "object": "ESC 2024 CCS LDL-C Target", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "Empagliflozin", "relation": "guideline_cites", "object": "ESC 2024 CCS SGLT2i", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "Colchicine", "relation": "guideline_cites", "object": "ESC 2024 CCS Colchicine", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "Aspirin", "relation": "guideline_cites", "object": "AHA/ACC 2023 CCD Aspirin", "guideline_source": "AHA/ACC 2023 CCD"}
+{"type": "relation", "subject": "Aspirin", "relation": "interacts_with", "object": "Clopidogrel", "guideline_source": "AHA/ACC 2023 CCD"}
+{"type": "relation", "subject": "Aspirin", "relation": "interacts_with", "object": "Rivaroxaban", "guideline_source": "AHA/ACC 2023 CCD"}
+{"type": "relation", "subject": "Smoking", "relation": "risk_stratifies", "object": "Chronic Coronary Syndrome", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "Hypertension", "relation": "risk_stratifies", "object": "Chronic Coronary Syndrome", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "Diabetes Mellitus Type 2", "relation": "risk_stratifies", "object": "Chronic Coronary Syndrome", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "Beta-Blocker", "relation": "treats", "object": "Stable Angina Pectoris", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "Calcium Channel Blocker", "relation": "treats", "object": "Stable Angina Pectoris", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "SGLT2 Inhibitor", "relation": "treats", "object": "Chronic Coronary Syndrome", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "GLP-1 Receptor Agonist", "relation": "treats", "object": "Chronic Coronary Syndrome", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "PCSK9 Inhibitor", "relation": "treats", "object": "Hyperlipidemia", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "Statin", "relation": "treats", "object": "Hyperlipidemia", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "P2Y12 Inhibitor", "relation": "treats", "object": "Chronic Coronary Syndrome", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "IVUS", "relation": "guideline_cites", "object": "ESC 2024 CCS Clopidogrel Monotherapy", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "OCT", "relation": "guideline_cites", "object": "ESC 2024 CCS Clopidogrel Monotherapy", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "Bempedoic Acid", "relation": "treats", "object": "Hyperlipidemia", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "Bempedoic Acid", "relation": "treats", "object": "Chronic Coronary Syndrome", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "Invasive Coronary Functional Testing", "relation": "treats", "object": "ANOCA", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "Invasive Coronary Functional Testing", "relation": "treats", "object": "INOCA", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "Prasugrel", "relation": "treats", "object": "Acute Coronary Syndrome", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "Prasugrel", "relation": "contraindicated_in", "object": "Prasugrel in Prior Stroke", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "Alteplase", "relation": "treats", "object": "Myocardial Infarction", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "Unfractionated Heparin", "relation": "treats", "object": "Acute Coronary Syndrome", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "Enoxaparin", "relation": "treats", "object": "Acute Coronary Syndrome", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "Bivalirudin", "relation": "treats", "object": "Chronic Coronary Syndrome", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "CAC Score", "relation": "risk_stratifies", "object": "Chronic Coronary Syndrome", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "GRACE Score", "relation": "risk_stratifies", "object": "Acute Coronary Syndrome", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "TIMI Risk Score", "relation": "risk_stratifies", "object": "Acute Coronary Syndrome", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "Killip Class", "relation": "risk_stratifies", "object": "Myocardial Infarction", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "Stress Echocardiography", "relation": "treats", "object": "Chronic Coronary Syndrome", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "SPECT", "relation": "treats", "object": "Chronic Coronary Syndrome", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "DES Implantation", "relation": "treats", "object": "Chronic Coronary Syndrome", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "Clopidogrel", "relation": "guideline_cites", "object": "ESC 2024 CCS DAPT Duration", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "Invasive Coronary Functional Testing", "relation": "guideline_cites", "object": "ESC 2024 CCS ANOCA", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "Rivaroxaban", "relation": "guideline_cites", "object": "AHA/ACC 2023 CCD DPI", "guideline_source": "AHA/ACC 2023 CCD"}
+{"type": "relation", "subject": "Aspirin", "relation": "guideline_cites", "object": "AHA/ACC 2023 CCD DAPT Post-ACS", "guideline_source": "AHA/ACC 2023 CCD"}
+{"type": "relation", "subject": "Clopidogrel", "relation": "interacts_with", "object": "Omeprazole", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "Morphine", "relation": "interacts_with", "object": "Clopidogrel", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "Morphine", "relation": "interacts_with", "object": "Ticagrelor", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "Atorvastatin", "relation": "interacts_with", "object": "Clarithromycin", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "HbA1c", "relation": "monitors", "object": "Diabetes Mellitus Type 2", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "Blood Pressure", "relation": "monitors", "object": "Hypertension", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "ApoB", "relation": "threshold_for", "object": "Hyperlipidemia", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "Non-HDL-C", "relation": "threshold_for", "object": "Hyperlipidemia", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "PET", "relation": "treats", "object": "Chronic Coronary Syndrome", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "Stress CMR", "relation": "treats", "object": "Chronic Coronary Syndrome", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "Exercise ECG", "relation": "treats", "object": "Chronic Coronary Syndrome", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "Diltiazem", "relation": "treats", "object": "Stable Angina Pectoris", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "Nifedipine", "relation": "treats", "object": "Stable Angina Pectoris", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "Felodipine", "relation": "treats", "object": "Stable Angina Pectoris", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "Cangrelor", "relation": "treats", "object": "Acute Coronary Syndrome", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "Abciximab", "relation": "treats", "object": "Acute Coronary Syndrome", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "Eptifibatide", "relation": "treats", "object": "Acute Coronary Syndrome", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "Tirofiban", "relation": "treats", "object": "Acute Coronary Syndrome", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "Fondaparinux", "relation": "treats", "object": "Acute Coronary Syndrome", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "Tenecteplase", "relation": "treats", "object": "Myocardial Infarction", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "Reteplase", "relation": "treats", "object": "Myocardial Infarction", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "Fenofibrate", "relation": "treats", "object": "Hyperlipidemia", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "Cholestyramine", "relation": "treats", "object": "Hyperlipidemia", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "Perindopril", "relation": "treats", "object": "Chronic Coronary Syndrome", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "Ramipril", "relation": "treats", "object": "Chronic Coronary Syndrome", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "Telmisartan", "relation": "treats", "object": "Chronic Coronary Syndrome", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "Captopril", "relation": "treats", "object": "Myocardial Infarction", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "Perindopril", "relation": "treats", "object": "Myocardial Infarction", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "Ramipril", "relation": "treats", "object": "Myocardial Infarction", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "Telmisartan", "relation": "treats", "object": "Myocardial Infarction", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "High-Intensity Statin", "relation": "treats", "object": "Chronic Coronary Syndrome", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "Moderate-Intensity Statin", "relation": "treats", "object": "Chronic Coronary Syndrome", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "Low-Intensity Statin", "relation": "treats", "object": "Hyperlipidemia", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "GP IIb/IIIa Inhibitor", "relation": "treats", "object": "Acute Coronary Syndrome", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "ACE Inhibitor", "relation": "treats", "object": "Chronic Coronary Syndrome", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "Angiotensin Receptor Blocker", "relation": "treats", "object": "Chronic Coronary Syndrome", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "CCS Angina Class", "relation": "risk_stratifies", "object": "Stable Angina Pectoris", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "Duke Treadmill Score", "relation": "risk_stratifies", "object": "Stable Angina Pectoris", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "Framingham Risk Score", "relation": "risk_stratifies", "object": "Chronic Coronary Syndrome", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "SCORE2", "relation": "risk_stratifies", "object": "Chronic Coronary Syndrome", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "SYNTAX Score", "relation": "risk_stratifies", "object": "Three-Vessel Disease", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "Family History of Premature CAD", "relation": "risk_stratifies", "object": "Chronic Coronary Syndrome", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "Chronic Kidney Disease", "relation": "risk_stratifies", "object": "Chronic Coronary Syndrome", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "Psychosocial Stress", "relation": "risk_stratifies", "object": "Chronic Coronary Syndrome", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "Sedentary Lifestyle", "relation": "risk_stratifies", "object": "Chronic Coronary Syndrome", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "Rotational Atherectomy", "relation": "treats", "object": "Chronic Coronary Syndrome", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "Chronic Total Occlusion PCI", "relation": "treats", "object": "Chronic Coronary Syndrome", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "Intravascular Lithotripsy", "relation": "treats", "object": "Chronic Coronary Syndrome", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "Cardiac Rehabilitation", "relation": "treats", "object": "Chronic Coronary Syndrome", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "Coronary Angiography", "relation": "monitors", "object": "Acute Coronary Syndrome", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "DES Implantation", "relation": "treats", "object": "Stable Angina Pectoris", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "PCI", "relation": "treats", "object": "Acute Coronary Syndrome", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "CABG", "relation": "treats", "object": "Acute Coronary Syndrome", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "PCI", "relation": "treats", "object": "Three-Vessel Disease", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "CABG", "relation": "treats", "object": "Chronic Coronary Syndrome", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "Lipoprotein(a)", "relation": "threshold_for", "object": "Hyperlipidemia", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "Triglycerides", "relation": "threshold_for", "object": "Hyperlipidemia", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "Albuminuria", "relation": "risk_stratifies", "object": "Chronic Coronary Syndrome", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "LDL-C", "relation": "threshold_for", "object": "Hyperlipidemia", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "hs-CRP", "relation": "risk_stratifies", "object": "Chronic Coronary Syndrome", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "Body Weight", "relation": "monitors", "object": "Obesity", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "Fibrinogen", "relation": "risk_stratifies", "object": "Chronic Coronary Syndrome", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "Aspirin", "relation": "treats", "object": "Acute Coronary Syndrome", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "Clopidogrel", "relation": "treats", "object": "Acute Coronary Syndrome", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "Ticagrelor", "relation": "treats", "object": "Acute Coronary Syndrome", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "Atorvastatin", "relation": "treats", "object": "Myocardial Infarction", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "Rosuvastatin", "relation": "treats", "object": "Myocardial Infarction", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "Ezetimibe", "relation": "treats", "object": "Chronic Coronary Syndrome", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "Evolocumab", "relation": "treats", "object": "Chronic Coronary Syndrome", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "Alirocumab", "relation": "treats", "object": "Chronic Coronary Syndrome", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "Colchicine", "relation": "treats", "object": "Acute Coronary Syndrome", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "Nitroglycerin", "relation": "treats", "object": "Acute Coronary Syndrome", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "Morphine", "relation": "treats", "object": "Acute Coronary Syndrome", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "Bivalirudin", "relation": "treats", "object": "Acute Coronary Syndrome", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "Metoprolol", "relation": "treats", "object": "Myocardial Infarction", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "Bisoprolol", "relation": "treats", "object": "Myocardial Infarction", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "Ranolazine", "relation": "treats", "object": "Chronic Coronary Syndrome", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "Trimetazidine", "relation": "treats", "object": "Chronic Coronary Syndrome", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "Ivabradine", "relation": "treats", "object": "Chronic Coronary Syndrome", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "Isosorbide Mononitrate", "relation": "treats", "object": "Stable Angina Pectoris", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "Isosorbide Dinitrate", "relation": "treats", "object": "Stable Angina Pectoris", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "Nicorandil", "relation": "treats", "object": "Chronic Coronary Syndrome", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "Amlodipine", "relation": "treats", "object": "Chronic Coronary Syndrome", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "Inclisiran", "relation": "treats", "object": "Hyperlipidemia", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "Icosapent Ethyl", "relation": "treats", "object": "Hyperlipidemia", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "GLP-1 Receptor Agonist", "relation": "treats", "object": "Obesity", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "Beta-Blocker", "relation": "treats", "object": "Myocardial Infarction", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "P2Y12 Inhibitor", "relation": "treats", "object": "Acute Coronary Syndrome", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "Aspirin", "relation": "treats", "object": "Unstable Angina", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "Ticagrelor", "relation": "treats", "object": "Unstable Angina", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "Clopidogrel", "relation": "treats", "object": "Unstable Angina", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "Unfractionated Heparin", "relation": "treats", "object": "Unstable Angina", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "Enoxaparin", "relation": "treats", "object": "Unstable Angina", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "PCI", "relation": "treats", "object": "Unstable Angina", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "Tenecteplase", "relation": "treats", "object": "STEMI", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "Alteplase", "relation": "treats", "object": "STEMI", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "Primary PCI", "relation": "treats", "object": "STEMI", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "STEMI", "relation": "risk_stratifies", "object": "Myocardial Infarction", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "Verapamil", "relation": "contraindicated_in", "object": "Verapamil in Severe LV Dysfunction", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "Diltiazem", "relation": "contraindicated_in", "object": "Verapamil in Severe LV Dysfunction", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "Verapamil", "relation": "contraindicated_in", "object": "Verapamil in Advanced AV Block", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "Nitroglycerin", "relation": "contraindicated_in", "object": "Nitroglycerin with PDE5 Inhibitors", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "Isosorbide Mononitrate", "relation": "contraindicated_in", "object": "Nitroglycerin with PDE5 Inhibitors", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "Diltiazem", "relation": "interacts_with", "object": "Atorvastatin", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "Verapamil", "relation": "interacts_with", "object": "Atorvastatin", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "Aspirin", "relation": "interacts_with", "object": "Ibuprofen", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "High-Intensity Statin", "relation": "guideline_cites", "object": "ESC 2024 CCS Statin Intensity Selection", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "ESC 2024 CCS Statin Intensity Selection", "relation": "guideline_cites", "object": "Chronic Coronary Syndrome", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "SGLT2 Inhibitor", "relation": "guideline_cites", "object": "ESC 2024 CCS Diabetes SGLT2i", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "ESC 2024 CCS Diabetes SGLT2i", "relation": "guideline_cites", "object": "Chronic Coronary Syndrome", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "ESC 2024 CCS Antithrombotic Stepping", "relation": "guideline_cites", "object": "Chronic Coronary Syndrome", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "CABG", "relation": "guideline_cites", "object": "ESC 2024 CCS Revascularization Choice", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "PCI", "relation": "guideline_cites", "object": "ESC 2024 CCS Revascularization Choice", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "Beta-Blocker", "relation": "guideline_cites", "object": "AHA/ACC 2023 CCD Beta-Blocker First-Line", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "Calcium Channel Blocker", "relation": "guideline_cites", "object": "ESC 2024 CCS CCB Alternative", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "Ivabradine", "relation": "guideline_cites", "object": "ESC 2024 CCS Ivabradine Second-Line", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "Unfractionated Heparin", "relation": "guideline_cites", "object": "ESC 2023 ACS Anticoagulation", "guideline_source": "ESC 2024 CCS"}
+{"type": "relation", "subject": "Bivalirudin", "relation": "guideline_cites", "object": "ESC 2023 ACS Anticoagulation", "guideline_source": "ESC 2024 CCS"}
+{"type": "node", "node_type": "RiskFactor", "name": "High Lipoprotein(a)", "attributes": {"definition": "Lp(a) >= 50 mg/dL (>= 100 nmol/L); risk-enhancing factor in ESC 2024 CCS", "measurement": "Measure once in adults (ESC 2024 CCS class IIa)", "guideline": "ESC 2024 CCS"}}
+{"type": "relation", "subject": "High Lipoprotein(a)", "relation": "risk_stratifies", "object": "Chronic Coronary Syndrome", "guideline_source": "CAD Guidelines"}
+{"type": "relation", "subject": "Obesity", "relation": "risk_stratifies", "object": "Chronic Coronary Syndrome", "guideline_source": "CAD Guidelines"}
+{"type": "relation", "subject": "Alirocumab", "relation": "treats", "object": "Hyperlipidemia", "guideline_source": "CAD Guidelines"}
+{"type": "relation", "subject": "Lipoprotein(a)", "relation": "threshold_for", "object": "High Lipoprotein(a)", "guideline_source": "CAD Guidelines"}
+{"type": "relation", "subject": "LDL-C", "relation": "threshold_for", "object": "ESC 2024 CCS LDL-C Target", "guideline_source": "CAD Guidelines"}
+{"type": "relation", "subject": "Atorvastatin", "relation": "interacts_with", "object": "Verapamil", "guideline_source": "CAD Guidelines"}
+{"type": "relation", "subject": "Atorvastatin", "relation": "interacts_with", "object": "Diltiazem", "guideline_source": "CAD Guidelines"}
+{"type": "relation", "subject": "Colchicine", "relation": "interacts_with", "object": "Clarithromycin", "guideline_source": "CAD Guidelines"}
+{"type": "relation", "subject": "Colchicine", "relation": "interacts_with", "object": "Atorvastatin", "guideline_source": "CAD Guidelines"}
+{"type": "relation", "subject": "ApoB", "relation": "monitors", "object": "Hyperlipidemia", "guideline_source": "CAD Guidelines"}
+{"type": "relation", "subject": "Non-HDL-C", "relation": "monitors", "object": "Hyperlipidemia", "guideline_source": "CAD Guidelines"}

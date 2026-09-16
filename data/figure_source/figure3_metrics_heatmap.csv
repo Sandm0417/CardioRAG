@@ -1,0 +1,33 @@
+row_label,config,dataset_role,metric,value
+C1 Vanilla (no RAG) · dev,vanilla,development,clinical_accuracy,2.531
+C1 Vanilla (no RAG) · dev,vanilla,development,patient_centeredness,2.854
+C1 Vanilla (no RAG) · dev,vanilla,development,safety,3.531
+C1 Vanilla (no RAG) · dev,vanilla,development,citation_correctness,2.073
+C1 Vanilla (no RAG) · held-out,vanilla,held_out_synthetic,clinical_accuracy,2.625
+C1 Vanilla (no RAG) · held-out,vanilla,held_out_synthetic,patient_centeredness,2.792
+C1 Vanilla (no RAG) · held-out,vanilla,held_out_synthetic,safety,3.625
+C1 Vanilla (no RAG) · held-out,vanilla,held_out_synthetic,citation_correctness,1.875
+C2 Naive RAG · dev,naive_rag,development,clinical_accuracy,2.729
+C2 Naive RAG · dev,naive_rag,development,patient_centeredness,2.823
+C2 Naive RAG · dev,naive_rag,development,safety,3.333
+C2 Naive RAG · dev,naive_rag,development,citation_correctness,2.375
+C2 Naive RAG · held-out,naive_rag,held_out_synthetic,clinical_accuracy,2.667
+C2 Naive RAG · held-out,naive_rag,held_out_synthetic,patient_centeredness,2.917
+C2 Naive RAG · held-out,naive_rag,held_out_synthetic,safety,3.333
+C2 Naive RAG · held-out,naive_rag,held_out_synthetic,citation_correctness,2.0
+C3 LightRAG-Generic · dev,lightrag_generic,development,clinical_accuracy,3.375
+C3 LightRAG-Generic · dev,lightrag_generic,development,patient_centeredness,2.698
+C3 LightRAG-Generic · dev,lightrag_generic,development,safety,3.229
+C3 LightRAG-Generic · dev,lightrag_generic,development,citation_correctness,4.542
+C3 LightRAG-Generic · held-out,lightrag_generic,held_out_synthetic,clinical_accuracy,3.292
+C3 LightRAG-Generic · held-out,lightrag_generic,held_out_synthetic,patient_centeredness,2.875
+C3 LightRAG-Generic · held-out,lightrag_generic,held_out_synthetic,safety,3.542
+C3 LightRAG-Generic · held-out,lightrag_generic,held_out_synthetic,citation_correctness,4.25
+C4 CardioRAG Full · dev,cardiorag_full,development,clinical_accuracy,3.635
+C4 CardioRAG Full · dev,cardiorag_full,development,patient_centeredness,2.781
+C4 CardioRAG Full · dev,cardiorag_full,development,safety,3.323
+C4 CardioRAG Full · dev,cardiorag_full,development,citation_correctness,4.75
+C4 CardioRAG Full · held-out,cardiorag_full,held_out_synthetic,clinical_accuracy,3.542
+C4 CardioRAG Full · held-out,cardiorag_full,held_out_synthetic,patient_centeredness,2.917
+C4 CardioRAG Full · held-out,cardiorag_full,held_out_synthetic,safety,3.417
+C4 CardioRAG Full · held-out,cardiorag_full,held_out_synthetic,citation_correctness,4.292

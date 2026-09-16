@@ -1,0 +1,273 @@
+{"type": "node", "node_type": "Disease", "name": "HFrEF", "attributes": {"full": "Heart Failure with reduced Ejection Fraction", "LVEF": "<=40%", "guideline": ["AHA/ACC/HFSA 2022 HF", "CSC 2024 中国心衰指南"]}}
+{"type": "node", "node_type": "Disease", "name": "HFmrEF", "attributes": {"full": "Heart Failure with mildly reduced Ejection Fraction", "LVEF": "41-49%", "guideline": ["AHA/ACC/HFSA 2022 HF", "CSC 2024 中国心衰指南"]}}
+{"type": "node", "node_type": "Disease", "name": "HFpEF", "attributes": {"full": "Heart Failure with preserved Ejection Fraction", "LVEF": ">=50%", "guideline": ["AHA/ACC/HFSA 2022 HF", "CSC 2024 中国心衰指南"]}}
+{"type": "node", "node_type": "Disease", "name": "HFimpEF", "attributes": {"full": "Heart Failure with improved Ejection Fraction", "definition": "Previous LVEF<=40%, now >40%", "note": "Continue GDMT indefinitely (Class I); 44% relapse within 6 months if GDMT stopped", "guideline": "AHA/ACC/HFSA 2022 HF"}}
+{"type": "node", "node_type": "Symptom", "name": "Dyspnea", "attributes": {"types": ["exertional", "orthopnea", "PND"], "guideline": "AHA/ACC/HFSA 2022 HF"}}
+{"type": "node", "node_type": "Symptom", "name": "Orthopnea", "attributes": {"definition": "Dyspnea when lying flat, relieved by sitting up", "guideline": "AHA/ACC/HFSA 2022 HF"}}
+{"type": "node", "node_type": "Symptom", "name": "Peripheral Edema", "attributes": {"location": ["ankles", "legs", "sacrum"], "guideline": "AHA/ACC/HFSA 2022 HF"}}
+{"type": "node", "node_type": "Symptom", "name": "Fatigue", "attributes": {"guideline": "AHA/ACC/HFSA 2022 HF"}}
+{"type": "node", "node_type": "Biomarker", "name": "NT-proBNP", "attributes": {"threshold_acute": "<300 pg/mL rules out acute HF", "threshold_chronic": "<125 pg/mL rules out chronic HF", "guideline": "AHA/ACC/HFSA 2022 HF"}}
+{"type": "node", "node_type": "Biomarker", "name": "BNP", "attributes": {"threshold": "<100 pg/mL", "guideline": "AHA/ACC/HFSA 2022 HF"}}
+{"type": "node", "node_type": "Biomarker", "name": "Serum Potassium", "attributes": {"target": "<5.0 mEq/L for MRA initiation", "danger": ">=5.5 mEq/L consider potassium binders", "guideline": "AHA/ACC/HFSA 2022 HF"}}
+{"type": "node", "node_type": "Biomarker", "name": "eGFR", "attributes": {"MRA_threshold": ">30 mL/min/1.73m2", "SGLT2i_threshold_dapa": ">=25 mL/min/1.73m2", "SGLT2i_threshold_empa": ">=20 mL/min/1.73m2", "guideline": "AHA/ACC/HFSA 2022 HF"}}
+{"type": "node", "node_type": "Biomarker", "name": "Serum Creatinine", "attributes": {"ARNI_caution": ">221 umol/L", "guideline": "CSC 2024 中国心衰指南"}}
+{"type": "node", "node_type": "Drug", "name": "Sacubitril/Valsartan", "attributes": {"class": "ARNI", "dose_target": "97/103 mg bid", "dose_start": "24/26 mg bid", "note": "First-line Class Ia over ACEi; 36h washout from ACEi required", "guideline": ["AHA/ACC/HFSA 2022 HF", "CSC 2024 中国心衰指南"]}}
+{"type": "node", "node_type": "Drug", "name": "Enalapril", "attributes": {"class": "ACEi", "dose_target": "10-20 mg bid", "guideline": "AHA/ACC/HFSA 2022 HF"}}
+{"type": "node", "node_type": "Drug", "name": "Candesartan", "attributes": {"class": "ARB", "dose_target": "32 mg daily", "guideline": "AHA/ACC/HFSA 2022 HF"}}
+{"type": "node", "node_type": "Drug", "name": "Bisoprolol", "attributes": {"class": "Beta-blocker", "dose_target": "10 mg daily", "evidence_based": true, "guideline": "AHA/ACC/HFSA 2022 HF"}}
+{"type": "node", "node_type": "Drug", "name": "Carvedilol", "attributes": {"class": "Beta-blocker", "dose_target": "25-50 mg bid", "evidence_based": true, "guideline": "AHA/ACC/HFSA 2022 HF"}}
+{"type": "node", "node_type": "Drug", "name": "Metoprolol Succinate", "attributes": {"class": "Beta-blocker", "dose_target": "200 mg daily", "evidence_based": true, "guideline": "AHA/ACC/HFSA 2022 HF"}}
+{"type": "node", "node_type": "Drug", "name": "Spironolactone", "attributes": {"class": "MRA", "dose_target": "25-50 mg daily", "guideline": "AHA/ACC/HFSA 2022 HF"}}
+{"type": "node", "node_type": "Drug", "name": "Eplerenone", "attributes": {"class": "MRA", "dose_target": "50 mg daily", "guideline": "AHA/ACC/HFSA 2022 HF"}}
+{"type": "node", "node_type": "Drug", "name": "Dapagliflozin", "attributes": {"class": "SGLT2i", "dose": "10 mg daily", "evidence": "DAPA-HF: 26% reduction in CV death/HF worsening", "guideline": ["AHA/ACC/HFSA 2022 HF", "CSC 2024 中国心衰指南"]}}
+{"type": "node", "node_type": "Drug", "name": "Empagliflozin", "attributes": {"class": "SGLT2i", "dose": "10 mg daily", "evidence": "EMPEROR-Reduced/Preserved", "guideline": ["AHA/ACC/HFSA 2022 HF", "CSC 2024 中国心衰指南"]}}
+{"type": "node", "node_type": "Drug", "name": "Furosemide", "attributes": {"class": "Loop diuretic", "dose": "20-40 mg daily, titrate", "indication": "Fluid retention Class I", "guideline": "AHA/ACC/HFSA 2022 HF"}}
+{"type": "node", "node_type": "Drug", "name": "Ivabradine", "attributes": {"class": "If-channel inhibitor", "dose": "5-7.5 mg bid", "indication": "Class IIa: LVEF<=35%, NSR, HR>=70 on max BB", "guideline": "AHA/ACC/HFSA 2022 HF"}}
+{"type": "node", "node_type": "Drug", "name": "Vericiguat", "attributes": {"class": "sGC stimulator", "dose": "2.5-10 mg daily", "indication": "Class IIb: LVEF<=45%, recent HF hospitalization", "guideline": "AHA/ACC/HFSA 2022 HF"}}
+{"type": "node", "node_type": "Drug", "name": "Digoxin", "attributes": {"class": "Cardiac glycoside", "dose": "0.125-0.25 mg daily", "indication": "Class IIb: symptomatic despite GDMT", "guideline": "AHA/ACC/HFSA 2022 HF"}}
+{"type": "node", "node_type": "Drug", "name": "Hydralazine", "attributes": {"class": "Vasodilator", "combination": "With isosorbide dinitrate", "indication": "Class I for African American NYHA III-IV", "guideline": "AHA/ACC/HFSA 2022 HF"}}
+{"type": "node", "node_type": "Drug", "name": "Patiromer", "attributes": {"class": "Potassium binder", "indication": "Class IIb: hyperkalemia (K+>=5.5) on RAASi", "guideline": "AHA/ACC/HFSA 2022 HF"}}
+{"type": "node", "node_type": "Drug", "name": "Sodium Zirconium Cyclosilicate", "attributes": {"class": "Potassium binder", "indication": "Class IIb: hyperkalemia on RAASi", "guideline": "AHA/ACC/HFSA 2022 HF"}}
+{"type": "node", "node_type": "DrugClass", "name": "ARNI", "attributes": {"members": ["sacubitril/valsartan"], "mechanism": "Neprilysin inhibition + ARB", "guideline": "AHA/ACC/HFSA 2022 HF"}}
+{"type": "node", "node_type": "DrugClass", "name": "ACEi", "attributes": {"members": ["enalapril", "lisinopril", "ramipril", "captopril"], "mechanism": "ACE inhibition", "guideline": "AHA/ACC/HFSA 2022 HF"}}
+{"type": "node", "node_type": "DrugClass", "name": "ARB", "attributes": {"members": ["candesartan", "valsartan", "losartan"], "mechanism": "AT1 receptor blockade", "guideline": "AHA/ACC/HFSA 2022 HF"}}
+{"type": "node", "node_type": "DrugClass", "name": "Beta-Blocker", "attributes": {"evidence_based_members": ["bisoprolol", "carvedilol", "metoprolol succinate"], "guideline": "AHA/ACC/HFSA 2022 HF"}}
+{"type": "node", "node_type": "DrugClass", "name": "MRA", "attributes": {"full": "Mineralocorticoid Receptor Antagonist", "members": ["spironolactone", "eplerenone"], "guideline": "AHA/ACC/HFSA 2022 HF"}}
+{"type": "node", "node_type": "DrugClass", "name": "SGLT2 Inhibitor", "attributes": {"members": ["dapagliflozin", "empagliflozin"], "guideline": "AHA/ACC/HFSA 2022 HF"}}
+{"type": "node", "node_type": "DrugClass", "name": "Loop Diuretic", "attributes": {"members": ["furosemide", "bumetanide", "torsemide"], "guideline": "AHA/ACC/HFSA 2022 HF"}}
+{"type": "node", "node_type": "Procedure", "name": "Echocardiography", "attributes": {"use": "Assess LVEF, chamber size, wall motion, valvular disease", "guideline": "AHA/ACC/HFSA 2022 HF"}}
+{"type": "node", "node_type": "Procedure", "name": "ICD", "attributes": {"full": "Implantable Cardioverter-Defibrillator", "indication": "LVEF<=35% on GDMT>=3 months, expected survival>1 year", "guideline": "AHA/ACC/HFSA 2022 HF"}}
+{"type": "node", "node_type": "Procedure", "name": "CRT", "attributes": {"full": "Cardiac Resynchronization Therapy", "indication": "LVEF<=35%, LBBB with QRS>=150ms, NSR", "guideline": "AHA/ACC/HFSA 2022 HF"}}
+{"type": "node", "node_type": "Stratification", "name": "NYHA Class", "attributes": {"I": "No limitation of physical activity", "II": "Slight limitation", "III": "Marked limitation", "IV": "Symptoms at rest", "guideline": "AHA/ACC/HFSA 2022 HF"}}
+{"type": "node", "node_type": "Stratification", "name": "ACC/AHA HF Stage", "attributes": {"A": "At risk (HTN, DM, CVD)", "B": "Pre-HF (structural disease, no symptoms)", "C": "Symptomatic HF", "D": "Advanced/refractory HF", "guideline": "AHA/ACC/HFSA 2022 HF"}}
+{"type": "node", "node_type": "Stratification", "name": "LVEF Category", "attributes": {"HFrEF": "<=40%", "HFmrEF": "41-49%", "HFpEF": ">=50%", "HFimpEF": "was <=40%, now >40%", "guideline": "AHA/ACC/HFSA 2022 HF"}}
+{"type": "node", "node_type": "GuidelineStatement", "name": "AHA/ACC 2022 HF 4 Pillars", "attributes": {"text": "In patients with HFrEF, GDMT with ARNI/ACEi/ARB, evidence-based beta-blocker, MRA, and SGLT2i is recommended (Class I)", "guideline": "AHA/ACC/HFSA 2022 HF"}}
+{"type": "node", "node_type": "GuidelineStatement", "name": "AHA/ACC 2022 HF ARNI First-Line", "attributes": {"text": "ARNI is now recommended as first-line RAS inhibition in HFrEF (Class Ia), preferred over ACEi/ARB", "guideline": "AHA/ACC/HFSA 2022 HF"}}
+{"type": "node", "node_type": "GuidelineStatement", "name": "AHA/ACC 2022 HF SGLT2i New", "attributes": {"text": "SGLT2 inhibitors are newly added as a Class I recommendation for HFrEF, regardless of type 2 diabetes status", "guideline": "AHA/ACC/HFSA 2022 HF"}}
+{"type": "node", "node_type": "GuidelineStatement", "name": "AHA/ACC 2022 HFimpEF Continue", "attributes": {"text": "In patients with HFimpEF, GDMT should be continued indefinitely (Class I, B-R). The TRED-HF trial showed 44% relapse rate within 6 months of discontinuation", "guideline": "AHA/ACC/HFSA 2022 HF"}}
+{"type": "node", "node_type": "GuidelineStatement", "name": "CSC 2024 HF 新四联", "attributes": {"text": "ARNI/ACEI/ARB + beta-blocker + MRA + SGLT2i 的'新四联'疗法是HFrEF患者的基础治疗方案，可使全因死亡率降低73%", "guideline": "CSC 2024 中国心衰指南"}}
+{"type": "node", "node_type": "GuidelineStatement", "name": "CSC 2024 HF SGLT2i 全射血分数", "attributes": {"text": "SGLT2i首次被正式写入中国心衰指南，获全射血分数（HFrEF/HFmrEF/HFpEF）I类推荐", "guideline": "CSC 2024 中国心衰指南"}}
+{"type": "node", "node_type": "Contraindication", "name": "ARNI-ACEi Concomitant Use", "attributes": {"rule": "ARNI must not be co-administered with ACEi; allow 36-hour washout when switching", "risk": "Angioedema", "guideline": "AHA/ACC/HFSA 2022 HF"}}
+{"type": "node", "node_type": "Contraindication", "name": "ACEi in Bilateral Renal Artery Stenosis", "attributes": {"condition": "Bilateral renal artery stenosis", "guideline": "CSC 2024 中国心衰指南"}}
+{"type": "node", "node_type": "Contraindication", "name": "ARNI in Pregnancy", "attributes": {"guideline": "CSC 2024 中国心衰指南"}}
+{"type": "node", "node_type": "Contraindication", "name": "MRA with Severe CKD", "attributes": {"condition": "eGFR <30 mL/min/1.73m2 or K+ >=5.0", "guideline": "AHA/ACC/HFSA 2022 HF"}}
+{"type": "node", "node_type": "PatientFactor", "name": "African American", "attributes": {"special_therapy": "Hydralazine + isosorbide dinitrate Class I for NYHA III-IV", "guideline": "AHA/ACC/HFSA 2022 HF"}}
+{"type": "node", "node_type": "PatientFactor", "name": "CKD", "attributes": {"MRA_caution": "eGFR<30", "SGLT2i_cutoff": "eGFR<20-25", "guideline": "AHA/ACC/HFSA 2022 HF"}}
+{"type": "node", "node_type": "PatientFactor", "name": "Elderly", "attributes": {"ARNI_start": "25 mg bid (CSC 2024)", "guideline": "CSC 2024 中国心衰指南"}}
+{"type": "node", "node_type": "PatientFactor", "name": "Low Blood Pressure", "attributes": {"SBP_threshold": "<95-100 mmHg", "SGLT2i_start": "2.5-5 mg", "ARNI_start": "25 mg bid", "guideline": "CSC 2024 中国心衰指南"}}
+{"type": "node", "node_type": "Drug", "name": "Lisinopril", "attributes": {"class": "ACEi", "dose_target": "20-40 mg daily", "guideline": "AHA/ACC/HFSA 2022 HF"}}
+{"type": "node", "node_type": "Drug", "name": "Ramipril", "attributes": {"class": "ACEi", "dose_target": "10 mg daily", "guideline": "AHA/ACC/HFSA 2022 HF"}}
+{"type": "node", "node_type": "Drug", "name": "Valsartan", "attributes": {"class": "ARB", "dose_target": "320 mg daily", "guideline": "AHA/ACC/HFSA 2022 HF"}}
+{"type": "node", "node_type": "Drug", "name": "Losartan", "attributes": {"class": "ARB", "dose_target": "150 mg daily", "guideline": "AHA/ACC/HFSA 2022 HF"}}
+{"type": "node", "node_type": "Drug", "name": "Bumetanide", "attributes": {"class": "Loop diuretic", "dose": "0.5-2 mg daily", "guideline": "AHA/ACC/HFSA 2022 HF"}}
+{"type": "node", "node_type": "Drug", "name": "Torsemide", "attributes": {"class": "Loop diuretic", "dose": "10-40 mg daily", "guideline": "AHA/ACC/HFSA 2022 HF"}}
+{"type": "node", "node_type": "Drug", "name": "Isosorbide Dinitrate", "attributes": {"class": "Nitrate", "combination": "With hydralazine", "guideline": "AHA/ACC/HFSA 2022 HF"}}
+{"type": "node", "node_type": "Drug", "name": "Sotagliflozin", "attributes": {"class": "SGLT2i", "dose": "200-400 mg daily", "guideline": "AHA/ACC/HFSA 2022 HF"}}
+{"type": "node", "node_type": "Biomarker", "name": "Serum Sodium", "attributes": {"target": "135-145 mmol/L", "guideline": "AHA/ACC/HFSA 2022 HF"}}
+{"type": "node", "node_type": "Biomarker", "name": "Hemoglobin", "attributes": {"target": ">12 g/dL (female) >13 (male)", "guideline": "AHA/ACC/HFSA 2022 HF"}}
+{"type": "node", "node_type": "Biomarker", "name": "LVEF", "attributes": {"HFrEF_cutoff": "<=40%", "HFmrEF_cutoff": "41-49%", "HFpEF_cutoff": ">=50%", "guideline": "AHA/ACC/HFSA 2022 HF"}}
+{"type": "node", "node_type": "Biomarker", "name": "QRS Duration", "attributes": {"LBBB_cutoff": ">=130ms", "CRT_indication": ">=150ms with LBBB", "guideline": "AHA/ACC/HFSA 2022 HF"}}
+{"type": "node", "node_type": "GuidelineStatement", "name": "AHA/ACC 2022 HF Initiation", "attributes": {"text": "GDMT should be initiated rapidly, with titration every 1-2 weeks as tolerated", "guideline": "AHA/ACC/HFSA 2022 HF"}}
+{"type": "node", "node_type": "GuidelineStatement", "name": "AHA/ACC 2022 HF Hospitalization", "attributes": {"text": "During HF hospitalization, continue, initiate, and optimize GDMT (Class I)", "guideline": "AHA/ACC/HFSA 2022 HF"}}
+{"type": "node", "node_type": "GuidelineStatement", "name": "AHA/ACC 2022 HF Nitrates Avoid", "attributes": {"text": "Avoid routine nitrates or PDE5 inhibitors in HFpEF (Class III: No Benefit)", "guideline": "AHA/ACC/HFSA 2022 HF"}}
+{"type": "node", "node_type": "Contraindication", "name": "ARNI-ACEi 36h Washout", "attributes": {"rule": "36-hour washout when switching ACEi to ARNI", "risk": "Angioedema", "guideline": "AHA/ACC/HFSA 2022 HF"}}
+{"type": "node", "node_type": "Contraindication", "name": "SGLT2i eGFR Low", "attributes": {"dapagliflozin_cutoff": "eGFR<25", "empagliflozin_cutoff": "eGFR<20", "guideline": ["AHA/ACC/HFSA 2022 HF", "CSC 2024 中国心衰指南"]}}
+{"type": "node", "node_type": "Contraindication", "name": "MRA Hyperkalemia", "attributes": {"condition": "K+ >=5.0 mEq/L", "guideline": "AHA/ACC/HFSA 2022 HF"}}
+{"type": "node", "node_type": "Procedure", "name": "Heart Transplant", "attributes": {"indication": "Advanced HF refractory to GDMT and device therapy", "guideline": "AHA/ACC/HFSA 2022 HF"}}
+{"type": "node", "node_type": "Procedure", "name": "LVAD", "attributes": {"full": "Left Ventricular Assist Device", "indication": "Bridge to transplant or destination therapy", "guideline": "AHA/ACC/HFSA 2022 HF"}}
+{"type": "node", "node_type": "Drug", "name": "Omecamtiv Mecarbil", "attributes": {"class": "Cardiac myosin activator", "indication": "Symptomatic chronic HFrEF (NYHA II-III) as add-on to GDMT", "guideline": "ESC 2023 HF"}}
+{"type": "node", "node_type": "Drug", "name": "Ferric Carboxymaltose", "attributes": {"class": "Intravenous iron", "indication": "HFrEF with iron deficiency (ferritin <100 or 100-299 with TSAT <20%)", "guideline": "ESC 2023 HF"}}
+{"type": "node", "node_type": "Drug", "name": "Dobutamine", "attributes": {"class": "Beta-agonist inotrope", "indication": "Acute decompensated HF with low cardiac output (short-term)", "guideline": "ESC 2023 HF"}}
+{"type": "node", "node_type": "Drug", "name": "Milrinone", "attributes": {"class": "PDE-3 inhibitor inotrope", "indication": "Acute decompensated HF refractory to diuretics (short-term)", "guideline": "ESC 2023 HF"}}
+{"type": "node", "node_type": "Drug", "name": "Levosimendan", "attributes": {"class": "Calcium sensitizer", "indication": "Acute HF with low output — alternative to catecholamines", "guideline": "ESC 2023 HF"}}
+{"type": "node", "node_type": "Drug", "name": "Metolazone", "attributes": {"class": "Thiazide-like diuretic", "indication": "Sequential nephron blockade in refractory congestion", "guideline": "AHA/ACC/HFSA 2022 HF"}}
+{"type": "node", "node_type": "Drug", "name": "Tolvaptan", "attributes": {"class": "Vasopressin V2 antagonist", "indication": "Refractory hyponatremia with congestion", "guideline": "ESC 2023 HF"}}
+{"type": "node", "node_type": "Drug", "name": "Nitroglycerin", "attributes": {"class": "IV nitrate", "indication": "Acute HF with hypertension/pulmonary congestion", "guideline": "ESC 2023 HF"}}
+{"type": "node", "node_type": "DrugClass", "name": "Thiazide Diuretic", "attributes": {"examples": ["Metolazone", "Hydrochlorothiazide"], "use": "Add-on to loop diuretic in refractory congestion", "guideline": "AHA/ACC/HFSA 2022 HF"}}
+{"type": "node", "node_type": "DrugClass", "name": "Inotrope", "attributes": {"examples": ["Dobutamine", "Milrinone", "Levosimendan"], "use": "Short-term support in cardiogenic shock/low-output state", "guideline": "ESC 2023 HF"}}
+{"type": "node", "node_type": "DrugClass", "name": "Potassium Binder", "attributes": {"examples": ["Patiromer", "Sodium Zirconium Cyclosilicate"], "use": "Hyperkalemia management enabling RAASi uptitration", "guideline": "ESC 2023 HF"}}
+{"type": "node", "node_type": "Biomarker", "name": "Ferritin", "attributes": {"note": "Ferritin <100 ng/mL or 100-299 with TSAT <20% = iron deficiency", "guideline": "ESC 2023 HF"}}
+{"type": "node", "node_type": "Procedure", "name": "Cardiopulmonary Exercise Testing", "attributes": {"use": "Prognostic VO2 assessment; transplant candidacy", "guideline": "ESC 2023 HF"}}
+{"type": "node", "node_type": "Procedure", "name": "6-Minute Walk Test", "attributes": {"use": "Functional capacity and prognosis", "guideline": "AHA/ACC/HFSA 2022 HF"}}
+{"type": "node", "node_type": "Procedure", "name": "Intra-Aortic Balloon Pump", "attributes": {"use": "Short-term MCS bridge in cardiogenic shock", "guideline": "ESC 2023 HF"}}
+{"type": "node", "node_type": "Procedure", "name": "Impella", "attributes": {"use": "Percutaneous MCS for cardiogenic shock bridge", "guideline": "ESC 2023 HF"}}
+{"type": "node", "node_type": "Procedure", "name": "ECMO", "attributes": {"use": "Extracorporeal life support in refractory shock", "guideline": "ESC 2023 HF"}}
+{"type": "node", "node_type": "Procedure", "name": "Cardiac Rehabilitation", "attributes": {"use": "Exercise training — class I recommendation in stable HFrEF", "guideline": "ESC 2023 HF"}}
+{"type": "node", "node_type": "Procedure", "name": "Pulmonary Artery Pressure Monitoring", "attributes": {"use": "Wireless PA pressure monitoring reduces HF hospitalizations (CardioMEMS)", "guideline": "AHA/ACC/HFSA 2022 HF"}}
+{"type": "node", "node_type": "Stratification", "name": "KCCQ", "attributes": {"full": "Kansas City Cardiomyopathy Questionnaire", "use": "Health-status assessment in clinical practice/trials", "guideline": "AHA/ACC/HFSA 2022 HF"}}
+{"type": "node", "node_type": "Stratification", "name": "H2FPEF Score", "attributes": {"use": "Diagnostic probability scoring for HFpEF (0-9)", "guideline": "ESC 2023 HF"}}
+{"type": "node", "node_type": "Symptom", "name": "Paroxysmal Nocturnal Dyspnea", "attributes": {"note": "Classic pulmonary congestion symptom — reassess volume status", "guideline": "AHA/ACC/HFSA 2022 HF"}}
+{"type": "node", "node_type": "Symptom", "name": "Jugular Venous Distension", "attributes": {"note": "Sign of elevated right atrial pressure", "guideline": "AHA/ACC/HFSA 2022 HF"}}
+{"type": "node", "node_type": "Symptom", "name": "Ascites", "attributes": {"note": "Advanced congestion with right-heart failure", "guideline": "AHA/ACC/HFSA 2022 HF"}}
+{"type": "node", "node_type": "Symptom", "name": "Cheyne-Stokes Respiration", "attributes": {"note": "Periodic breathing in advanced HF — poor prognosis marker", "guideline": "ESC 2023 HF"}}
+{"type": "node", "node_type": "RiskFactor", "name": "Hypertension", "attributes": {"note": "Most common antecedent of HF; BP control prevents HF", "guideline": "AHA/ACC/HFSA 2022 HF"}}
+{"type": "node", "node_type": "RiskFactor", "name": "Diabetes Mellitus Type 2", "attributes": {"note": "Independent HF risk factor; SGLT2i preferred", "guideline": "ESC 2023 HF"}}
+{"type": "node", "node_type": "RiskFactor", "name": "Ischemic Etiology", "attributes": {"note": "CAD is the leading cause of HFrEF", "guideline": "AHA/ACC/HFSA 2022 HF"}}
+{"type": "node", "node_type": "RiskFactor", "name": "Cardiotoxic Chemotherapy", "attributes": {"note": "Anthracyclines/trastuzumab — surveillance for LV dysfunction", "guideline": "ESC 2023 HF"}}
+{"type": "node", "node_type": "RiskFactor", "name": "Alcohol Excess", "attributes": {"note": "Alcoholic cardiomyopathy — abstinence improves recovery", "guideline": "ESC 2023 HF"}}
+{"type": "node", "node_type": "PatientFactor", "name": "Iron Deficiency", "attributes": {"note": "Ferritin <100 ng/mL or 100-299 + TSAT<20%; IV iron improves symptoms", "guideline": "ESC 2023 HF"}}
+{"type": "node", "node_type": "PatientFactor", "name": "Frailty", "attributes": {"note": "Common in elderly HF; affects GDMT tolerance and outcomes", "guideline": "ESC 2023 HF"}}
+{"type": "node", "node_type": "PatientFactor", "name": "Congestion", "attributes": {"note": "Central problem in decompensation; target of diuretic therapy", "guideline": "AHA/ACC/HFSA 2022 HF"}}
+{"type": "node", "node_type": "PatientFactor", "name": "Hypotension", "attributes": {"note": "SBP <90 mmHg — GDMT titration may need adjustment", "guideline": "AHA/ACC/HFSA 2022 HF"}}
+{"type": "node", "node_type": "Contraindication", "name": "Ivabradine in Atrial Fibrillation", "attributes": {"note": "Ivabradine ineffective in AF — only for sinus rhythm with HR >=70", "guideline": "ESC 2023 HF"}}
+{"type": "node", "node_type": "Contraindication", "name": "ARNI in Angioedema History", "attributes": {"note": "Angioedema history (any ACEi/ARB) — avoid ARNI", "guideline": "AHA/ACC/HFSA 2022 HF"}}
+{"type": "node", "node_type": "Contraindication", "name": "Beta-Blocker in Acute Decompensation", "attributes": {"note": "Withhold during acute decompensation with hypotension/low output", "guideline": "ESC 2023 HF"}}
+{"type": "node", "node_type": "Contraindication", "name": "Digoxin in High-Grade AV Block", "attributes": {"note": "Without pacemaker — avoid digoxin in 2nd/3rd degree AV block", "guideline": "AHA/ACC/HFSA 2022 HF"}}
+{"type": "node", "node_type": "GuidelineStatement", "name": "AHA/ACC 2022 HF Loop Diuretic First-Line", "attributes": {"statement": "Loop diuretics are first-line for congestion in all HF phenotypes", "guideline": "AHA/ACC/HFSA 2022 HF"}}
+{"type": "node", "node_type": "GuidelineStatement", "name": "AHA/ACC 2022 HF SGLT2i Across EF", "attributes": {"statement": "SGLT2 inhibitors recommended across full LVEF spectrum (HFrEF/HFmrEF/HFpEF)", "guideline": "AHA/ACC/HFSA 2022 HF"}}
+{"type": "node", "node_type": "GuidelineStatement", "name": "ESC 2023 HF Iron Deficiency Testing", "attributes": {"statement": "Screen all HF patients for iron deficiency; IV iron when ferritin<100 or 100-299+TSAT<20%", "guideline": "ESC 2023 HF"}}
+{"type": "node", "node_type": "GuidelineStatement", "name": "ESC 2023 HF Comorbidity Management", "attributes": {"statement": "Treat hypertension, diabetes, anemia and iron deficiency to improve HF outcomes", "guideline": "ESC 2023 HF"}}
+{"type": "node", "node_type": "GuidelineStatement", "name": "AHA/ACC 2022 HF Titration Monitoring", "attributes": {"statement": "Uptitrate GDMT every 2-4 weeks with renal/potassium/blood-pressure monitoring", "guideline": "AHA/ACC/HFSA 2022 HF"}}
+{"type": "node", "node_type": "GuidelineStatement", "name": "ESC 2023 HF Exercise Rehabilitation", "attributes": {"statement": "Regular exercise training is class I recommendation in stable HF", "guideline": "ESC 2023 HF"}}
+{"type": "relation", "subject": "Sacubitril/Valsartan", "relation": "treats", "object": "HFrEF", "guideline_source": "AHA/ACC/HFSA 2022 HF"}
+{"type": "relation", "subject": "Enalapril", "relation": "treats", "object": "HFrEF", "guideline_source": "AHA/ACC/HFSA 2022 HF"}
+{"type": "relation", "subject": "Candesartan", "relation": "treats", "object": "HFrEF", "guideline_source": "AHA/ACC/HFSA 2022 HF"}
+{"type": "relation", "subject": "Bisoprolol", "relation": "treats", "object": "HFrEF", "guideline_source": "AHA/ACC/HFSA 2022 HF"}
+{"type": "relation", "subject": "Carvedilol", "relation": "treats", "object": "HFrEF", "guideline_source": "AHA/ACC/HFSA 2022 HF"}
+{"type": "relation", "subject": "Metoprolol Succinate", "relation": "treats", "object": "HFrEF", "guideline_source": "AHA/ACC/HFSA 2022 HF"}
+{"type": "relation", "subject": "Spironolactone", "relation": "treats", "object": "HFrEF", "guideline_source": "AHA/ACC/HFSA 2022 HF"}
+{"type": "relation", "subject": "Eplerenone", "relation": "treats", "object": "HFrEF", "guideline_source": "AHA/ACC/HFSA 2022 HF"}
+{"type": "relation", "subject": "Dapagliflozin", "relation": "treats", "object": "HFrEF", "guideline_source": "AHA/ACC/HFSA 2022 HF"}
+{"type": "relation", "subject": "Dapagliflozin", "relation": "treats", "object": "HFmrEF", "guideline_source": "AHA/ACC/HFSA 2022 HF"}
+{"type": "relation", "subject": "Dapagliflozin", "relation": "treats", "object": "HFpEF", "guideline_source": "AHA/ACC/HFSA 2022 HF"}
+{"type": "relation", "subject": "Empagliflozin", "relation": "treats", "object": "HFrEF", "guideline_source": "AHA/ACC/HFSA 2022 HF"}
+{"type": "relation", "subject": "Empagliflozin", "relation": "treats", "object": "HFmrEF", "guideline_source": "AHA/ACC/HFSA 2022 HF"}
+{"type": "relation", "subject": "Empagliflozin", "relation": "treats", "object": "HFpEF", "guideline_source": "AHA/ACC/HFSA 2022 HF"}
+{"type": "relation", "subject": "Furosemide", "relation": "treats", "object": "HFrEF", "guideline_source": "AHA/ACC/HFSA 2022 HF"}
+{"type": "relation", "subject": "Ivabradine", "relation": "treats", "object": "HFrEF", "guideline_source": "AHA/ACC/HFSA 2022 HF"}
+{"type": "relation", "subject": "Vericiguat", "relation": "treats", "object": "HFrEF", "guideline_source": "AHA/ACC/HFSA 2022 HF"}
+{"type": "relation", "subject": "Digoxin", "relation": "treats", "object": "HFrEF", "guideline_source": "AHA/ACC/HFSA 2022 HF"}
+{"type": "relation", "subject": "Sacubitril/Valsartan", "relation": "contraindicated_in", "object": "ARNI-ACEi Concomitant Use", "guideline_source": "AHA/ACC/HFSA 2022 HF"}
+{"type": "relation", "subject": "Sacubitril/Valsartan", "relation": "contraindicated_in", "object": "ARNI in Pregnancy", "guideline_source": "CSC 2024 中国心衰指南"}
+{"type": "relation", "subject": "Spironolactone", "relation": "contraindicated_in", "object": "MRA with Severe CKD", "guideline_source": "AHA/ACC/HFSA 2022 HF"}
+{"type": "relation", "subject": "Eplerenone", "relation": "contraindicated_in", "object": "MRA with Severe CKD", "guideline_source": "AHA/ACC/HFSA 2022 HF"}
+{"type": "relation", "subject": "Enalapril", "relation": "contraindicated_in", "object": "ACEi in Bilateral Renal Artery Stenosis", "guideline_source": "CSC 2024 中国心衰指南"}
+{"type": "relation", "subject": "NT-proBNP", "relation": "monitors", "object": "HFrEF", "guideline_source": "AHA/ACC/HFSA 2022 HF"}
+{"type": "relation", "subject": "BNP", "relation": "monitors", "object": "HFrEF", "guideline_source": "AHA/ACC/HFSA 2022 HF"}
+{"type": "relation", "subject": "eGFR", "relation": "monitors", "object": "HFrEF", "guideline_source": "AHA/ACC/HFSA 2022 HF"}
+{"type": "relation", "subject": "Serum Potassium", "relation": "monitors", "object": "HFrEF", "guideline_source": "AHA/ACC/HFSA 2022 HF"}
+{"type": "relation", "subject": "NYHA Class", "relation": "risk_stratifies", "object": "HFrEF", "guideline_source": "AHA/ACC/HFSA 2022 HF"}
+{"type": "relation", "subject": "LVEF Category", "relation": "risk_stratifies", "object": "HFrEF", "guideline_source": "AHA/ACC/HFSA 2022 HF"}
+{"type": "relation", "subject": "ARNI", "relation": "treats", "object": "HFrEF", "guideline_source": "AHA/ACC/HFSA 2022 HF"}
+{"type": "relation", "subject": "ACEi", "relation": "treats", "object": "HFrEF", "guideline_source": "AHA/ACC/HFSA 2022 HF"}
+{"type": "relation", "subject": "MRA", "relation": "treats", "object": "HFrEF", "guideline_source": "AHA/ACC/HFSA 2022 HF"}
+{"type": "relation", "subject": "SGLT2 Inhibitor", "relation": "treats", "object": "HFrEF", "guideline_source": "AHA/ACC/HFSA 2022 HF"}
+{"type": "relation", "subject": "Beta-Blocker", "relation": "treats", "object": "HFrEF", "guideline_source": "AHA/ACC/HFSA 2022 HF"}
+{"type": "relation", "subject": "Loop Diuretic", "relation": "treats", "object": "HFrEF", "guideline_source": "AHA/ACC/HFSA 2022 HF"}
+{"type": "relation", "subject": "Sacubitril/Valsartan", "relation": "guideline_cites", "object": "AHA/ACC 2022 HF ARNI First-Line", "guideline_source": "AHA/ACC/HFSA 2022 HF"}
+{"type": "relation", "subject": "Dapagliflozin", "relation": "guideline_cites", "object": "AHA/ACC 2022 HF SGLT2i New", "guideline_source": "AHA/ACC/HFSA 2022 HF"}
+{"type": "relation", "subject": "Hydralazine", "relation": "treats", "object": "HFrEF", "guideline_source": "AHA/ACC/HFSA 2022 HF"}
+{"type": "relation", "subject": "ICD", "relation": "treats", "object": "HFrEF", "guideline_source": "AHA/ACC/HFSA 2022 HF"}
+{"type": "relation", "subject": "CRT", "relation": "treats", "object": "HFrEF", "guideline_source": "AHA/ACC/HFSA 2022 HF"}
+{"type": "relation", "subject": "Patiromer", "relation": "treats", "object": "HFrEF", "guideline_source": "AHA/ACC/HFSA 2022 HF"}
+{"type": "relation", "subject": "Sodium Zirconium Cyclosilicate", "relation": "treats", "object": "HFrEF", "guideline_source": "AHA/ACC/HFSA 2022 HF"}
+{"type": "relation", "subject": "Lisinopril", "relation": "treats", "object": "HFrEF", "guideline_source": "AHA/ACC/HFSA 2022 HF"}
+{"type": "relation", "subject": "Ramipril", "relation": "treats", "object": "HFrEF", "guideline_source": "AHA/ACC/HFSA 2022 HF"}
+{"type": "relation", "subject": "Valsartan", "relation": "treats", "object": "HFrEF", "guideline_source": "AHA/ACC/HFSA 2022 HF"}
+{"type": "relation", "subject": "Losartan", "relation": "treats", "object": "HFrEF", "guideline_source": "AHA/ACC/HFSA 2022 HF"}
+{"type": "relation", "subject": "Bumetanide", "relation": "treats", "object": "HFrEF", "guideline_source": "AHA/ACC/HFSA 2022 HF"}
+{"type": "relation", "subject": "Torsemide", "relation": "treats", "object": "HFrEF", "guideline_source": "AHA/ACC/HFSA 2022 HF"}
+{"type": "relation", "subject": "Sotagliflozin", "relation": "treats", "object": "HFrEF", "guideline_source": "AHA/ACC/HFSA 2022 HF"}
+{"type": "relation", "subject": "LVEF", "relation": "threshold_for", "object": "HFrEF", "guideline_source": "AHA/ACC/HFSA 2022 HF"}
+{"type": "relation", "subject": "QRS Duration", "relation": "risk_stratifies", "object": "HFrEF", "guideline_source": "AHA/ACC/HFSA 2022 HF"}
+{"type": "relation", "subject": "Heart Transplant", "relation": "treats", "object": "HFrEF", "guideline_source": "AHA/ACC/HFSA 2022 HF"}
+{"type": "relation", "subject": "LVAD", "relation": "treats", "object": "HFrEF", "guideline_source": "AHA/ACC/HFSA 2022 HF"}
+{"type": "relation", "subject": "Sacubitril/Valsartan", "relation": "contraindicated_in", "object": "ARNI-ACEi 36h Washout", "guideline_source": "AHA/ACC/HFSA 2022 HF"}
+{"type": "relation", "subject": "Dapagliflozin", "relation": "contraindicated_in", "object": "SGLT2i eGFR Low", "guideline_source": "AHA/ACC/HFSA 2022 HF"}
+{"type": "relation", "subject": "Spironolactone", "relation": "contraindicated_in", "object": "MRA Hyperkalemia", "guideline_source": "AHA/ACC/HFSA 2022 HF"}
+{"type": "relation", "subject": "Isosorbide Dinitrate", "relation": "treats", "object": "HFrEF", "guideline_source": "AHA/ACC/HFSA 2022 HF"}
+{"type": "relation", "subject": "Sacubitril/Valsartan", "relation": "guideline_cites", "object": "AHA/ACC 2022 HF Initiation", "guideline_source": "AHA/ACC/HFSA 2022 HF"}
+{"type": "relation", "subject": "NT-proBNP", "relation": "guideline_cites", "object": "AHA/ACC 2022 HF Hospitalization", "guideline_source": "AHA/ACC/HFSA 2022 HF"}
+{"type": "relation", "subject": "Furosemide", "relation": "interacts_with", "object": "Spironolactone", "guideline_source": "AHA/ACC/HFSA 2022 HF"}
+{"type": "relation", "subject": "Omecamtiv Mecarbil", "relation": "treats", "object": "HFrEF", "guideline_source": "AHA/ACC/HFSA 2022 HF"}
+{"type": "relation", "subject": "Ferric Carboxymaltose", "relation": "treats", "object": "HFrEF", "guideline_source": "AHA/ACC/HFSA 2022 HF"}
+{"type": "relation", "subject": "Dobutamine", "relation": "treats", "object": "HFrEF", "guideline_source": "AHA/ACC/HFSA 2022 HF"}
+{"type": "relation", "subject": "Milrinone", "relation": "treats", "object": "HFrEF", "guideline_source": "AHA/ACC/HFSA 2022 HF"}
+{"type": "relation", "subject": "Levosimendan", "relation": "treats", "object": "HFrEF", "guideline_source": "AHA/ACC/HFSA 2022 HF"}
+{"type": "relation", "subject": "Metolazone", "relation": "treats", "object": "HFrEF", "guideline_source": "AHA/ACC/HFSA 2022 HF"}
+{"type": "relation", "subject": "Tolvaptan", "relation": "treats", "object": "HFrEF", "guideline_source": "AHA/ACC/HFSA 2022 HF"}
+{"type": "relation", "subject": "Nitroglycerin", "relation": "treats", "object": "HFrEF", "guideline_source": "AHA/ACC/HFSA 2022 HF"}
+{"type": "relation", "subject": "Metolazone", "relation": "treats", "object": "HFmrEF", "guideline_source": "AHA/ACC/HFSA 2022 HF"}
+{"type": "relation", "subject": "Ferric Carboxymaltose", "relation": "treats", "object": "HFmrEF", "guideline_source": "AHA/ACC/HFSA 2022 HF"}
+{"type": "relation", "subject": "Thiazide Diuretic", "relation": "treats", "object": "HFrEF", "guideline_source": "AHA/ACC/HFSA 2022 HF"}
+{"type": "relation", "subject": "Inotrope", "relation": "treats", "object": "HFrEF", "guideline_source": "AHA/ACC/HFSA 2022 HF"}
+{"type": "relation", "subject": "Potassium Binder", "relation": "treats", "object": "HFrEF", "guideline_source": "AHA/ACC/HFSA 2022 HF"}
+{"type": "relation", "subject": "Cardiopulmonary Exercise Testing", "relation": "risk_stratifies", "object": "HFrEF", "guideline_source": "AHA/ACC/HFSA 2022 HF"}
+{"type": "relation", "subject": "6-Minute Walk Test", "relation": "risk_stratifies", "object": "HFrEF", "guideline_source": "AHA/ACC/HFSA 2022 HF"}
+{"type": "relation", "subject": "Intra-Aortic Balloon Pump", "relation": "treats", "object": "HFrEF", "guideline_source": "AHA/ACC/HFSA 2022 HF"}
+{"type": "relation", "subject": "Impella", "relation": "treats", "object": "HFrEF", "guideline_source": "AHA/ACC/HFSA 2022 HF"}
+{"type": "relation", "subject": "ECMO", "relation": "treats", "object": "HFrEF", "guideline_source": "AHA/ACC/HFSA 2022 HF"}
+{"type": "relation", "subject": "Cardiac Rehabilitation", "relation": "treats", "object": "HFrEF", "guideline_source": "AHA/ACC/HFSA 2022 HF"}
+{"type": "relation", "subject": "Pulmonary Artery Pressure Monitoring", "relation": "monitors", "object": "HFrEF", "guideline_source": "AHA/ACC/HFSA 2022 HF"}
+{"type": "relation", "subject": "Serum Creatinine", "relation": "monitors", "object": "HFrEF", "guideline_source": "AHA/ACC/HFSA 2022 HF"}
+{"type": "relation", "subject": "Hemoglobin", "relation": "monitors", "object": "HFrEF", "guideline_source": "AHA/ACC/HFSA 2022 HF"}
+{"type": "relation", "subject": "Ferritin", "relation": "monitors", "object": "HFrEF", "guideline_source": "AHA/ACC/HFSA 2022 HF"}
+{"type": "relation", "subject": "Ferritin", "relation": "threshold_for", "object": "Iron Deficiency", "guideline_source": "AHA/ACC/HFSA 2022 HF"}
+{"type": "relation", "subject": "KCCQ", "relation": "risk_stratifies", "object": "HFrEF", "guideline_source": "AHA/ACC/HFSA 2022 HF"}
+{"type": "relation", "subject": "H2FPEF Score", "relation": "risk_stratifies", "object": "HFpEF", "guideline_source": "AHA/ACC/HFSA 2022 HF"}
+{"type": "relation", "subject": "Hypertension", "relation": "risk_stratifies", "object": "HFrEF", "guideline_source": "AHA/ACC/HFSA 2022 HF"}
+{"type": "relation", "subject": "Diabetes Mellitus Type 2", "relation": "risk_stratifies", "object": "HFrEF", "guideline_source": "AHA/ACC/HFSA 2022 HF"}
+{"type": "relation", "subject": "Ischemic Etiology", "relation": "risk_stratifies", "object": "HFrEF", "guideline_source": "AHA/ACC/HFSA 2022 HF"}
+{"type": "relation", "subject": "Cardiotoxic Chemotherapy", "relation": "risk_stratifies", "object": "HFrEF", "guideline_source": "AHA/ACC/HFSA 2022 HF"}
+{"type": "relation", "subject": "Alcohol Excess", "relation": "risk_stratifies", "object": "HFrEF", "guideline_source": "AHA/ACC/HFSA 2022 HF"}
+{"type": "relation", "subject": "Frailty", "relation": "risk_stratifies", "object": "HFrEF", "guideline_source": "AHA/ACC/HFSA 2022 HF"}
+{"type": "relation", "subject": "Hypotension", "relation": "risk_stratifies", "object": "HFrEF", "guideline_source": "AHA/ACC/HFSA 2022 HF"}
+{"type": "relation", "subject": "Congestion", "relation": "monitors", "object": "HFrEF", "guideline_source": "AHA/ACC/HFSA 2022 HF"}
+{"type": "relation", "subject": "Ivabradine", "relation": "contraindicated_in", "object": "Ivabradine in Atrial Fibrillation", "guideline_source": "AHA/ACC/HFSA 2022 HF"}
+{"type": "relation", "subject": "Sacubitril/Valsartan", "relation": "contraindicated_in", "object": "ARNI in Angioedema History", "guideline_source": "AHA/ACC/HFSA 2022 HF"}
+{"type": "relation", "subject": "Beta-Blocker", "relation": "contraindicated_in", "object": "Beta-Blocker in Acute Decompensation", "guideline_source": "AHA/ACC/HFSA 2022 HF"}
+{"type": "relation", "subject": "Digoxin", "relation": "contraindicated_in", "object": "Digoxin in High-Grade AV Block", "guideline_source": "AHA/ACC/HFSA 2022 HF"}
+{"type": "relation", "subject": "SGLT2 Inhibitor", "relation": "treats", "object": "HFmrEF", "guideline_source": "AHA/ACC/HFSA 2022 HF"}
+{"type": "relation", "subject": "SGLT2 Inhibitor", "relation": "treats", "object": "HFpEF", "guideline_source": "AHA/ACC/HFSA 2022 HF"}
+{"type": "relation", "subject": "Beta-Blocker", "relation": "treats", "object": "HFmrEF", "guideline_source": "AHA/ACC/HFSA 2022 HF"}
+{"type": "relation", "subject": "Loop Diuretic", "relation": "treats", "object": "HFpEF", "guideline_source": "AHA/ACC/HFSA 2022 HF"}
+{"type": "relation", "subject": "Furosemide", "relation": "treats", "object": "HFpEF", "guideline_source": "AHA/ACC/HFSA 2022 HF"}
+{"type": "relation", "subject": "NT-proBNP", "relation": "monitors", "object": "HFpEF", "guideline_source": "AHA/ACC/HFSA 2022 HF"}
+{"type": "relation", "subject": "BNP", "relation": "monitors", "object": "HFpEF", "guideline_source": "AHA/ACC/HFSA 2022 HF"}
+{"type": "relation", "subject": "Echocardiography", "relation": "monitors", "object": "HFrEF", "guideline_source": "AHA/ACC/HFSA 2022 HF"}
+{"type": "relation", "subject": "Echocardiography", "relation": "monitors", "object": "HFpEF", "guideline_source": "AHA/ACC/HFSA 2022 HF"}
+{"type": "relation", "subject": "NYHA Class", "relation": "risk_stratifies", "object": "HFpEF", "guideline_source": "AHA/ACC/HFSA 2022 HF"}
+{"type": "relation", "subject": "ACC/AHA HF Stage", "relation": "risk_stratifies", "object": "HFpEF", "guideline_source": "AHA/ACC/HFSA 2022 HF"}
+{"type": "relation", "subject": "LVEF Category", "relation": "threshold_for", "object": "HFrEF", "guideline_source": "AHA/ACC/HFSA 2022 HF"}
+{"type": "relation", "subject": "LVEF Category", "relation": "threshold_for", "object": "HFmrEF", "guideline_source": "AHA/ACC/HFSA 2022 HF"}
+{"type": "relation", "subject": "LVEF Category", "relation": "threshold_for", "object": "HFpEF", "guideline_source": "AHA/ACC/HFSA 2022 HF"}
+{"type": "relation", "subject": "Serum Potassium", "relation": "monitors", "object": "Spironolactone", "guideline_source": "AHA/ACC/HFSA 2022 HF"}
+{"type": "relation", "subject": "Serum Potassium", "relation": "monitors", "object": "Eplerenone", "guideline_source": "AHA/ACC/HFSA 2022 HF"}
+{"type": "relation", "subject": "eGFR", "relation": "monitors", "object": "Dapagliflozin", "guideline_source": "AHA/ACC/HFSA 2022 HF"}
+{"type": "relation", "subject": "eGFR", "relation": "monitors", "object": "Empagliflozin", "guideline_source": "AHA/ACC/HFSA 2022 HF"}
+{"type": "relation", "subject": "eGFR", "relation": "monitors", "object": "Sacubitril/Valsartan", "guideline_source": "AHA/ACC/HFSA 2022 HF"}
+{"type": "relation", "subject": "Serum Creatinine", "relation": "monitors", "object": "Enalapril", "guideline_source": "AHA/ACC/HFSA 2022 HF"}
+{"type": "relation", "subject": "Serum Creatinine", "relation": "monitors", "object": "Lisinopril", "guideline_source": "AHA/ACC/HFSA 2022 HF"}
+{"type": "relation", "subject": "Serum Creatinine", "relation": "monitors", "object": "Ramipril", "guideline_source": "AHA/ACC/HFSA 2022 HF"}
+{"type": "relation", "subject": "Metolazone", "relation": "interacts_with", "object": "Furosemide", "guideline_source": "AHA/ACC/HFSA 2022 HF"}
+{"type": "relation", "subject": "Dobutamine", "relation": "interacts_with", "object": "Beta-Blocker", "guideline_source": "AHA/ACC/HFSA 2022 HF"}
+{"type": "relation", "subject": "Patiromer", "relation": "interacts_with", "object": "Spironolactone", "guideline_source": "AHA/ACC/HFSA 2022 HF"}
+{"type": "relation", "subject": "Sodium Zirconium Cyclosilicate", "relation": "interacts_with", "object": "Eplerenone", "guideline_source": "AHA/ACC/HFSA 2022 HF"}
+{"type": "relation", "subject": "Tolvaptan", "relation": "interacts_with", "object": "Furosemide", "guideline_source": "AHA/ACC/HFSA 2022 HF"}
+{"type": "relation", "subject": "Loop Diuretic", "relation": "guideline_cites", "object": "AHA/ACC 2022 HF Loop Diuretic First-Line", "guideline_source": "AHA/ACC/HFSA 2022 HF"}
+{"type": "relation", "subject": "AHA/ACC 2022 HF Loop Diuretic First-Line", "relation": "guideline_cites", "object": "HFrEF", "guideline_source": "AHA/ACC/HFSA 2022 HF"}
+{"type": "relation", "subject": "SGLT2 Inhibitor", "relation": "guideline_cites", "object": "AHA/ACC 2022 HF SGLT2i Across EF", "guideline_source": "AHA/ACC/HFSA 2022 HF"}
+{"type": "relation", "subject": "AHA/ACC 2022 HF SGLT2i Across EF", "relation": "guideline_cites", "object": "HFpEF", "guideline_source": "AHA/ACC/HFSA 2022 HF"}
+{"type": "relation", "subject": "Ferric Carboxymaltose", "relation": "guideline_cites", "object": "ESC 2023 HF Iron Deficiency Testing", "guideline_source": "AHA/ACC/HFSA 2022 HF"}
+{"type": "relation", "subject": "ESC 2023 HF Iron Deficiency Testing", "relation": "guideline_cites", "object": "HFrEF", "guideline_source": "AHA/ACC/HFSA 2022 HF"}
+{"type": "relation", "subject": "ESC 2023 HF Comorbidity Management", "relation": "guideline_cites", "object": "HFrEF", "guideline_source": "AHA/ACC/HFSA 2022 HF"}
+{"type": "relation", "subject": "AHA/ACC 2022 HF Titration Monitoring", "relation": "guideline_cites", "object": "HFrEF", "guideline_source": "AHA/ACC/HFSA 2022 HF"}
+{"type": "relation", "subject": "ESC 2023 HF Exercise Rehabilitation", "relation": "guideline_cites", "object": "HFrEF", "guideline_source": "AHA/ACC/HFSA 2022 HF"}
+{"type": "relation", "subject": "Cardiac Rehabilitation", "relation": "guideline_cites", "object": "ESC 2023 HF Exercise Rehabilitation", "guideline_source": "AHA/ACC/HFSA 2022 HF"}
+{"type": "relation", "subject": "ACEi", "relation": "guideline_cites", "object": "AHA/ACC 2022 HF Initiation", "guideline_source": "AHA/ACC/HFSA 2022 HF"}
+{"type": "relation", "subject": "Beta-Blocker", "relation": "guideline_cites", "object": "AHA/ACC 2022 HF Initiation", "guideline_source": "AHA/ACC/HFSA 2022 HF"}
+{"type": "relation", "subject": "ARNI", "relation": "guideline_cites", "object": "AHA/ACC 2022 HF ARNI First-Line", "guideline_source": "AHA/ACC/HFSA 2022 HF"}
+{"type": "relation", "subject": "Omecamtiv Mecarbil", "relation": "guideline_cites", "object": "ESC 2023 HF Comorbidity Management", "guideline_source": "AHA/ACC/HFSA 2022 HF"}
+{"type": "relation", "subject": "LVEF", "relation": "threshold_for", "object": "HFmrEF", "guideline_source": "HF Guidelines"}
+{"type": "relation", "subject": "NT-proBNP", "relation": "threshold_for", "object": "HFpEF", "guideline_source": "HF Guidelines"}
+{"type": "relation", "subject": "BNP", "relation": "threshold_for", "object": "HFpEF", "guideline_source": "HF Guidelines"}
+{"type": "relation", "subject": "eGFR", "relation": "threshold_for", "object": "MRA with Severe CKD", "guideline_source": "HF Guidelines"}
+{"type": "relation", "subject": "Digoxin", "relation": "monitors", "object": "Serum Potassium", "guideline_source": "HF Guidelines"}
+{"type": "relation", "subject": "Digoxin", "relation": "monitors", "object": "Serum Creatinine", "guideline_source": "HF Guidelines"}
+{"type": "relation", "subject": "Digoxin", "relation": "monitors", "object": "eGFR", "guideline_source": "HF Guidelines"}
+{"type": "relation", "subject": "Spironolactone", "relation": "monitors", "object": "Serum Potassium", "guideline_source": "HF Guidelines"}
+{"type": "relation", "subject": "Eplerenone", "relation": "monitors", "object": "Serum Potassium", "guideline_source": "HF Guidelines"}
+{"type": "relation", "subject": "Furosemide", "relation": "monitors", "object": "Serum Potassium", "guideline_source": "HF Guidelines"}
+{"type": "relation", "subject": "SGLT2 Inhibitor", "relation": "monitors", "object": "eGFR", "guideline_source": "HF Guidelines"}
+{"type": "relation", "subject": "KCCQ", "relation": "monitors", "object": "HFrEF", "guideline_source": "HF Guidelines"}
+{"type": "relation", "subject": "6-Minute Walk Test", "relation": "monitors", "object": "HFrEF", "guideline_source": "HF Guidelines"}

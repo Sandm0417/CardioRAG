@@ -1,0 +1,3 @@
+# CardioRAG: Placeholder for TongYuan rules engine compatibility
+# Kept empty — this project uses LightRAG + CV-Guardrail instead of the rules engine
+rules: []

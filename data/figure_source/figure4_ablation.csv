@@ -1,0 +1,5 @@
+method,estimate,sd_low,sd_high,sd,patient_centeredness,safety,citation_correctness,hallucination_rate
+C1 Vanilla (no RAG),2.55,1.92,3.18,0.63,2.842,3.55,2.033,0.0083
+C2 Naive RAG,2.717,2.082,3.352,0.635,2.842,3.333,2.3,0.0
+C3 LightRAG-Generic,3.358,2.715,4.001,0.643,2.733,3.292,4.483,0.0083
+C4 CardioRAG Full,3.617,2.884,4.349,0.732,2.808,3.342,4.658,0.0

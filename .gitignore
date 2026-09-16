@@ -1,0 +1,32 @@
+# Secrets and local credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.p12
+id_rsa
+id_rsa.pub
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+
+# Local retrieval index and generated outputs
+lightrag_index/
+outputs/raw_generations/
+outputs/scores/
+outputs/figures/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

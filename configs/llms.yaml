@@ -1,0 +1,54 @@
+# CardioRAG: 6 LLM configurations
+# Mirrors PLAN(1) §2.6 — 2026 current generation
+
+llms:
+  gpt5:
+    provider: openai
+    model_id: gpt-5
+    api_key_env: OPENAI_API_KEY
+    default_params:
+      temperature: 0.3
+      max_tokens: 2000
+
+  gemini25pro:
+    provider: google
+    model_id: gemini-2.5-pro
+    api_key_env: GOOGLE_API_KEY
+    default_params:
+      temperature: 0.3
+      max_output_tokens: 2000
+
+  claude_sonnet45:
+    provider: anthropic
+    model_id: claude-sonnet-4-5-20250929
+    api_key_env: ANTHROPIC_API_KEY
+    default_params:
+      temperature: 0.3
+      max_tokens: 2000
+
+  grok4:
+    provider: xai
+    model_id: grok-4
+    api_key_env: XAI_API_KEY
+    base_url: https://api.x.ai/v1
+    default_params:
+      temperature: 0.3
+      max_tokens: 2000
+
+  deepseek_v3:
+    provider: deepseek
+    model_id: deepseek-chat
+    api_key_env: DEEPSEEK_API_KEY
+    base_url: https://api.deepseek.com
+    default_params:
+      temperature: 0.3
+      max_tokens: 2000
+
+  qwen3_max:
+    provider: qwen
+    model_id: qwen3-max
+    api_key_env: QWEN_API_KEY
+    base_url: https://dashscope.aliyuncs.com/compatible-mode/v1
+    default_params:
+      temperature: 0.3
+      max_tokens: 2000

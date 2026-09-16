@@ -1,0 +1,481 @@
+scenario_id,disease,disease_label,split,metric,contrast,difference
+AF-001,AF,Atrial fibrillation,development,guideline_concordance,C4 minus C1,1.0
+AF-001,AF,Atrial fibrillation,development,guideline_concordance,C4 minus C3,0.0
+AF-001,AF,Atrial fibrillation,development,citation_correctness,C4 minus C1,3.0
+AF-001,AF,Atrial fibrillation,development,citation_correctness,C4 minus C3,0.0
+AF-002,AF,Atrial fibrillation,development,guideline_concordance,C4 minus C1,1.0
+AF-002,AF,Atrial fibrillation,development,guideline_concordance,C4 minus C3,0.0
+AF-002,AF,Atrial fibrillation,development,citation_correctness,C4 minus C1,3.0
+AF-002,AF,Atrial fibrillation,development,citation_correctness,C4 minus C3,0.0
+AF-003,AF,Atrial fibrillation,development,guideline_concordance,C4 minus C1,0.0
+AF-003,AF,Atrial fibrillation,development,guideline_concordance,C4 minus C3,0.0
+AF-003,AF,Atrial fibrillation,development,citation_correctness,C4 minus C1,3.0
+AF-003,AF,Atrial fibrillation,development,citation_correctness,C4 minus C3,2.0
+AF-004,AF,Atrial fibrillation,held_out_synthetic,guideline_concordance,C4 minus C1,0.0
+AF-004,AF,Atrial fibrillation,held_out_synthetic,guideline_concordance,C4 minus C3,0.0
+AF-004,AF,Atrial fibrillation,held_out_synthetic,citation_correctness,C4 minus C1,3.0
+AF-004,AF,Atrial fibrillation,held_out_synthetic,citation_correctness,C4 minus C3,0.0
+AF-005,AF,Atrial fibrillation,development,guideline_concordance,C4 minus C1,0.0
+AF-005,AF,Atrial fibrillation,development,guideline_concordance,C4 minus C3,0.0
+AF-005,AF,Atrial fibrillation,development,citation_correctness,C4 minus C1,0.0
+AF-005,AF,Atrial fibrillation,development,citation_correctness,C4 minus C3,0.0
+AF-006,AF,Atrial fibrillation,development,guideline_concordance,C4 minus C1,1.0
+AF-006,AF,Atrial fibrillation,development,guideline_concordance,C4 minus C3,0.0
+AF-006,AF,Atrial fibrillation,development,citation_correctness,C4 minus C1,3.0
+AF-006,AF,Atrial fibrillation,development,citation_correctness,C4 minus C3,0.0
+AF-007,AF,Atrial fibrillation,development,guideline_concordance,C4 minus C1,1.0
+AF-007,AF,Atrial fibrillation,development,guideline_concordance,C4 minus C3,0.0
+AF-007,AF,Atrial fibrillation,development,citation_correctness,C4 minus C1,3.0
+AF-007,AF,Atrial fibrillation,development,citation_correctness,C4 minus C3,0.0
+AF-008,AF,Atrial fibrillation,development,guideline_concordance,C4 minus C1,0.0
+AF-008,AF,Atrial fibrillation,development,guideline_concordance,C4 minus C3,0.0
+AF-008,AF,Atrial fibrillation,development,citation_correctness,C4 minus C1,3.0
+AF-008,AF,Atrial fibrillation,development,citation_correctness,C4 minus C3,0.0
+AF-009,AF,Atrial fibrillation,held_out_synthetic,guideline_concordance,C4 minus C1,1.0
+AF-009,AF,Atrial fibrillation,held_out_synthetic,guideline_concordance,C4 minus C3,0.0
+AF-009,AF,Atrial fibrillation,held_out_synthetic,citation_correctness,C4 minus C1,3.0
+AF-009,AF,Atrial fibrillation,held_out_synthetic,citation_correctness,C4 minus C3,0.0
+AF-010,AF,Atrial fibrillation,development,guideline_concordance,C4 minus C1,0.0
+AF-010,AF,Atrial fibrillation,development,guideline_concordance,C4 minus C3,0.0
+AF-010,AF,Atrial fibrillation,development,citation_correctness,C4 minus C1,3.0
+AF-010,AF,Atrial fibrillation,development,citation_correctness,C4 minus C3,0.0
+AF-011,AF,Atrial fibrillation,development,guideline_concordance,C4 minus C1,1.0
+AF-011,AF,Atrial fibrillation,development,guideline_concordance,C4 minus C3,0.0
+AF-011,AF,Atrial fibrillation,development,citation_correctness,C4 minus C1,3.0
+AF-011,AF,Atrial fibrillation,development,citation_correctness,C4 minus C3,0.0
+AF-012,AF,Atrial fibrillation,development,guideline_concordance,C4 minus C1,1.0
+AF-012,AF,Atrial fibrillation,development,guideline_concordance,C4 minus C3,1.0
+AF-012,AF,Atrial fibrillation,development,citation_correctness,C4 minus C1,2.0
+AF-012,AF,Atrial fibrillation,development,citation_correctness,C4 minus C3,0.0
+AF-013,AF,Atrial fibrillation,development,guideline_concordance,C4 minus C1,1.0
+AF-013,AF,Atrial fibrillation,development,guideline_concordance,C4 minus C3,0.0
+AF-013,AF,Atrial fibrillation,development,citation_correctness,C4 minus C1,3.0
+AF-013,AF,Atrial fibrillation,development,citation_correctness,C4 minus C3,0.0
+AF-014,AF,Atrial fibrillation,development,guideline_concordance,C4 minus C1,0.0
+AF-014,AF,Atrial fibrillation,development,guideline_concordance,C4 minus C3,0.0
+AF-014,AF,Atrial fibrillation,development,citation_correctness,C4 minus C1,2.0
+AF-014,AF,Atrial fibrillation,development,citation_correctness,C4 minus C3,0.0
+AF-015,AF,Atrial fibrillation,development,guideline_concordance,C4 minus C1,1.0
+AF-015,AF,Atrial fibrillation,development,guideline_concordance,C4 minus C3,0.0
+AF-015,AF,Atrial fibrillation,development,citation_correctness,C4 minus C1,3.0
+AF-015,AF,Atrial fibrillation,development,citation_correctness,C4 minus C3,1.0
+AF-016,AF,Atrial fibrillation,development,guideline_concordance,C4 minus C1,0.0
+AF-016,AF,Atrial fibrillation,development,guideline_concordance,C4 minus C3,0.0
+AF-016,AF,Atrial fibrillation,development,citation_correctness,C4 minus C1,3.0
+AF-016,AF,Atrial fibrillation,development,citation_correctness,C4 minus C3,1.0
+AF-017,AF,Atrial fibrillation,held_out_synthetic,guideline_concordance,C4 minus C1,1.0
+AF-017,AF,Atrial fibrillation,held_out_synthetic,guideline_concordance,C4 minus C3,0.0
+AF-017,AF,Atrial fibrillation,held_out_synthetic,citation_correctness,C4 minus C1,2.0
+AF-017,AF,Atrial fibrillation,held_out_synthetic,citation_correctness,C4 minus C3,0.0
+AF-018,AF,Atrial fibrillation,development,guideline_concordance,C4 minus C1,1.0
+AF-018,AF,Atrial fibrillation,development,guideline_concordance,C4 minus C3,0.0
+AF-018,AF,Atrial fibrillation,development,citation_correctness,C4 minus C1,3.0
+AF-018,AF,Atrial fibrillation,development,citation_correctness,C4 minus C3,0.0
+AF-019,AF,Atrial fibrillation,development,guideline_concordance,C4 minus C1,1.0
+AF-019,AF,Atrial fibrillation,development,guideline_concordance,C4 minus C3,0.0
+AF-019,AF,Atrial fibrillation,development,citation_correctness,C4 minus C1,2.0
+AF-019,AF,Atrial fibrillation,development,citation_correctness,C4 minus C3,1.0
+AF-020,AF,Atrial fibrillation,development,guideline_concordance,C4 minus C1,1.0
+AF-020,AF,Atrial fibrillation,development,guideline_concordance,C4 minus C3,0.0
+AF-020,AF,Atrial fibrillation,development,citation_correctness,C4 minus C1,2.0
+AF-020,AF,Atrial fibrillation,development,citation_correctness,C4 minus C3,0.0
+AF-021,AF,Atrial fibrillation,development,guideline_concordance,C4 minus C1,0.0
+AF-021,AF,Atrial fibrillation,development,guideline_concordance,C4 minus C3,0.0
+AF-021,AF,Atrial fibrillation,development,citation_correctness,C4 minus C1,3.0
+AF-021,AF,Atrial fibrillation,development,citation_correctness,C4 minus C3,0.0
+AF-022,AF,Atrial fibrillation,development,guideline_concordance,C4 minus C1,1.0
+AF-022,AF,Atrial fibrillation,development,guideline_concordance,C4 minus C3,0.0
+AF-022,AF,Atrial fibrillation,development,citation_correctness,C4 minus C1,2.0
+AF-022,AF,Atrial fibrillation,development,citation_correctness,C4 minus C3,1.0
+AF-023,AF,Atrial fibrillation,held_out_synthetic,guideline_concordance,C4 minus C1,1.0
+AF-023,AF,Atrial fibrillation,held_out_synthetic,guideline_concordance,C4 minus C3,1.0
+AF-023,AF,Atrial fibrillation,held_out_synthetic,citation_correctness,C4 minus C1,3.0
+AF-023,AF,Atrial fibrillation,held_out_synthetic,citation_correctness,C4 minus C3,0.0
+AF-024,AF,Atrial fibrillation,development,guideline_concordance,C4 minus C1,2.0
+AF-024,AF,Atrial fibrillation,development,guideline_concordance,C4 minus C3,0.0
+AF-024,AF,Atrial fibrillation,development,citation_correctness,C4 minus C1,3.0
+AF-024,AF,Atrial fibrillation,development,citation_correctness,C4 minus C3,0.0
+AF-025,AF,Atrial fibrillation,development,guideline_concordance,C4 minus C1,1.0
+AF-025,AF,Atrial fibrillation,development,guideline_concordance,C4 minus C3,1.0
+AF-025,AF,Atrial fibrillation,development,citation_correctness,C4 minus C1,3.0
+AF-025,AF,Atrial fibrillation,development,citation_correctness,C4 minus C3,0.0
+AF-026,AF,Atrial fibrillation,development,guideline_concordance,C4 minus C1,0.0
+AF-026,AF,Atrial fibrillation,development,guideline_concordance,C4 minus C3,-1.0
+AF-026,AF,Atrial fibrillation,development,citation_correctness,C4 minus C1,3.0
+AF-026,AF,Atrial fibrillation,development,citation_correctness,C4 minus C3,0.0
+AF-027,AF,Atrial fibrillation,held_out_synthetic,guideline_concordance,C4 minus C1,1.0
+AF-027,AF,Atrial fibrillation,held_out_synthetic,guideline_concordance,C4 minus C3,0.0
+AF-027,AF,Atrial fibrillation,held_out_synthetic,citation_correctness,C4 minus C1,3.0
+AF-027,AF,Atrial fibrillation,held_out_synthetic,citation_correctness,C4 minus C3,1.0
+AF-028,AF,Atrial fibrillation,development,guideline_concordance,C4 minus C1,0.0
+AF-028,AF,Atrial fibrillation,development,guideline_concordance,C4 minus C3,0.0
+AF-028,AF,Atrial fibrillation,development,citation_correctness,C4 minus C1,3.0
+AF-028,AF,Atrial fibrillation,development,citation_correctness,C4 minus C3,2.0
+AF-029,AF,Atrial fibrillation,development,guideline_concordance,C4 minus C1,1.0
+AF-029,AF,Atrial fibrillation,development,guideline_concordance,C4 minus C3,0.0
+AF-029,AF,Atrial fibrillation,development,citation_correctness,C4 minus C1,3.0
+AF-029,AF,Atrial fibrillation,development,citation_correctness,C4 minus C3,0.0
+AF-030,AF,Atrial fibrillation,development,guideline_concordance,C4 minus C1,1.0
+AF-030,AF,Atrial fibrillation,development,guideline_concordance,C4 minus C3,0.0
+AF-030,AF,Atrial fibrillation,development,citation_correctness,C4 minus C1,3.0
+AF-030,AF,Atrial fibrillation,development,citation_correctness,C4 minus C3,0.0
+AF-031,AF,Atrial fibrillation,development,guideline_concordance,C4 minus C1,2.0
+AF-031,AF,Atrial fibrillation,development,guideline_concordance,C4 minus C3,1.0
+AF-031,AF,Atrial fibrillation,development,citation_correctness,C4 minus C1,3.0
+AF-031,AF,Atrial fibrillation,development,citation_correctness,C4 minus C3,0.0
+AF-032,AF,Atrial fibrillation,held_out_synthetic,guideline_concordance,C4 minus C1,0.0
+AF-032,AF,Atrial fibrillation,held_out_synthetic,guideline_concordance,C4 minus C3,0.0
+AF-032,AF,Atrial fibrillation,held_out_synthetic,citation_correctness,C4 minus C1,0.0
+AF-032,AF,Atrial fibrillation,held_out_synthetic,citation_correctness,C4 minus C3,0.0
+AF-033,AF,Atrial fibrillation,development,guideline_concordance,C4 minus C1,0.0
+AF-033,AF,Atrial fibrillation,development,guideline_concordance,C4 minus C3,0.0
+AF-033,AF,Atrial fibrillation,development,citation_correctness,C4 minus C1,3.0
+AF-033,AF,Atrial fibrillation,development,citation_correctness,C4 minus C3,0.0
+AF-034,AF,Atrial fibrillation,development,guideline_concordance,C4 minus C1,1.0
+AF-034,AF,Atrial fibrillation,development,guideline_concordance,C4 minus C3,0.0
+AF-034,AF,Atrial fibrillation,development,citation_correctness,C4 minus C1,3.0
+AF-034,AF,Atrial fibrillation,development,citation_correctness,C4 minus C3,0.0
+AF-035,AF,Atrial fibrillation,development,guideline_concordance,C4 minus C1,0.0
+AF-035,AF,Atrial fibrillation,development,guideline_concordance,C4 minus C3,0.0
+AF-035,AF,Atrial fibrillation,development,citation_correctness,C4 minus C1,0.0
+AF-035,AF,Atrial fibrillation,development,citation_correctness,C4 minus C3,0.0
+AF-036,AF,Atrial fibrillation,development,guideline_concordance,C4 minus C1,0.0
+AF-036,AF,Atrial fibrillation,development,guideline_concordance,C4 minus C3,0.0
+AF-036,AF,Atrial fibrillation,development,citation_correctness,C4 minus C1,0.0
+AF-036,AF,Atrial fibrillation,development,citation_correctness,C4 minus C3,0.0
+AF-037,AF,Atrial fibrillation,held_out_synthetic,guideline_concordance,C4 minus C1,0.0
+AF-037,AF,Atrial fibrillation,held_out_synthetic,guideline_concordance,C4 minus C3,0.0
+AF-037,AF,Atrial fibrillation,held_out_synthetic,citation_correctness,C4 minus C1,0.0
+AF-037,AF,Atrial fibrillation,held_out_synthetic,citation_correctness,C4 minus C3,0.0
+AF-038,AF,Atrial fibrillation,held_out_synthetic,guideline_concordance,C4 minus C1,0.0
+AF-038,AF,Atrial fibrillation,held_out_synthetic,guideline_concordance,C4 minus C3,0.0
+AF-038,AF,Atrial fibrillation,held_out_synthetic,citation_correctness,C4 minus C1,3.0
+AF-038,AF,Atrial fibrillation,held_out_synthetic,citation_correctness,C4 minus C3,0.0
+AF-039,AF,Atrial fibrillation,development,guideline_concordance,C4 minus C1,0.0
+AF-039,AF,Atrial fibrillation,development,guideline_concordance,C4 minus C3,1.0
+AF-039,AF,Atrial fibrillation,development,citation_correctness,C4 minus C1,3.0
+AF-039,AF,Atrial fibrillation,development,citation_correctness,C4 minus C3,0.0
+AF-040,AF,Atrial fibrillation,development,guideline_concordance,C4 minus C1,0.0
+AF-040,AF,Atrial fibrillation,development,guideline_concordance,C4 minus C3,0.0
+AF-040,AF,Atrial fibrillation,development,citation_correctness,C4 minus C1,0.0
+AF-040,AF,Atrial fibrillation,development,citation_correctness,C4 minus C3,0.0
+CAD-001,CAD,Coronary artery disease,development,guideline_concordance,C4 minus C1,2.0
+CAD-001,CAD,Coronary artery disease,development,guideline_concordance,C4 minus C3,1.0
+CAD-001,CAD,Coronary artery disease,development,citation_correctness,C4 minus C1,3.0
+CAD-001,CAD,Coronary artery disease,development,citation_correctness,C4 minus C3,0.0
+CAD-002,CAD,Coronary artery disease,development,guideline_concordance,C4 minus C1,1.0
+CAD-002,CAD,Coronary artery disease,development,guideline_concordance,C4 minus C3,0.0
+CAD-002,CAD,Coronary artery disease,development,citation_correctness,C4 minus C1,3.0
+CAD-002,CAD,Coronary artery disease,development,citation_correctness,C4 minus C3,0.0
+CAD-003,CAD,Coronary artery disease,development,guideline_concordance,C4 minus C1,2.0
+CAD-003,CAD,Coronary artery disease,development,guideline_concordance,C4 minus C3,-1.0
+CAD-003,CAD,Coronary artery disease,development,citation_correctness,C4 minus C1,4.0
+CAD-003,CAD,Coronary artery disease,development,citation_correctness,C4 minus C3,0.0
+CAD-004,CAD,Coronary artery disease,held_out_synthetic,guideline_concordance,C4 minus C1,1.0
+CAD-004,CAD,Coronary artery disease,held_out_synthetic,guideline_concordance,C4 minus C3,0.0
+CAD-004,CAD,Coronary artery disease,held_out_synthetic,citation_correctness,C4 minus C1,3.0
+CAD-004,CAD,Coronary artery disease,held_out_synthetic,citation_correctness,C4 minus C3,1.0
+CAD-005,CAD,Coronary artery disease,held_out_synthetic,guideline_concordance,C4 minus C1,2.0
+CAD-005,CAD,Coronary artery disease,held_out_synthetic,guideline_concordance,C4 minus C3,0.0
+CAD-005,CAD,Coronary artery disease,held_out_synthetic,citation_correctness,C4 minus C1,3.0
+CAD-005,CAD,Coronary artery disease,held_out_synthetic,citation_correctness,C4 minus C3,0.0
+CAD-006,CAD,Coronary artery disease,development,guideline_concordance,C4 minus C1,1.0
+CAD-006,CAD,Coronary artery disease,development,guideline_concordance,C4 minus C3,0.0
+CAD-006,CAD,Coronary artery disease,development,citation_correctness,C4 minus C1,3.0
+CAD-006,CAD,Coronary artery disease,development,citation_correctness,C4 minus C3,0.0
+CAD-007,CAD,Coronary artery disease,development,guideline_concordance,C4 minus C1,0.0
+CAD-007,CAD,Coronary artery disease,development,guideline_concordance,C4 minus C3,-1.0
+CAD-007,CAD,Coronary artery disease,development,citation_correctness,C4 minus C1,3.0
+CAD-007,CAD,Coronary artery disease,development,citation_correctness,C4 minus C3,0.0
+CAD-008,CAD,Coronary artery disease,development,guideline_concordance,C4 minus C1,2.0
+CAD-008,CAD,Coronary artery disease,development,guideline_concordance,C4 minus C3,1.0
+CAD-008,CAD,Coronary artery disease,development,citation_correctness,C4 minus C1,3.0
+CAD-008,CAD,Coronary artery disease,development,citation_correctness,C4 minus C3,0.0
+CAD-009,CAD,Coronary artery disease,development,guideline_concordance,C4 minus C1,1.0
+CAD-009,CAD,Coronary artery disease,development,guideline_concordance,C4 minus C3,0.0
+CAD-009,CAD,Coronary artery disease,development,citation_correctness,C4 minus C1,3.0
+CAD-009,CAD,Coronary artery disease,development,citation_correctness,C4 minus C3,1.0
+CAD-010,CAD,Coronary artery disease,development,guideline_concordance,C4 minus C1,2.0
+CAD-010,CAD,Coronary artery disease,development,guideline_concordance,C4 minus C3,-1.0
+CAD-010,CAD,Coronary artery disease,development,citation_correctness,C4 minus C1,3.0
+CAD-010,CAD,Coronary artery disease,development,citation_correctness,C4 minus C3,0.0
+CAD-011,CAD,Coronary artery disease,development,guideline_concordance,C4 minus C1,1.0
+CAD-011,CAD,Coronary artery disease,development,guideline_concordance,C4 minus C3,-1.0
+CAD-011,CAD,Coronary artery disease,development,citation_correctness,C4 minus C1,3.0
+CAD-011,CAD,Coronary artery disease,development,citation_correctness,C4 minus C3,0.0
+CAD-012,CAD,Coronary artery disease,held_out_synthetic,guideline_concordance,C4 minus C1,1.0
+CAD-012,CAD,Coronary artery disease,held_out_synthetic,guideline_concordance,C4 minus C3,0.0
+CAD-012,CAD,Coronary artery disease,held_out_synthetic,citation_correctness,C4 minus C1,3.0
+CAD-012,CAD,Coronary artery disease,held_out_synthetic,citation_correctness,C4 minus C3,0.0
+CAD-013,CAD,Coronary artery disease,development,guideline_concordance,C4 minus C1,1.0
+CAD-013,CAD,Coronary artery disease,development,guideline_concordance,C4 minus C3,1.0
+CAD-013,CAD,Coronary artery disease,development,citation_correctness,C4 minus C1,3.0
+CAD-013,CAD,Coronary artery disease,development,citation_correctness,C4 minus C3,0.0
+CAD-014,CAD,Coronary artery disease,held_out_synthetic,guideline_concordance,C4 minus C1,0.0
+CAD-014,CAD,Coronary artery disease,held_out_synthetic,guideline_concordance,C4 minus C3,0.0
+CAD-014,CAD,Coronary artery disease,held_out_synthetic,citation_correctness,C4 minus C1,2.0
+CAD-014,CAD,Coronary artery disease,held_out_synthetic,citation_correctness,C4 minus C3,0.0
+CAD-015,CAD,Coronary artery disease,held_out_synthetic,guideline_concordance,C4 minus C1,0.0
+CAD-015,CAD,Coronary artery disease,held_out_synthetic,guideline_concordance,C4 minus C3,0.0
+CAD-015,CAD,Coronary artery disease,held_out_synthetic,citation_correctness,C4 minus C1,3.0
+CAD-015,CAD,Coronary artery disease,held_out_synthetic,citation_correctness,C4 minus C3,0.0
+CAD-016,CAD,Coronary artery disease,development,guideline_concordance,C4 minus C1,1.0
+CAD-016,CAD,Coronary artery disease,development,guideline_concordance,C4 minus C3,0.0
+CAD-016,CAD,Coronary artery disease,development,citation_correctness,C4 minus C1,3.0
+CAD-016,CAD,Coronary artery disease,development,citation_correctness,C4 minus C3,0.0
+CAD-017,CAD,Coronary artery disease,development,guideline_concordance,C4 minus C1,1.0
+CAD-017,CAD,Coronary artery disease,development,guideline_concordance,C4 minus C3,0.0
+CAD-017,CAD,Coronary artery disease,development,citation_correctness,C4 minus C1,3.0
+CAD-017,CAD,Coronary artery disease,development,citation_correctness,C4 minus C3,0.0
+CAD-018,CAD,Coronary artery disease,held_out_synthetic,guideline_concordance,C4 minus C1,1.0
+CAD-018,CAD,Coronary artery disease,held_out_synthetic,guideline_concordance,C4 minus C3,0.0
+CAD-018,CAD,Coronary artery disease,held_out_synthetic,citation_correctness,C4 minus C1,4.0
+CAD-018,CAD,Coronary artery disease,held_out_synthetic,citation_correctness,C4 minus C3,0.0
+CAD-019,CAD,Coronary artery disease,development,guideline_concordance,C4 minus C1,1.0
+CAD-019,CAD,Coronary artery disease,development,guideline_concordance,C4 minus C3,1.0
+CAD-019,CAD,Coronary artery disease,development,citation_correctness,C4 minus C1,3.0
+CAD-019,CAD,Coronary artery disease,development,citation_correctness,C4 minus C3,0.0
+CAD-020,CAD,Coronary artery disease,development,guideline_concordance,C4 minus C1,0.0
+CAD-020,CAD,Coronary artery disease,development,guideline_concordance,C4 minus C3,-1.0
+CAD-020,CAD,Coronary artery disease,development,citation_correctness,C4 minus C1,3.0
+CAD-020,CAD,Coronary artery disease,development,citation_correctness,C4 minus C3,2.0
+CAD-021,CAD,Coronary artery disease,development,guideline_concordance,C4 minus C1,1.0
+CAD-021,CAD,Coronary artery disease,development,guideline_concordance,C4 minus C3,0.0
+CAD-021,CAD,Coronary artery disease,development,citation_correctness,C4 minus C1,3.0
+CAD-021,CAD,Coronary artery disease,development,citation_correctness,C4 minus C3,0.0
+CAD-022,CAD,Coronary artery disease,development,guideline_concordance,C4 minus C1,1.0
+CAD-022,CAD,Coronary artery disease,development,guideline_concordance,C4 minus C3,1.0
+CAD-022,CAD,Coronary artery disease,development,citation_correctness,C4 minus C1,3.0
+CAD-022,CAD,Coronary artery disease,development,citation_correctness,C4 minus C3,0.0
+CAD-023,CAD,Coronary artery disease,development,guideline_concordance,C4 minus C1,2.0
+CAD-023,CAD,Coronary artery disease,development,guideline_concordance,C4 minus C3,2.0
+CAD-023,CAD,Coronary artery disease,development,citation_correctness,C4 minus C1,2.0
+CAD-023,CAD,Coronary artery disease,development,citation_correctness,C4 minus C3,0.0
+CAD-024,CAD,Coronary artery disease,development,guideline_concordance,C4 minus C1,1.0
+CAD-024,CAD,Coronary artery disease,development,guideline_concordance,C4 minus C3,0.0
+CAD-024,CAD,Coronary artery disease,development,citation_correctness,C4 minus C1,3.0
+CAD-024,CAD,Coronary artery disease,development,citation_correctness,C4 minus C3,0.0
+CAD-025,CAD,Coronary artery disease,development,guideline_concordance,C4 minus C1,1.0
+CAD-025,CAD,Coronary artery disease,development,guideline_concordance,C4 minus C3,1.0
+CAD-025,CAD,Coronary artery disease,development,citation_correctness,C4 minus C1,3.0
+CAD-025,CAD,Coronary artery disease,development,citation_correctness,C4 minus C3,0.0
+CAD-026,CAD,Coronary artery disease,development,guideline_concordance,C4 minus C1,2.0
+CAD-026,CAD,Coronary artery disease,development,guideline_concordance,C4 minus C3,1.0
+CAD-026,CAD,Coronary artery disease,development,citation_correctness,C4 minus C1,3.0
+CAD-026,CAD,Coronary artery disease,development,citation_correctness,C4 minus C3,0.0
+CAD-027,CAD,Coronary artery disease,development,guideline_concordance,C4 minus C1,2.0
+CAD-027,CAD,Coronary artery disease,development,guideline_concordance,C4 minus C3,0.0
+CAD-027,CAD,Coronary artery disease,development,citation_correctness,C4 minus C1,3.0
+CAD-027,CAD,Coronary artery disease,development,citation_correctness,C4 minus C3,0.0
+CAD-028,CAD,Coronary artery disease,held_out_synthetic,guideline_concordance,C4 minus C1,1.0
+CAD-028,CAD,Coronary artery disease,held_out_synthetic,guideline_concordance,C4 minus C3,1.0
+CAD-028,CAD,Coronary artery disease,held_out_synthetic,citation_correctness,C4 minus C1,3.0
+CAD-028,CAD,Coronary artery disease,held_out_synthetic,citation_correctness,C4 minus C3,0.0
+CAD-029,CAD,Coronary artery disease,held_out_synthetic,guideline_concordance,C4 minus C1,2.0
+CAD-029,CAD,Coronary artery disease,held_out_synthetic,guideline_concordance,C4 minus C3,1.0
+CAD-029,CAD,Coronary artery disease,held_out_synthetic,citation_correctness,C4 minus C1,3.0
+CAD-029,CAD,Coronary artery disease,held_out_synthetic,citation_correctness,C4 minus C3,0.0
+CAD-030,CAD,Coronary artery disease,held_out_synthetic,guideline_concordance,C4 minus C1,3.0
+CAD-030,CAD,Coronary artery disease,held_out_synthetic,guideline_concordance,C4 minus C3,1.0
+CAD-030,CAD,Coronary artery disease,held_out_synthetic,citation_correctness,C4 minus C1,3.0
+CAD-030,CAD,Coronary artery disease,held_out_synthetic,citation_correctness,C4 minus C3,0.0
+CAD-031,CAD,Coronary artery disease,development,guideline_concordance,C4 minus C1,0.0
+CAD-031,CAD,Coronary artery disease,development,guideline_concordance,C4 minus C3,0.0
+CAD-031,CAD,Coronary artery disease,development,citation_correctness,C4 minus C1,0.0
+CAD-031,CAD,Coronary artery disease,development,citation_correctness,C4 minus C3,0.0
+CAD-032,CAD,Coronary artery disease,held_out_synthetic,guideline_concordance,C4 minus C1,0.0
+CAD-032,CAD,Coronary artery disease,held_out_synthetic,guideline_concordance,C4 minus C3,0.0
+CAD-032,CAD,Coronary artery disease,held_out_synthetic,citation_correctness,C4 minus C1,0.0
+CAD-032,CAD,Coronary artery disease,held_out_synthetic,citation_correctness,C4 minus C3,0.0
+CAD-033,CAD,Coronary artery disease,development,guideline_concordance,C4 minus C1,1.0
+CAD-033,CAD,Coronary artery disease,development,guideline_concordance,C4 minus C3,-1.0
+CAD-033,CAD,Coronary artery disease,development,citation_correctness,C4 minus C1,3.0
+CAD-033,CAD,Coronary artery disease,development,citation_correctness,C4 minus C3,0.0
+CAD-034,CAD,Coronary artery disease,development,guideline_concordance,C4 minus C1,2.0
+CAD-034,CAD,Coronary artery disease,development,guideline_concordance,C4 minus C3,1.0
+CAD-034,CAD,Coronary artery disease,development,citation_correctness,C4 minus C1,3.0
+CAD-034,CAD,Coronary artery disease,development,citation_correctness,C4 minus C3,0.0
+CAD-035,CAD,Coronary artery disease,development,guideline_concordance,C4 minus C1,1.0
+CAD-035,CAD,Coronary artery disease,development,guideline_concordance,C4 minus C3,0.0
+CAD-035,CAD,Coronary artery disease,development,citation_correctness,C4 minus C1,3.0
+CAD-035,CAD,Coronary artery disease,development,citation_correctness,C4 minus C3,0.0
+CAD-036,CAD,Coronary artery disease,held_out_synthetic,guideline_concordance,C4 minus C1,1.0
+CAD-036,CAD,Coronary artery disease,held_out_synthetic,guideline_concordance,C4 minus C3,0.0
+CAD-036,CAD,Coronary artery disease,held_out_synthetic,citation_correctness,C4 minus C1,3.0
+CAD-036,CAD,Coronary artery disease,held_out_synthetic,citation_correctness,C4 minus C3,0.0
+CAD-037,CAD,Coronary artery disease,development,guideline_concordance,C4 minus C1,1.0
+CAD-037,CAD,Coronary artery disease,development,guideline_concordance,C4 minus C3,0.0
+CAD-037,CAD,Coronary artery disease,development,citation_correctness,C4 minus C1,3.0
+CAD-037,CAD,Coronary artery disease,development,citation_correctness,C4 minus C3,0.0
+CAD-038,CAD,Coronary artery disease,development,guideline_concordance,C4 minus C1,1.0
+CAD-038,CAD,Coronary artery disease,development,guideline_concordance,C4 minus C3,1.0
+CAD-038,CAD,Coronary artery disease,development,citation_correctness,C4 minus C1,3.0
+CAD-038,CAD,Coronary artery disease,development,citation_correctness,C4 minus C3,1.0
+CAD-039,CAD,Coronary artery disease,development,guideline_concordance,C4 minus C1,0.0
+CAD-039,CAD,Coronary artery disease,development,guideline_concordance,C4 minus C3,0.0
+CAD-039,CAD,Coronary artery disease,development,citation_correctness,C4 minus C1,0.0
+CAD-039,CAD,Coronary artery disease,development,citation_correctness,C4 minus C3,0.0
+CAD-040,CAD,Coronary artery disease,development,guideline_concordance,C4 minus C1,1.0
+CAD-040,CAD,Coronary artery disease,development,guideline_concordance,C4 minus C3,0.0
+CAD-040,CAD,Coronary artery disease,development,citation_correctness,C4 minus C1,3.0
+CAD-040,CAD,Coronary artery disease,development,citation_correctness,C4 minus C3,0.0
+HF-001,HF,Heart failure,development,guideline_concordance,C4 minus C1,1.0
+HF-001,HF,Heart failure,development,guideline_concordance,C4 minus C3,0.0
+HF-001,HF,Heart failure,development,citation_correctness,C4 minus C1,3.0
+HF-001,HF,Heart failure,development,citation_correctness,C4 minus C3,0.0
+HF-002,HF,Heart failure,development,guideline_concordance,C4 minus C1,2.0
+HF-002,HF,Heart failure,development,guideline_concordance,C4 minus C3,0.0
+HF-002,HF,Heart failure,development,citation_correctness,C4 minus C1,3.0
+HF-002,HF,Heart failure,development,citation_correctness,C4 minus C3,1.0
+HF-003,HF,Heart failure,development,guideline_concordance,C4 minus C1,1.0
+HF-003,HF,Heart failure,development,guideline_concordance,C4 minus C3,-1.0
+HF-003,HF,Heart failure,development,citation_correctness,C4 minus C1,3.0
+HF-003,HF,Heart failure,development,citation_correctness,C4 minus C3,0.0
+HF-004,HF,Heart failure,development,guideline_concordance,C4 minus C1,1.0
+HF-004,HF,Heart failure,development,guideline_concordance,C4 minus C3,0.0
+HF-004,HF,Heart failure,development,citation_correctness,C4 minus C1,3.0
+HF-004,HF,Heart failure,development,citation_correctness,C4 minus C3,0.0
+HF-005,HF,Heart failure,development,guideline_concordance,C4 minus C1,2.0
+HF-005,HF,Heart failure,development,guideline_concordance,C4 minus C3,1.0
+HF-005,HF,Heart failure,development,citation_correctness,C4 minus C1,3.0
+HF-005,HF,Heart failure,development,citation_correctness,C4 minus C3,0.0
+HF-006,HF,Heart failure,development,guideline_concordance,C4 minus C1,2.0
+HF-006,HF,Heart failure,development,guideline_concordance,C4 minus C3,1.0
+HF-006,HF,Heart failure,development,citation_correctness,C4 minus C1,2.0
+HF-006,HF,Heart failure,development,citation_correctness,C4 minus C3,0.0
+HF-007,HF,Heart failure,development,guideline_concordance,C4 minus C1,3.0
+HF-007,HF,Heart failure,development,guideline_concordance,C4 minus C3,1.0
+HF-007,HF,Heart failure,development,citation_correctness,C4 minus C1,3.0
+HF-007,HF,Heart failure,development,citation_correctness,C4 minus C3,0.0
+HF-008,HF,Heart failure,development,guideline_concordance,C4 minus C1,1.0
+HF-008,HF,Heart failure,development,guideline_concordance,C4 minus C3,0.0
+HF-008,HF,Heart failure,development,citation_correctness,C4 minus C1,3.0
+HF-008,HF,Heart failure,development,citation_correctness,C4 minus C3,0.0
+HF-009,HF,Heart failure,development,guideline_concordance,C4 minus C1,1.0
+HF-009,HF,Heart failure,development,guideline_concordance,C4 minus C3,1.0
+HF-009,HF,Heart failure,development,citation_correctness,C4 minus C1,3.0
+HF-009,HF,Heart failure,development,citation_correctness,C4 minus C3,0.0
+HF-010,HF,Heart failure,development,guideline_concordance,C4 minus C1,3.0
+HF-010,HF,Heart failure,development,guideline_concordance,C4 minus C3,1.0
+HF-010,HF,Heart failure,development,citation_correctness,C4 minus C1,3.0
+HF-010,HF,Heart failure,development,citation_correctness,C4 minus C3,0.0
+HF-011,HF,Heart failure,development,guideline_concordance,C4 minus C1,2.0
+HF-011,HF,Heart failure,development,guideline_concordance,C4 minus C3,1.0
+HF-011,HF,Heart failure,development,citation_correctness,C4 minus C1,4.0
+HF-011,HF,Heart failure,development,citation_correctness,C4 minus C3,3.0
+HF-012,HF,Heart failure,development,guideline_concordance,C4 minus C1,2.0
+HF-012,HF,Heart failure,development,guideline_concordance,C4 minus C3,0.0
+HF-012,HF,Heart failure,development,citation_correctness,C4 minus C1,3.0
+HF-012,HF,Heart failure,development,citation_correctness,C4 minus C3,0.0
+HF-013,HF,Heart failure,development,guideline_concordance,C4 minus C1,1.0
+HF-013,HF,Heart failure,development,guideline_concordance,C4 minus C3,0.0
+HF-013,HF,Heart failure,development,citation_correctness,C4 minus C1,3.0
+HF-013,HF,Heart failure,development,citation_correctness,C4 minus C3,0.0
+HF-014,HF,Heart failure,development,guideline_concordance,C4 minus C1,-1.0
+HF-014,HF,Heart failure,development,guideline_concordance,C4 minus C3,0.0
+HF-014,HF,Heart failure,development,citation_correctness,C4 minus C1,0.0
+HF-014,HF,Heart failure,development,citation_correctness,C4 minus C3,0.0
+HF-015,HF,Heart failure,held_out_synthetic,guideline_concordance,C4 minus C1,1.0
+HF-015,HF,Heart failure,held_out_synthetic,guideline_concordance,C4 minus C3,0.0
+HF-015,HF,Heart failure,held_out_synthetic,citation_correctness,C4 minus C1,3.0
+HF-015,HF,Heart failure,held_out_synthetic,citation_correctness,C4 minus C3,0.0
+HF-016,HF,Heart failure,development,guideline_concordance,C4 minus C1,1.0
+HF-016,HF,Heart failure,development,guideline_concordance,C4 minus C3,0.0
+HF-016,HF,Heart failure,development,citation_correctness,C4 minus C1,3.0
+HF-016,HF,Heart failure,development,citation_correctness,C4 minus C3,0.0
+HF-017,HF,Heart failure,development,guideline_concordance,C4 minus C1,3.0
+HF-017,HF,Heart failure,development,guideline_concordance,C4 minus C3,1.0
+HF-017,HF,Heart failure,development,citation_correctness,C4 minus C1,3.0
+HF-017,HF,Heart failure,development,citation_correctness,C4 minus C3,0.0
+HF-018,HF,Heart failure,development,guideline_concordance,C4 minus C1,2.0
+HF-018,HF,Heart failure,development,guideline_concordance,C4 minus C3,-1.0
+HF-018,HF,Heart failure,development,citation_correctness,C4 minus C1,3.0
+HF-018,HF,Heart failure,development,citation_correctness,C4 minus C3,0.0
+HF-019,HF,Heart failure,development,guideline_concordance,C4 minus C1,2.0
+HF-019,HF,Heart failure,development,guideline_concordance,C4 minus C3,1.0
+HF-019,HF,Heart failure,development,citation_correctness,C4 minus C1,3.0
+HF-019,HF,Heart failure,development,citation_correctness,C4 minus C3,0.0
+HF-020,HF,Heart failure,development,guideline_concordance,C4 minus C1,1.0
+HF-020,HF,Heart failure,development,guideline_concordance,C4 minus C3,0.0
+HF-020,HF,Heart failure,development,citation_correctness,C4 minus C1,3.0
+HF-020,HF,Heart failure,development,citation_correctness,C4 minus C3,0.0
+HF-021,HF,Heart failure,development,guideline_concordance,C4 minus C1,1.0
+HF-021,HF,Heart failure,development,guideline_concordance,C4 minus C3,1.0
+HF-021,HF,Heart failure,development,citation_correctness,C4 minus C1,3.0
+HF-021,HF,Heart failure,development,citation_correctness,C4 minus C3,0.0
+HF-022,HF,Heart failure,development,guideline_concordance,C4 minus C1,1.0
+HF-022,HF,Heart failure,development,guideline_concordance,C4 minus C3,0.0
+HF-022,HF,Heart failure,development,citation_correctness,C4 minus C1,2.0
+HF-022,HF,Heart failure,development,citation_correctness,C4 minus C3,0.0
+HF-023,HF,Heart failure,development,guideline_concordance,C4 minus C1,2.0
+HF-023,HF,Heart failure,development,guideline_concordance,C4 minus C3,0.0
+HF-023,HF,Heart failure,development,citation_correctness,C4 minus C1,3.0
+HF-023,HF,Heart failure,development,citation_correctness,C4 minus C3,0.0
+HF-024,HF,Heart failure,development,guideline_concordance,C4 minus C1,2.0
+HF-024,HF,Heart failure,development,guideline_concordance,C4 minus C3,1.0
+HF-024,HF,Heart failure,development,citation_correctness,C4 minus C1,3.0
+HF-024,HF,Heart failure,development,citation_correctness,C4 minus C3,0.0
+HF-025,HF,Heart failure,held_out_synthetic,guideline_concordance,C4 minus C1,1.0
+HF-025,HF,Heart failure,held_out_synthetic,guideline_concordance,C4 minus C3,0.0
+HF-025,HF,Heart failure,held_out_synthetic,citation_correctness,C4 minus C1,2.0
+HF-025,HF,Heart failure,held_out_synthetic,citation_correctness,C4 minus C3,-1.0
+HF-026,HF,Heart failure,development,guideline_concordance,C4 minus C1,1.0
+HF-026,HF,Heart failure,development,guideline_concordance,C4 minus C3,0.0
+HF-026,HF,Heart failure,development,citation_correctness,C4 minus C1,3.0
+HF-026,HF,Heart failure,development,citation_correctness,C4 minus C3,0.0
+HF-027,HF,Heart failure,development,guideline_concordance,C4 minus C1,2.0
+HF-027,HF,Heart failure,development,guideline_concordance,C4 minus C3,2.0
+HF-027,HF,Heart failure,development,citation_correctness,C4 minus C1,3.0
+HF-027,HF,Heart failure,development,citation_correctness,C4 minus C3,0.0
+HF-028,HF,Heart failure,development,guideline_concordance,C4 minus C1,2.0
+HF-028,HF,Heart failure,development,guideline_concordance,C4 minus C3,1.0
+HF-028,HF,Heart failure,development,citation_correctness,C4 minus C1,3.0
+HF-028,HF,Heart failure,development,citation_correctness,C4 minus C3,0.0
+HF-029,HF,Heart failure,development,guideline_concordance,C4 minus C1,0.0
+HF-029,HF,Heart failure,development,guideline_concordance,C4 minus C3,0.0
+HF-029,HF,Heart failure,development,citation_correctness,C4 minus C1,2.0
+HF-029,HF,Heart failure,development,citation_correctness,C4 minus C3,0.0
+HF-030,HF,Heart failure,held_out_synthetic,guideline_concordance,C4 minus C1,3.0
+HF-030,HF,Heart failure,held_out_synthetic,guideline_concordance,C4 minus C3,1.0
+HF-030,HF,Heart failure,held_out_synthetic,citation_correctness,C4 minus C1,3.0
+HF-030,HF,Heart failure,held_out_synthetic,citation_correctness,C4 minus C3,0.0
+HF-031,HF,Heart failure,development,guideline_concordance,C4 minus C1,2.0
+HF-031,HF,Heart failure,development,guideline_concordance,C4 minus C3,1.0
+HF-031,HF,Heart failure,development,citation_correctness,C4 minus C1,3.0
+HF-031,HF,Heart failure,development,citation_correctness,C4 minus C3,1.0
+HF-032,HF,Heart failure,development,guideline_concordance,C4 minus C1,1.0
+HF-032,HF,Heart failure,development,guideline_concordance,C4 minus C3,1.0
+HF-032,HF,Heart failure,development,citation_correctness,C4 minus C1,3.0
+HF-032,HF,Heart failure,development,citation_correctness,C4 minus C3,0.0
+HF-033,HF,Heart failure,development,guideline_concordance,C4 minus C1,1.0
+HF-033,HF,Heart failure,development,guideline_concordance,C4 minus C3,1.0
+HF-033,HF,Heart failure,development,citation_correctness,C4 minus C1,3.0
+HF-033,HF,Heart failure,development,citation_correctness,C4 minus C3,2.0
+HF-034,HF,Heart failure,development,guideline_concordance,C4 minus C1,3.0
+HF-034,HF,Heart failure,development,guideline_concordance,C4 minus C3,1.0
+HF-034,HF,Heart failure,development,citation_correctness,C4 minus C1,3.0
+HF-034,HF,Heart failure,development,citation_correctness,C4 minus C3,0.0
+HF-035,HF,Heart failure,development,guideline_concordance,C4 minus C1,0.0
+HF-035,HF,Heart failure,development,guideline_concordance,C4 minus C3,0.0
+HF-035,HF,Heart failure,development,citation_correctness,C4 minus C1,0.0
+HF-035,HF,Heart failure,development,citation_correctness,C4 minus C3,0.0
+HF-036,HF,Heart failure,held_out_synthetic,guideline_concordance,C4 minus C1,0.0
+HF-036,HF,Heart failure,held_out_synthetic,guideline_concordance,C4 minus C3,0.0
+HF-036,HF,Heart failure,held_out_synthetic,citation_correctness,C4 minus C1,0.0
+HF-036,HF,Heart failure,held_out_synthetic,citation_correctness,C4 minus C3,0.0
+HF-037,HF,Heart failure,development,guideline_concordance,C4 minus C1,2.0
+HF-037,HF,Heart failure,development,guideline_concordance,C4 minus C3,0.0
+HF-037,HF,Heart failure,development,citation_correctness,C4 minus C1,3.0
+HF-037,HF,Heart failure,development,citation_correctness,C4 minus C3,0.0
+HF-038,HF,Heart failure,held_out_synthetic,guideline_concordance,C4 minus C1,1.0
+HF-038,HF,Heart failure,held_out_synthetic,guideline_concordance,C4 minus C3,1.0
+HF-038,HF,Heart failure,held_out_synthetic,citation_correctness,C4 minus C1,3.0
+HF-038,HF,Heart failure,held_out_synthetic,citation_correctness,C4 minus C3,0.0
+HF-039,HF,Heart failure,development,guideline_concordance,C4 minus C1,2.0
+HF-039,HF,Heart failure,development,guideline_concordance,C4 minus C3,2.0
+HF-039,HF,Heart failure,development,citation_correctness,C4 minus C1,3.0
+HF-039,HF,Heart failure,development,citation_correctness,C4 minus C3,1.0
+HF-040,HF,Heart failure,development,guideline_concordance,C4 minus C1,1.0
+HF-040,HF,Heart failure,development,guideline_concordance,C4 minus C3,0.0
+HF-040,HF,Heart failure,development,citation_correctness,C4 minus C1,3.0
+HF-040,HF,Heart failure,development,citation_correctness,C4 minus C3,0.0

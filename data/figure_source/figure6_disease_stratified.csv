@@ -1,0 +1,13 @@
+disease,disease_label,config,config_label,n_scenarios,guideline_concordance_mean,guideline_concordance_sd,citation_correctness_mean,citation_correctness_sd
+CAD,Coronary artery disease,vanilla,C1 Vanilla,40,2.325,0.4684,1.925,0.4116
+CAD,Coronary artery disease,naive_rag,C2 Naive RAG,40,2.475,0.4994,2.225,0.908
+CAD,Coronary artery disease,lightrag_generic,C3 LightRAG-Generic,40,3.25,0.5809,4.575,1.0929
+CAD,Coronary artery disease,cardiorag_full,C4 CardioRAG Full,40,3.45,0.669,4.7,1.0536
+HF,Heart failure,vanilla,C1 Vanilla,40,2.55,0.8047,2.075,0.6078
+HF,Heart failure,naive_rag,C2 Naive RAG,40,2.775,0.7579,2.35,0.8818
+HF,Heart failure,lightrag_generic,C3 LightRAG-Generic,40,3.55,0.7399,4.6,1.0198
+HF,Heart failure,cardiorag_full,C4 CardioRAG Full,40,4.025,0.7902,4.775,0.88
+AF,Atrial fibrillation,vanilla,C1 Vanilla,40,2.775,0.4737,2.1,0.7
+AF,Atrial fibrillation,naive_rag,C2 Naive RAG,40,2.9,0.5385,2.325,1.0341
+AF,Atrial fibrillation,lightrag_generic,C3 LightRAG-Generic,40,3.275,0.5472,4.275,1.3414
+AF,Atrial fibrillation,cardiorag_full,C4 CardioRAG Full,40,3.375,0.5333,4.5,1.3229

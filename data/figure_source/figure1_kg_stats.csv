@@ -1,0 +1,12 @@
+entity_type,node_count
+Drug,98
+GuidelineStatement,47
+Procedure,41
+DrugClass,28
+Biomarker,26
+Contraindication,26
+PatientFactor,26
+Disease,21
+Symptom,20
+RiskFactor,19
+Stratification,17

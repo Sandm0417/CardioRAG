@@ -1,0 +1,267 @@
+{"type": "node", "node_type": "Disease", "name": "Atrial Fibrillation", "attributes": {"types": ["paroxysmal", "persistent", "long-standing persistent", "permanent"], "guideline": "ESC 2024 AF"}}
+{"type": "node", "node_type": "Disease", "name": "Paroxysmal AF", "attributes": {"definition": "Self-terminating within 7 days", "guideline": "ESC 2024 AF"}}
+{"type": "node", "node_type": "Disease", "name": "Persistent AF", "attributes": {"definition": "Lasting >7 days or requiring cardioversion", "guideline": "ESC 2024 AF"}}
+{"type": "node", "node_type": "Disease", "name": "Atrial Flutter", "attributes": {"typical_cti_dependent": true, "guideline": "ESC 2024 AF"}}
+{"type": "node", "node_type": "Disease", "name": "Hypertrophic Cardiomyopathy", "attributes": {"AF_OAC": "OAC regardless of CHA2DS2-VA score", "guideline": "ESC 2024 AF"}}
+{"type": "node", "node_type": "Disease", "name": "Cardiac Amyloidosis", "attributes": {"AF_OAC": "OAC regardless of CHA2DS2-VA score", "guideline": "ESC 2024 AF"}}
+{"type": "node", "node_type": "Symptom", "name": "Palpitations", "attributes": {"description": "Irregular, rapid heartbeat sensation", "guideline": "ESC 2024 AF"}}
+{"type": "node", "node_type": "Symptom", "name": "Syncope", "attributes": {"AF_related": "Hemodynamic compromise or long pauses", "emergency": true, "guideline": "ESC 2024 AF"}}
+{"type": "node", "node_type": "Symptom", "name": "Fatigue", "attributes": {"guideline": "ESC 2024 AF"}}
+{"type": "node", "node_type": "Symptom", "name": "Chest Discomfort", "attributes": {"guideline": "ESC 2024 AF"}}
+{"type": "node", "node_type": "Drug", "name": "Apixaban", "attributes": {"class": "DOAC", "dose_standard": "5 mg bid", "dose_reduced": "2.5 mg bid", "criteria": "Age>=80 OR weight<=60kg OR Cr>=1.5", "guideline": "ESC 2024 AF"}}
+{"type": "node", "node_type": "Drug", "name": "Dabigatran", "attributes": {"class": "DOAC", "dose_standard": "150 mg bid", "dose_reduced": "110 mg bid", "criteria": "Age>=80 OR verapamil OR bleeding risk", "guideline": "ESC 2024 AF"}}
+{"type": "node", "node_type": "Drug", "name": "Edoxaban", "attributes": {"class": "DOAC", "dose_standard": "60 mg daily", "dose_reduced": "30 mg daily", "criteria": "CrCl 15-50 OR weight<=60kg OR P-gp inhibitor", "guideline": "ESC 2024 AF"}}
+{"type": "node", "node_type": "Drug", "name": "Rivaroxaban", "attributes": {"class": "DOAC", "dose_standard": "20 mg daily", "dose_reduced": "15 mg daily", "criteria": "CrCl 15-50", "guideline": "ESC 2024 AF"}}
+{"type": "node", "node_type": "Drug", "name": "Warfarin", "attributes": {"class": "VKA", "target_INR": "2.0-3.0", "TTR_target": ">70%", "guideline": "ESC 2024 AF"}}
+{"type": "node", "node_type": "Drug", "name": "Metoprolol", "attributes": {"class": "Beta-blocker", "dose": "25-100 mg bid", "indication": "Rate control first-line", "guideline": "ESC 2024 AF"}}
+{"type": "node", "node_type": "Drug", "name": "Verapamil", "attributes": {"class": "Non-dihydropyridine CCB", "dose": "120-240 mg daily", "indication": "Rate control", "guideline": "ESC 2024 AF"}}
+{"type": "node", "node_type": "Drug", "name": "Diltiazem", "attributes": {"class": "Non-dihydropyridine CCB", "indication": "Rate control", "guideline": "ESC 2024 AF"}}
+{"type": "node", "node_type": "Drug", "name": "Digoxin", "attributes": {"class": "Cardiac glycoside", "dose": "0.125-0.25 mg daily", "indication": "Rate control in sedentary patients or as add-on", "guideline": "ESC 2024 AF"}}
+{"type": "node", "node_type": "Drug", "name": "Amiodarone", "attributes": {"class": "Class III AAD", "dose": "200 mg daily (maintenance)", "indication": "Rhythm control in structural heart disease", "toxicity": "Thyroid, lung, liver, skin, cornea", "guideline": "ESC 2024 AF"}}
+{"type": "node", "node_type": "Drug", "name": "Flecainide", "attributes": {"class": "Class Ic AAD", "dose": "50-150 mg bid", "contraindication": "Structural heart disease", "guideline": "ESC 2024 AF"}}
+{"type": "node", "node_type": "Drug", "name": "Propafenone", "attributes": {"class": "Class Ic AAD", "dose": "150-300 mg tid", "contraindication": "Structural heart disease", "guideline": "ESC 2024 AF"}}
+{"type": "node", "node_type": "Drug", "name": "Dronedarone", "attributes": {"class": "Multichannel AAD", "dose": "400 mg bid", "note": "Moderate efficacy, less toxic than amiodarone", "guideline": "ESC 2024 AF"}}
+{"type": "node", "node_type": "Drug", "name": "Aspirin", "attributes": {"stroke_prevention": "NOT recommended for AF stroke prevention", "guideline": "ESC 2024 AF"}}
+{"type": "node", "node_type": "DrugClass", "name": "DOAC", "attributes": {"full": "Direct Oral Anticoagulant", "members": ["apixaban", "dabigatran", "edoxaban", "rivaroxaban"], "preferred": "Over VKA (Class I) except mechanical valves or mitral stenosis", "guideline": "ESC 2024 AF"}}
+{"type": "node", "node_type": "DrugClass", "name": "VKA", "attributes": {"full": "Vitamin K Antagonist", "members": ["warfarin", "acenocoumarol", "phenprocoumon"], "guideline": "ESC 2024 AF"}}
+{"type": "node", "node_type": "DrugClass", "name": "Beta-Blocker", "attributes": {"rate_control": "First-line for rate control in AF", "guideline": "ESC 2024 AF"}}
+{"type": "node", "node_type": "DrugClass", "name": "Non-dihydropyridine CCB", "attributes": {"members": ["verapamil", "diltiazem"], "rate_control": "First-line alternative to beta-blockers", "guideline": "ESC 2024 AF"}}
+{"type": "node", "node_type": "DrugClass", "name": "Class Ic AAD", "attributes": {"full": "Class Ic Antiarrhythmic Drug", "members": ["flecainide", "propafenone"], "contraindication": "Structural heart disease", "guideline": "ESC 2024 AF"}}
+{"type": "node", "node_type": "DrugClass", "name": "Class III AAD", "attributes": {"full": "Class III Antiarrhythmic Drug", "members": ["amiodarone", "sotalol"], "guideline": "ESC 2024 AF"}}
+{"type": "node", "node_type": "Procedure", "name": "Electrical Cardioversion", "attributes": {"indication": "Hemodynamic instability or symptom relief", "anticoagulation": ">=3 weeks pre OR TEE-guided", "guideline": "ESC 2024 AF"}}
+{"type": "node", "node_type": "Procedure", "name": "Catheter Ablation", "attributes": {"indication": "Class I for paroxysmal AF refractory to AAD; first-line option", "techniques": ["PVI", "PVI plus"], "guideline": "ESC 2024 AF"}}
+{"type": "node", "node_type": "Procedure", "name": "LAA Occlusion", "attributes": {"full": "Left Atrial Appendage Occlusion", "indication": "High stroke risk with contraindication to long-term OAC", "guideline": "ESC 2024 AF"}}
+{"type": "node", "node_type": "Procedure", "name": "AV Node Ablation", "attributes": {"indication": "Refractory rate control", "requires_pacemaker": true, "guideline": "ESC 2024 AF"}}
+{"type": "node", "node_type": "RiskFactor", "name": "Hypertension", "attributes": {"CHA2DS2-VA_points": 1, "guideline": "ESC 2024 AF"}}
+{"type": "node", "node_type": "RiskFactor", "name": "Heart Failure", "attributes": {"CHA2DS2-VA_points": 1, "guideline": "ESC 2024 AF"}}
+{"type": "node", "node_type": "RiskFactor", "name": "Diabetes Mellitus", "attributes": {"CHA2DS2-VA_points": 1, "guideline": "ESC 2024 AF"}}
+{"type": "node", "node_type": "RiskFactor", "name": "Obesity", "attributes": {"modifiable": true, "guideline": "ESC 2024 AF"}}
+{"type": "node", "node_type": "RiskFactor", "name": "Alcohol Excess", "attributes": {"modifiable": true, "bleeding_risk": true, "guideline": "ESC 2024 AF"}}
+{"type": "node", "node_type": "RiskFactor", "name": "Sleep Apnea", "attributes": {"modifiable": true, "guideline": "ESC 2024 AF"}}
+{"type": "node", "node_type": "Stratification", "name": "CHA2DS2-VA Score", "attributes": {"components": {"C": "CHF (1)", "H": "Hypertension (1)", "A2": "Age>=75 (2)", "D": "Diabetes (1)", "S2": "Stroke/TIA/TE (2)", "V": "Vascular disease (1)", "A": "Age 65-74 (1)"}, "threshold_OAC": ">=2", "note": "Sex (Sc) removed from CHA2DS2-VASc", "guideline": "ESC 2024 AF"}}
+{"type": "node", "node_type": "Stratification", "name": "HAS-BLED Score", "attributes": {"note": "Should NOT determine OAC decisions (Class III); use to identify modifiable risk factors", "guideline": "ESC 2024 AF"}}
+{"type": "node", "node_type": "Stratification", "name": "EHRA Symptom Class", "attributes": {"I": "No symptoms", "IIa": "Mild symptoms, normal daily activity not affected", "IIb": "Moderate symptoms, normal daily activity not affected but bothered", "III": "Severe symptoms, normal daily activity affected", "IV": "Disabling symptoms, normal daily activity discontinued", "guideline": "ESC 2024 AF"}}
+{"type": "node", "node_type": "GuidelineStatement", "name": "ESC 2024 AF CHA2DS2-VA", "attributes": {"text": "The CHA2DS2-VA score (sex removed from CHA2DS2-VASc) should be used for stroke risk stratification. CHA2DS2-VA >=2: OAC recommended (Class I); =1: OAC should be considered (Class IIa); =0: no antithrombotic", "guideline": "ESC 2024 AF"}}
+{"type": "node", "node_type": "GuidelineStatement", "name": "ESC 2024 AF DOAC Preferred", "attributes": {"text": "DOACs are preferred over VKAs for stroke prevention in AF (Class I), except in patients with mechanical heart valves or moderate-to-severe mitral stenosis", "guideline": "ESC 2024 AF"}}
+{"type": "node", "node_type": "GuidelineStatement", "name": "ESC 2024 AF Bleeding Score", "attributes": {"text": "HAS-BLED and other bleeding risk scores should NOT be used to decide on starting or stopping OAC (Class III, Level B). Instead, identify and manage modifiable bleeding risk factors (Class I)", "guideline": "ESC 2024 AF"}}
+{"type": "node", "node_type": "GuidelineStatement", "name": "ESC 2024 AF Antiplatelet Not", "attributes": {"text": "Antiplatelet monotherapy (aspirin) for stroke prevention is NOT recommended", "guideline": "ESC 2024 AF"}}
+{"type": "node", "node_type": "GuidelineStatement", "name": "ESC 2024 AF HCM Amyloid", "attributes": {"text": "Patients with hypertrophic cardiomyopathy or cardiac amyloidosis and AF should receive OAC regardless of CHA2DS2-VA score", "guideline": "ESC 2024 AF"}}
+{"type": "node", "node_type": "Contraindication", "name": "DOAC Mechanical Valve", "attributes": {"condition": "Mechanical heart valves", "alternative": "VKA (warfarin)", "guideline": "ESC 2024 AF"}}
+{"type": "node", "node_type": "Contraindication", "name": "DOAC Mitral Stenosis", "attributes": {"condition": "Moderate-to-severe mitral stenosis", "guideline": "ESC 2024 AF"}}
+{"type": "node", "node_type": "Contraindication", "name": "Class Ic AAD Structural Heart Disease", "attributes": {"condition": "Structural heart disease (CAD, LVH, HF)", "risk": "Proarrhythmia", "guideline": "ESC 2024 AF"}}
+{"type": "node", "node_type": "PatientFactor", "name": "Elderly Age >=75", "attributes": {"CHA2DS2-VA_points": 2, "apixaban_reduction": "Consider 2.5 mg bid if age>=80 + weight<=60 or Cr>=1.5", "guideline": "ESC 2024 AF"}}
+{"type": "node", "node_type": "PatientFactor", "name": "CKD", "attributes": {"DOAC_dose": "Reduce per CrCl", "rivaroxaban_cutoff": "CrCl<15 (avoid)", "guideline": "ESC 2024 AF"}}
+{"type": "node", "node_type": "PatientFactor", "name": "Pregnancy", "attributes": {"contraindication": "DOACs contraindicated", "alternative": "LMWH or VKA (2nd-3rd trimester)", "guideline": "ESC 2024 AF"}}
+{"type": "node", "node_type": "PatientFactor", "name": "High Fall Risk", "attributes": {"note": "Rarely a reason to withhold OAC; manage falls risk factors", "guideline": "ESC 2024 AF"}}
+{"type": "node", "node_type": "Drug", "name": "Sotalol", "attributes": {"class": "Class III AAD", "dose": "80-160 mg bid", "caution": "QT prolongation", "guideline": "ESC 2024 AF"}}
+{"type": "node", "node_type": "Drug", "name": "Betrixaban", "attributes": {"class": "DOAC", "note": "Not approved in EU", "guideline": "ESC 2024 AF"}}
+{"type": "node", "node_type": "Drug", "name": "Acenocoumarol", "attributes": {"class": "VKA", "use": "Alternative to warfarin in some EU countries", "guideline": "ESC 2024 AF"}}
+{"type": "node", "node_type": "Drug", "name": "Phenprocoumon", "attributes": {"class": "VKA", "use": "Alternative to warfarin in some EU countries", "guideline": "ESC 2024 AF"}}
+{"type": "node", "node_type": "Drug", "name": "Bisoprolol", "attributes": {"class": "Beta-blocker", "dose": "2.5-10 mg daily", "indication": "Rate control", "guideline": "ESC 2024 AF"}}
+{"type": "node", "node_type": "Drug", "name": "Carvedilol", "attributes": {"class": "Beta-blocker", "dose": "6.25-25 mg bid", "guideline": "ESC 2024 AF"}}
+{"type": "node", "node_type": "Drug", "name": "Nadolol", "attributes": {"class": "Beta-blocker", "guideline": "ESC 2024 AF"}}
+{"type": "node", "node_type": "Drug", "name": "Ibutilide", "attributes": {"class": "Class III AAD", "use": "Acute pharmacological cardioversion of atrial flutter", "guideline": "ESC 2024 AF"}}
+{"type": "node", "node_type": "Drug", "name": "Vernakalant", "attributes": {"class": "Atrial-selective AAD", "use": "Acute cardioversion of recent-onset AF", "guideline": "ESC 2024 AF"}}
+{"type": "node", "node_type": "Biomarker", "name": "INR", "attributes": {"target_vka": "2.0-3.0", "TTR_target": ">70%", "guideline": "ESC 2024 AF"}}
+{"type": "node", "node_type": "Biomarker", "name": "CrCl", "attributes": {"formula": "Cockcroft-Gault", "use": "DOAC dosing adjustment", "guideline": "ESC 2024 AF"}}
+{"type": "node", "node_type": "Biomarker", "name": "Hemoglobin", "attributes": {"anemia_cutoff": "<12 g/dL (F) <13 (M)", "guideline": "ESC 2024 AF"}}
+{"type": "node", "node_type": "GuidelineStatement", "name": "ESC 2024 AF Rate Control Lenient", "attributes": {"text": "Lenient rate control (<110 bpm resting) is acceptable for asymptomatic patients with preserved LV function", "guideline": "ESC 2024 AF"}}
+{"type": "node", "node_type": "GuidelineStatement", "name": "ESC 2024 AF Rhythm First-Line Ablation", "attributes": {"text": "Catheter ablation is Class I for paroxysmal AF refractory to AAD and may be considered as first-line therapy", "guideline": "ESC 2024 AF"}}
+{"type": "node", "node_type": "GuidelineStatement", "name": "ESC 2024 AF AF-CARE", "attributes": {"text": "The AF-CARE framework replaces ABC: Comorbidity management, Avoid stroke, Reduce symptoms, Evaluation", "guideline": "ESC 2024 AF"}}
+{"type": "node", "node_type": "Contraindication", "name": "Class Ic AAD CAD", "attributes": {"condition": "Coronary artery disease", "drugs": ["flecainide", "propafenone"], "risk": "Proarrhythmia", "guideline": "ESC 2024 AF"}}
+{"type": "node", "node_type": "Contraindication", "name": "Dronedarone HFrEF", "attributes": {"condition": "HFrEF or recent HF decompensation", "risk": "Increased mortality", "guideline": "ESC 2024 AF"}}
+{"type": "node", "node_type": "PatientFactor", "name": "Obesity AF", "attributes": {"weight_loss": ">=10% weight loss may reduce AF burden", "guideline": "ESC 2024 AF"}}
+{"type": "node", "node_type": "Procedure", "name": "PVI", "attributes": {"full": "Pulmonary Vein Isolation", "technique": "Radiofrequency or cryoballoon", "success_rate": "70-80% paroxysmal AF at 1 year", "guideline": "ESC 2024 AF"}}
+{"type": "node", "node_type": "Procedure", "name": "TEE", "attributes": {"full": "Transesophageal Echocardiography", "use": "Exclude LAA thrombus before cardioversion", "guideline": "ESC 2024 AF"}}
+{"type": "node", "node_type": "Disease", "name": "Postoperative AF", "attributes": {"definition": "New-onset AF after cardiac/non-cardiac surgery", "management": "Rate/rhythm control; anticoagulation per thromboembolic risk", "guideline": "ESC 2024 AF"}}
+{"type": "node", "node_type": "Drug", "name": "Esmolol", "attributes": {"class": "Ultra-short acting IV beta-blocker", "indication": "Acute rate control in AF with fast ventricular response", "guideline": "ESC 2024 AF"}}
+{"type": "node", "node_type": "Drug", "name": "Landiolol", "attributes": {"class": "Ultra-short acting IV beta-blocker", "indication": "Perioperative AF rate control", "guideline": "ESC 2024 AF"}}
+{"type": "node", "node_type": "Drug", "name": "Dofetilide", "attributes": {"class": "Class III AAD", "indication": "AF cardioversion and maintenance of sinus rhythm", "guideline": "ESC 2024 AF"}}
+{"type": "node", "node_type": "Drug", "name": "Unfractionated Heparin", "attributes": {"class": "Anticoagulant", "indication": "Acute AF with rapid ventricular response; pre-cardioversion bridging", "guideline": "ESC 2024 AF"}}
+{"type": "node", "node_type": "Drug", "name": "Enoxaparin", "attributes": {"class": "LMWH anticoagulant", "indication": "Pre-cardioversion bridging; VKA overlap", "guideline": "ESC 2024 AF"}}
+{"type": "node", "node_type": "DrugClass", "name": "Anticoagulant", "attributes": {"examples": ["DOAC", "VKA", "Unfractionated Heparin", "Enoxaparin"], "use": "Stroke prevention in AF; periprocedural management", "guideline": "ESC 2024 AF"}}
+{"type": "node", "node_type": "DrugClass", "name": "Cardiac Glycoside", "attributes": {"examples": ["Digoxin"], "use": "Rate control especially with reduced LV function", "guideline": "ESC 2024 AF"}}
+{"type": "node", "node_type": "PatientFactor", "name": "Age 65-74", "attributes": {"note": "CHA2DS2-VA component — 1 point", "guideline": "ESC 2024 AF"}}
+{"type": "node", "node_type": "PatientFactor", "name": "Age >=75", "attributes": {"note": "CHA2DS2-VA component — 2 points", "guideline": "ESC 2024 AF"}}
+{"type": "node", "node_type": "PatientFactor", "name": "Vascular Disease", "attributes": {"note": "CHA2DS2-VA component — prior MI, PAD, aortic plaque (1 point)", "guideline": "ESC 2024 AF"}}
+{"type": "node", "node_type": "PatientFactor", "name": "Prior Stroke", "attributes": {"note": "CHA2DS2-VA (2 points) and HAS-BLED (1 point) component", "guideline": "ESC 2024 AF"}}
+{"type": "node", "node_type": "PatientFactor", "name": "Abnormal Renal Function", "attributes": {"note": "HAS-BLED component — dialysis/transplant/Cr >2.26 mg/dL (1 point)", "guideline": "ESC 2024 AF"}}
+{"type": "node", "node_type": "PatientFactor", "name": "Abnormal Liver Function", "attributes": {"note": "HAS-BLED component — cirrhosis or bilirubin >2x upper normal (1 point)", "guideline": "ESC 2024 AF"}}
+{"type": "node", "node_type": "PatientFactor", "name": "Bleeding Predisposition", "attributes": {"note": "HAS-BLED component — bleeding diathesis or anemia (1 point)", "guideline": "ESC 2024 AF"}}
+{"type": "node", "node_type": "PatientFactor", "name": "Labile INR", "attributes": {"note": "HAS-BLED component — TTR <60% on VKA (1 point)", "guideline": "ESC 2024 AF"}}
+{"type": "node", "node_type": "PatientFactor", "name": "Drugs and Alcohol Concomitant", "attributes": {"note": "HAS-BLED component — antiplatelet/NSAID or alcohol (1 point each)", "guideline": "ESC 2024 AF"}}
+{"type": "node", "node_type": "RiskFactor", "name": "Hyperthyroidism", "attributes": {"note": "Thyrotoxicosis precipitates AF — check TSH at diagnosis", "guideline": "ESC 2024 AF"}}
+{"type": "node", "node_type": "RiskFactor", "name": "Valvular Heart Disease", "attributes": {"note": "Valvular disease increases AF burden and stroke risk", "guideline": "ESC 2024 AF"}}
+{"type": "node", "node_type": "RiskFactor", "name": "Pericarditis", "attributes": {"note": "Pericardial inflammation can trigger AF", "guideline": "ESC 2024 AF"}}
+{"type": "node", "node_type": "Symptom", "name": "Lightheadedness", "attributes": {"note": "May indicate rapid ventricular response or pauses", "guideline": "ESC 2024 AF"}}
+{"type": "node", "node_type": "Symptom", "name": "Dizziness", "attributes": {"note": "Non-specific but common in AF", "guideline": "ESC 2024 AF"}}
+{"type": "node", "node_type": "Symptom", "name": "Exercise Intolerance", "attributes": {"note": "Reduced cardiac output with rapid/inappropriate rate", "guideline": "ESC 2024 AF"}}
+{"type": "node", "node_type": "Procedure", "name": "Dual Chamber Pacemaker", "attributes": {"use": "Symptomatic bradycardia/pauses with AF; post-AVN ablation", "guideline": "ESC 2024 AF"}}
+{"type": "node", "node_type": "Procedure", "name": "Cryoballoon Ablation", "attributes": {"use": "Balloon-based PVI for paroxysmal/persistent AF", "guideline": "ESC 2024 AF"}}
+{"type": "node", "node_type": "Procedure", "name": "Radiofrequency Ablation", "attributes": {"use": "Point-by-point PVI and substrate ablation", "guideline": "ESC 2024 AF"}}
+{"type": "node", "node_type": "Biomarker", "name": "NT-proBNP", "attributes": {"note": "Elevated in AF with HF — monitoring", "guideline": "ESC 2024 AF"}}
+{"type": "node", "node_type": "Biomarker", "name": "BNP", "attributes": {"note": "Elevated in AF with HF — monitoring", "guideline": "ESC 2024 AF"}}
+{"type": "node", "node_type": "Biomarker", "name": "High-Sensitivity Troponin", "attributes": {"note": "Rule out ACS in AF with chest symptoms", "guideline": "ESC 2024 AF"}}
+{"type": "node", "node_type": "Contraindication", "name": "DOAC in CrCl <15", "attributes": {"note": "No DOAC approved below CrCl 15 mL/min — VKA or specialist care", "guideline": "ESC 2024 AF"}}
+{"type": "node", "node_type": "Contraindication", "name": "Dabigatran in CrCl <30", "attributes": {"note": "Dabigatran contraindicated below CrCl 30 mL/min", "guideline": "ESC 2024 AF"}}
+{"type": "node", "node_type": "Contraindication", "name": "Dronedarone in Permanent AF", "attributes": {"note": "Dronedarone contraindicated in permanent AF (increased events)", "guideline": "ESC 2024 AF"}}
+{"type": "node", "node_type": "Contraindication", "name": "Dofetilide in QT Prolongation", "attributes": {"note": "Baseline QTc >440 ms — dofetilide contraindicated", "guideline": "ESC 2024 AF"}}
+{"type": "node", "node_type": "GuidelineStatement", "name": "ESC 2024 AF Stroke Prevention Pillars", "attributes": {"statement": "AF-CARE pillar A: oral anticoagulation for stroke prevention; CHA2DS2-VA >=2 (men) / >=3 (women) recommended for OAC", "guideline": "ESC 2024 AF"}}
+{"type": "node", "node_type": "GuidelineStatement", "name": "ESC 2024 AF Acute Rate Control", "attributes": {"statement": "Acute rate control: IV beta-blocker or non-DHP CCB; digoxin when LV dysfunction", "guideline": "ESC 2024 AF"}}
+{"type": "node", "node_type": "GuidelineStatement", "name": "ESC 2024 AF Emergency Cardioversion", "attributes": {"statement": "Synchronized electrical cardioversion when hemodynamically unstable regardless of AF duration", "guideline": "ESC 2024 AF"}}
+{"type": "node", "node_type": "GuidelineStatement", "name": "ESC 2024 AF DOAC Dosing", "attributes": {"statement": "DOAC dose by renal function, age, weight, and interacting drugs; standard dose unless reduction criteria met", "guideline": "ESC 2024 AF"}}
+{"type": "node", "node_type": "GuidelineStatement", "name": "ESC 2024 AF AF-CARE Pillar C", "attributes": {"statement": "AF-CARE pillar C: comorbidity management — obesity, sleep apnea, hypertension, alcohol reduction", "guideline": "ESC 2024 AF"}}
+{"type": "node", "node_type": "GuidelineStatement", "name": "ESC 2024 AF Postoperative AF", "attributes": {"statement": "Postoperative AF usually transient; manage rate/rhythm and anticoagulate per thromboembolic risk", "guideline": "ESC 2024 AF"}}
+{"type": "relation", "subject": "Apixaban", "relation": "treats", "object": "Atrial Fibrillation", "guideline_source": "ESC 2024 AF"}
+{"type": "relation", "subject": "Dabigatran", "relation": "treats", "object": "Atrial Fibrillation", "guideline_source": "ESC 2024 AF"}
+{"type": "relation", "subject": "Edoxaban", "relation": "treats", "object": "Atrial Fibrillation", "guideline_source": "ESC 2024 AF"}
+{"type": "relation", "subject": "Rivaroxaban", "relation": "treats", "object": "Atrial Fibrillation", "guideline_source": "ESC 2024 AF"}
+{"type": "relation", "subject": "Warfarin", "relation": "treats", "object": "Atrial Fibrillation", "guideline_source": "ESC 2024 AF"}
+{"type": "relation", "subject": "Metoprolol", "relation": "treats", "object": "Atrial Fibrillation", "guideline_source": "ESC 2024 AF"}
+{"type": "relation", "subject": "Verapamil", "relation": "treats", "object": "Atrial Fibrillation", "guideline_source": "ESC 2024 AF"}
+{"type": "relation", "subject": "Diltiazem", "relation": "treats", "object": "Atrial Fibrillation", "guideline_source": "ESC 2024 AF"}
+{"type": "relation", "subject": "Digoxin", "relation": "treats", "object": "Atrial Fibrillation", "guideline_source": "ESC 2024 AF"}
+{"type": "relation", "subject": "Amiodarone", "relation": "treats", "object": "Atrial Fibrillation", "guideline_source": "ESC 2024 AF"}
+{"type": "relation", "subject": "Flecainide", "relation": "treats", "object": "Atrial Fibrillation", "guideline_source": "ESC 2024 AF"}
+{"type": "relation", "subject": "Propafenone", "relation": "treats", "object": "Atrial Fibrillation", "guideline_source": "ESC 2024 AF"}
+{"type": "relation", "subject": "Dronedarone", "relation": "treats", "object": "Atrial Fibrillation", "guideline_source": "ESC 2024 AF"}
+{"type": "relation", "subject": "DOAC", "relation": "treats", "object": "Atrial Fibrillation", "guideline_source": "ESC 2024 AF"}
+{"type": "relation", "subject": "Warfarin", "relation": "interacts_with", "object": "Aspirin", "guideline_source": "ESC 2024 AF"}
+{"type": "relation", "subject": "Warfarin", "relation": "interacts_with", "object": "Amiodarone", "guideline_source": "ESC 2024 AF"}
+{"type": "relation", "subject": "Apixaban", "relation": "contraindicated_in", "object": "DOAC Mechanical Valve", "guideline_source": "ESC 2024 AF"}
+{"type": "relation", "subject": "Rivaroxaban", "relation": "contraindicated_in", "object": "DOAC Mechanical Valve", "guideline_source": "ESC 2024 AF"}
+{"type": "relation", "subject": "Dabigatran", "relation": "contraindicated_in", "object": "DOAC Mechanical Valve", "guideline_source": "ESC 2024 AF"}
+{"type": "relation", "subject": "Edoxaban", "relation": "contraindicated_in", "object": "DOAC Mechanical Valve", "guideline_source": "ESC 2024 AF"}
+{"type": "relation", "subject": "Flecainide", "relation": "contraindicated_in", "object": "Class Ic AAD Structural Heart Disease", "guideline_source": "ESC 2024 AF"}
+{"type": "relation", "subject": "Propafenone", "relation": "contraindicated_in", "object": "Class Ic AAD Structural Heart Disease", "guideline_source": "ESC 2024 AF"}
+{"type": "relation", "subject": "CHA2DS2-VA Score", "relation": "risk_stratifies", "object": "Atrial Fibrillation", "guideline_source": "ESC 2024 AF"}
+{"type": "relation", "subject": "EHRA Symptom Class", "relation": "risk_stratifies", "object": "Atrial Fibrillation", "guideline_source": "ESC 2024 AF"}
+{"type": "relation", "subject": "Hypertension", "relation": "risk_stratifies", "object": "Atrial Fibrillation", "guideline_source": "ESC 2024 AF"}
+{"type": "relation", "subject": "Heart Failure", "relation": "risk_stratifies", "object": "Atrial Fibrillation", "guideline_source": "ESC 2024 AF"}
+{"type": "relation", "subject": "Diabetes Mellitus", "relation": "risk_stratifies", "object": "Atrial Fibrillation", "guideline_source": "ESC 2024 AF"}
+{"type": "relation", "subject": "Electrical Cardioversion", "relation": "treats", "object": "Atrial Fibrillation", "guideline_source": "ESC 2024 AF"}
+{"type": "relation", "subject": "Catheter Ablation", "relation": "treats", "object": "Paroxysmal AF", "guideline_source": "ESC 2024 AF"}
+{"type": "relation", "subject": "LAA Occlusion", "relation": "treats", "object": "Atrial Fibrillation", "guideline_source": "ESC 2024 AF"}
+{"type": "relation", "subject": "AV Node Ablation", "relation": "treats", "object": "Atrial Fibrillation", "guideline_source": "ESC 2024 AF"}
+{"type": "relation", "subject": "Apixaban", "relation": "guideline_cites", "object": "ESC 2024 AF DOAC Preferred", "guideline_source": "ESC 2024 AF"}
+{"type": "relation", "subject": "CHA2DS2-VA Score", "relation": "guideline_cites", "object": "ESC 2024 AF CHA2DS2-VA", "guideline_source": "ESC 2024 AF"}
+{"type": "relation", "subject": "HAS-BLED Score", "relation": "guideline_cites", "object": "ESC 2024 AF Bleeding Score", "guideline_source": "ESC 2024 AF"}
+{"type": "relation", "subject": "Aspirin", "relation": "guideline_cites", "object": "ESC 2024 AF Antiplatelet Not", "guideline_source": "ESC 2024 AF"}
+{"type": "relation", "subject": "Beta-Blocker", "relation": "treats", "object": "Atrial Fibrillation", "guideline_source": "ESC 2024 AF"}
+{"type": "relation", "subject": "Non-dihydropyridine CCB", "relation": "treats", "object": "Atrial Fibrillation", "guideline_source": "ESC 2024 AF"}
+{"type": "relation", "subject": "DOAC", "relation": "contraindicated_in", "object": "DOAC Mitral Stenosis", "guideline_source": "ESC 2024 AF"}
+{"type": "relation", "subject": "Class Ic AAD", "relation": "treats", "object": "Paroxysmal AF", "guideline_source": "ESC 2024 AF"}
+{"type": "relation", "subject": "Sotalol", "relation": "treats", "object": "Atrial Fibrillation", "guideline_source": "ESC 2024 AF"}
+{"type": "relation", "subject": "Bisoprolol", "relation": "treats", "object": "Atrial Fibrillation", "guideline_source": "ESC 2024 AF"}
+{"type": "relation", "subject": "Carvedilol", "relation": "treats", "object": "Atrial Fibrillation", "guideline_source": "ESC 2024 AF"}
+{"type": "relation", "subject": "Ibutilide", "relation": "treats", "object": "Atrial Flutter", "guideline_source": "ESC 2024 AF"}
+{"type": "relation", "subject": "Vernakalant", "relation": "treats", "object": "Atrial Fibrillation", "guideline_source": "ESC 2024 AF"}
+{"type": "relation", "subject": "INR", "relation": "monitors", "object": "Warfarin", "guideline_source": "ESC 2024 AF"}
+{"type": "relation", "subject": "CrCl", "relation": "monitors", "object": "DOAC", "guideline_source": "ESC 2024 AF"}
+{"type": "relation", "subject": "PVI", "relation": "treats", "object": "Paroxysmal AF", "guideline_source": "ESC 2024 AF"}
+{"type": "relation", "subject": "TEE", "relation": "treats", "object": "Atrial Fibrillation", "guideline_source": "ESC 2024 AF"}
+{"type": "relation", "subject": "Flecainide", "relation": "contraindicated_in", "object": "Class Ic AAD CAD", "guideline_source": "ESC 2024 AF"}
+{"type": "relation", "subject": "Dronedarone", "relation": "contraindicated_in", "object": "Dronedarone HFrEF", "guideline_source": "ESC 2024 AF"}
+{"type": "relation", "subject": "Vernakalant", "relation": "guideline_cites", "object": "ESC 2024 AF Rhythm First-Line Ablation", "guideline_source": "ESC 2024 AF"}
+{"type": "relation", "subject": "Catheter Ablation", "relation": "guideline_cites", "object": "ESC 2024 AF Rhythm First-Line Ablation", "guideline_source": "ESC 2024 AF"}
+{"type": "relation", "subject": "PVI", "relation": "guideline_cites", "object": "ESC 2024 AF Rhythm First-Line Ablation", "guideline_source": "ESC 2024 AF"}
+{"type": "relation", "subject": "CHA2DS2-VA Score", "relation": "guideline_cites", "object": "ESC 2024 AF AF-CARE", "guideline_source": "ESC 2024 AF"}
+{"type": "relation", "subject": "Warfarin", "relation": "interacts_with", "object": "Rivaroxaban", "guideline_source": "ESC 2024 AF"}
+{"type": "relation", "subject": "Digoxin", "relation": "interacts_with", "object": "Verapamil", "guideline_source": "ESC 2024 AF"}
+{"type": "relation", "subject": "Digoxin", "relation": "interacts_with", "object": "Amiodarone", "guideline_source": "ESC 2024 AF"}
+{"type": "relation", "subject": "Metoprolol", "relation": "guideline_cites", "object": "ESC 2024 AF Rate Control Lenient", "guideline_source": "ESC 2024 AF"}
+{"type": "relation", "subject": "Esmolol", "relation": "treats", "object": "Atrial Fibrillation", "guideline_source": "ESC 2024 AF"}
+{"type": "relation", "subject": "Landiolol", "relation": "treats", "object": "Postoperative AF", "guideline_source": "ESC 2024 AF"}
+{"type": "relation", "subject": "Dofetilide", "relation": "treats", "object": "Atrial Fibrillation", "guideline_source": "ESC 2024 AF"}
+{"type": "relation", "subject": "Dofetilide", "relation": "treats", "object": "Persistent AF", "guideline_source": "ESC 2024 AF"}
+{"type": "relation", "subject": "Unfractionated Heparin", "relation": "treats", "object": "Atrial Fibrillation", "guideline_source": "ESC 2024 AF"}
+{"type": "relation", "subject": "Enoxaparin", "relation": "treats", "object": "Atrial Fibrillation", "guideline_source": "ESC 2024 AF"}
+{"type": "relation", "subject": "Unfractionated Heparin", "relation": "treats", "object": "Postoperative AF", "guideline_source": "ESC 2024 AF"}
+{"type": "relation", "subject": "Anticoagulant", "relation": "treats", "object": "Atrial Fibrillation", "guideline_source": "ESC 2024 AF"}
+{"type": "relation", "subject": "Cardiac Glycoside", "relation": "treats", "object": "Atrial Fibrillation", "guideline_source": "ESC 2024 AF"}
+{"type": "relation", "subject": "Dual Chamber Pacemaker", "relation": "treats", "object": "Atrial Fibrillation", "guideline_source": "ESC 2024 AF"}
+{"type": "relation", "subject": "Cryoballoon Ablation", "relation": "treats", "object": "Paroxysmal AF", "guideline_source": "ESC 2024 AF"}
+{"type": "relation", "subject": "Radiofrequency Ablation", "relation": "treats", "object": "Paroxysmal AF", "guideline_source": "ESC 2024 AF"}
+{"type": "relation", "subject": "Cryoballoon Ablation", "relation": "treats", "object": "Persistent AF", "guideline_source": "ESC 2024 AF"}
+{"type": "relation", "subject": "Radiofrequency Ablation", "relation": "treats", "object": "Persistent AF", "guideline_source": "ESC 2024 AF"}
+{"type": "relation", "subject": "Cryoballoon Ablation", "relation": "treats", "object": "Postoperative AF", "guideline_source": "ESC 2024 AF"}
+{"type": "relation", "subject": "Hyperthyroidism", "relation": "risk_stratifies", "object": "Atrial Fibrillation", "guideline_source": "ESC 2024 AF"}
+{"type": "relation", "subject": "Valvular Heart Disease", "relation": "risk_stratifies", "object": "Atrial Fibrillation", "guideline_source": "ESC 2024 AF"}
+{"type": "relation", "subject": "Pericarditis", "relation": "risk_stratifies", "object": "Atrial Fibrillation", "guideline_source": "ESC 2024 AF"}
+{"type": "relation", "subject": "NT-proBNP", "relation": "monitors", "object": "Atrial Fibrillation", "guideline_source": "ESC 2024 AF"}
+{"type": "relation", "subject": "BNP", "relation": "monitors", "object": "Atrial Fibrillation", "guideline_source": "ESC 2024 AF"}
+{"type": "relation", "subject": "High-Sensitivity Troponin", "relation": "monitors", "object": "Atrial Fibrillation", "guideline_source": "ESC 2024 AF"}
+{"type": "relation", "subject": "Heart Failure", "relation": "risk_stratifies", "object": "CHA2DS2-VA Score", "guideline_source": "ESC 2024 AF"}
+{"type": "relation", "subject": "Hypertension", "relation": "risk_stratifies", "object": "CHA2DS2-VA Score", "guideline_source": "ESC 2024 AF"}
+{"type": "relation", "subject": "Diabetes Mellitus", "relation": "risk_stratifies", "object": "CHA2DS2-VA Score", "guideline_source": "ESC 2024 AF"}
+{"type": "relation", "subject": "Age 65-74", "relation": "risk_stratifies", "object": "CHA2DS2-VA Score", "guideline_source": "ESC 2024 AF"}
+{"type": "relation", "subject": "Age >=75", "relation": "risk_stratifies", "object": "CHA2DS2-VA Score", "guideline_source": "ESC 2024 AF"}
+{"type": "relation", "subject": "Vascular Disease", "relation": "risk_stratifies", "object": "CHA2DS2-VA Score", "guideline_source": "ESC 2024 AF"}
+{"type": "relation", "subject": "Prior Stroke", "relation": "risk_stratifies", "object": "CHA2DS2-VA Score", "guideline_source": "ESC 2024 AF"}
+{"type": "relation", "subject": "Hypertension", "relation": "risk_stratifies", "object": "HAS-BLED Score", "guideline_source": "ESC 2024 AF"}
+{"type": "relation", "subject": "Abnormal Renal Function", "relation": "risk_stratifies", "object": "HAS-BLED Score", "guideline_source": "ESC 2024 AF"}
+{"type": "relation", "subject": "Abnormal Liver Function", "relation": "risk_stratifies", "object": "HAS-BLED Score", "guideline_source": "ESC 2024 AF"}
+{"type": "relation", "subject": "Prior Stroke", "relation": "risk_stratifies", "object": "HAS-BLED Score", "guideline_source": "ESC 2024 AF"}
+{"type": "relation", "subject": "Bleeding Predisposition", "relation": "risk_stratifies", "object": "HAS-BLED Score", "guideline_source": "ESC 2024 AF"}
+{"type": "relation", "subject": "Labile INR", "relation": "risk_stratifies", "object": "HAS-BLED Score", "guideline_source": "ESC 2024 AF"}
+{"type": "relation", "subject": "Elderly Age >=75", "relation": "risk_stratifies", "object": "HAS-BLED Score", "guideline_source": "ESC 2024 AF"}
+{"type": "relation", "subject": "Drugs and Alcohol Concomitant", "relation": "risk_stratifies", "object": "HAS-BLED Score", "guideline_source": "ESC 2024 AF"}
+{"type": "relation", "subject": "CKD", "relation": "risk_stratifies", "object": "HAS-BLED Score", "guideline_source": "ESC 2024 AF"}
+{"type": "relation", "subject": "Rivaroxaban", "relation": "contraindicated_in", "object": "DOAC in CrCl <15", "guideline_source": "ESC 2024 AF"}
+{"type": "relation", "subject": "Apixaban", "relation": "contraindicated_in", "object": "DOAC in CrCl <15", "guideline_source": "ESC 2024 AF"}
+{"type": "relation", "subject": "Edoxaban", "relation": "contraindicated_in", "object": "DOAC in CrCl <15", "guideline_source": "ESC 2024 AF"}
+{"type": "relation", "subject": "Dabigatran", "relation": "contraindicated_in", "object": "DOAC in CrCl <15", "guideline_source": "ESC 2024 AF"}
+{"type": "relation", "subject": "Dabigatran", "relation": "contraindicated_in", "object": "Dabigatran in CrCl <30", "guideline_source": "ESC 2024 AF"}
+{"type": "relation", "subject": "Dronedarone", "relation": "contraindicated_in", "object": "Dronedarone in Permanent AF", "guideline_source": "ESC 2024 AF"}
+{"type": "relation", "subject": "Dofetilide", "relation": "contraindicated_in", "object": "Dofetilide in QT Prolongation", "guideline_source": "ESC 2024 AF"}
+{"type": "relation", "subject": "Digoxin", "relation": "treats", "object": "Persistent AF", "guideline_source": "ESC 2024 AF"}
+{"type": "relation", "subject": "Amiodarone", "relation": "treats", "object": "Persistent AF", "guideline_source": "ESC 2024 AF"}
+{"type": "relation", "subject": "Sotalol", "relation": "treats", "object": "Persistent AF", "guideline_source": "ESC 2024 AF"}
+{"type": "relation", "subject": "Class Ic AAD", "relation": "treats", "object": "Persistent AF", "guideline_source": "ESC 2024 AF"}
+{"type": "relation", "subject": "Class III AAD", "relation": "treats", "object": "Atrial Flutter", "guideline_source": "ESC 2024 AF"}
+{"type": "relation", "subject": "Ibutilide", "relation": "treats", "object": "Atrial Fibrillation", "guideline_source": "ESC 2024 AF"}
+{"type": "relation", "subject": "Electrical Cardioversion", "relation": "treats", "object": "Persistent AF", "guideline_source": "ESC 2024 AF"}
+{"type": "relation", "subject": "Catheter Ablation", "relation": "treats", "object": "Persistent AF", "guideline_source": "ESC 2024 AF"}
+{"type": "relation", "subject": "Catheter Ablation", "relation": "treats", "object": "Atrial Flutter", "guideline_source": "ESC 2024 AF"}
+{"type": "relation", "subject": "AV Node Ablation", "relation": "treats", "object": "Persistent AF", "guideline_source": "ESC 2024 AF"}
+{"type": "relation", "subject": "Radiofrequency Ablation", "relation": "treats", "object": "Atrial Flutter", "guideline_source": "ESC 2024 AF"}
+{"type": "relation", "subject": "Metoprolol", "relation": "treats", "object": "Postoperative AF", "guideline_source": "ESC 2024 AF"}
+{"type": "relation", "subject": "Beta-Blocker", "relation": "treats", "object": "Postoperative AF", "guideline_source": "ESC 2024 AF"}
+{"type": "relation", "subject": "VKA", "relation": "treats", "object": "Postoperative AF", "guideline_source": "ESC 2024 AF"}
+{"type": "relation", "subject": "CrCl", "relation": "monitors", "object": "Dabigatran", "guideline_source": "ESC 2024 AF"}
+{"type": "relation", "subject": "CrCl", "relation": "monitors", "object": "Apixaban", "guideline_source": "ESC 2024 AF"}
+{"type": "relation", "subject": "CrCl", "relation": "monitors", "object": "Edoxaban", "guideline_source": "ESC 2024 AF"}
+{"type": "relation", "subject": "CrCl", "relation": "monitors", "object": "Rivaroxaban", "guideline_source": "ESC 2024 AF"}
+{"type": "relation", "subject": "Hemoglobin", "relation": "monitors", "object": "DOAC", "guideline_source": "ESC 2024 AF"}
+{"type": "relation", "subject": "INR", "relation": "monitors", "object": "DOAC", "guideline_source": "ESC 2024 AF"}
+{"type": "relation", "subject": "Dofetilide", "relation": "guideline_cites", "object": "ESC 2024 AF Rhythm First-Line Ablation", "guideline_source": "ESC 2024 AF"}
+{"type": "relation", "subject": "CHA2DS2-VA Score", "relation": "guideline_cites", "object": "ESC 2024 AF Stroke Prevention Pillars", "guideline_source": "ESC 2024 AF"}
+{"type": "relation", "subject": "HAS-BLED Score", "relation": "guideline_cites", "object": "ESC 2024 AF Stroke Prevention Pillars", "guideline_source": "ESC 2024 AF"}
+{"type": "relation", "subject": "DOAC", "relation": "guideline_cites", "object": "ESC 2024 AF Stroke Prevention Pillars", "guideline_source": "ESC 2024 AF"}
+{"type": "relation", "subject": "DOAC", "relation": "guideline_cites", "object": "ESC 2024 AF DOAC Dosing", "guideline_source": "ESC 2024 AF"}
+{"type": "relation", "subject": "Apixaban", "relation": "guideline_cites", "object": "ESC 2024 AF DOAC Dosing", "guideline_source": "ESC 2024 AF"}
+{"type": "relation", "subject": "Rivaroxaban", "relation": "guideline_cites", "object": "ESC 2024 AF DOAC Dosing", "guideline_source": "ESC 2024 AF"}
+{"type": "relation", "subject": "Esmolol", "relation": "guideline_cites", "object": "ESC 2024 AF Acute Rate Control", "guideline_source": "ESC 2024 AF"}
+{"type": "relation", "subject": "Metoprolol", "relation": "guideline_cites", "object": "ESC 2024 AF Acute Rate Control", "guideline_source": "ESC 2024 AF"}
+{"type": "relation", "subject": "Digoxin", "relation": "guideline_cites", "object": "ESC 2024 AF Acute Rate Control", "guideline_source": "ESC 2024 AF"}
+{"type": "relation", "subject": "Electrical Cardioversion", "relation": "guideline_cites", "object": "ESC 2024 AF Emergency Cardioversion", "guideline_source": "ESC 2024 AF"}
+{"type": "relation", "subject": "ESC 2024 AF Emergency Cardioversion", "relation": "guideline_cites", "object": "Atrial Fibrillation", "guideline_source": "ESC 2024 AF"}
+{"type": "relation", "subject": "ESC 2024 AF AF-CARE Pillar C", "relation": "guideline_cites", "object": "Atrial Fibrillation", "guideline_source": "ESC 2024 AF"}
+{"type": "relation", "subject": "ESC 2024 AF Postoperative AF", "relation": "guideline_cites", "object": "Postoperative AF", "guideline_source": "ESC 2024 AF"}
+{"type": "relation", "subject": "Landiolol", "relation": "guideline_cites", "object": "ESC 2024 AF Postoperative AF", "guideline_source": "ESC 2024 AF"}
+{"type": "relation", "subject": "ESC 2024 AF Stroke Prevention Pillars", "relation": "guideline_cites", "object": "Atrial Fibrillation", "guideline_source": "ESC 2024 AF"}
+{"type": "relation", "subject": "ESC 2024 AF DOAC Dosing", "relation": "guideline_cites", "object": "Atrial Fibrillation", "guideline_source": "ESC 2024 AF"}
+{"type": "relation", "subject": "ESC 2024 AF Acute Rate Control", "relation": "guideline_cites", "object": "Atrial Fibrillation", "guideline_source": "ESC 2024 AF"}
+{"type": "relation", "subject": "Dronedarone", "relation": "treats", "object": "Paroxysmal AF", "guideline_source": "AF Guidelines"}
+{"type": "relation", "subject": "PVI", "relation": "treats", "object": "Persistent AF", "guideline_source": "AF Guidelines"}
+{"type": "relation", "subject": "CHA2DS2-VA Score", "relation": "threshold_for", "object": "Anticoagulant", "guideline_source": "AF Guidelines"}
+{"type": "relation", "subject": "CrCl", "relation": "threshold_for", "object": "Dabigatran in CrCl <30", "guideline_source": "AF Guidelines"}
+{"type": "relation", "subject": "CrCl", "relation": "threshold_for", "object": "DOAC in CrCl <15", "guideline_source": "AF Guidelines"}
+{"type": "relation", "subject": "Dronedarone", "relation": "interacts_with", "object": "Dabigatran", "guideline_source": "AF Guidelines"}
+{"type": "relation", "subject": "Dronedarone", "relation": "interacts_with", "object": "Digoxin", "guideline_source": "AF Guidelines"}
+{"type": "relation", "subject": "Dronedarone", "relation": "interacts_with", "object": "Warfarin", "guideline_source": "AF Guidelines"}
+{"type": "relation", "subject": "Amiodarone", "relation": "interacts_with", "object": "Dabigatran", "guideline_source": "AF Guidelines"}
+{"type": "relation", "subject": "Amiodarone", "relation": "interacts_with", "object": "Rivaroxaban", "guideline_source": "AF Guidelines"}
+{"type": "relation", "subject": "Diltiazem", "relation": "interacts_with", "object": "Digoxin", "guideline_source": "AF Guidelines"}
+{"type": "relation", "subject": "Verapamil", "relation": "interacts_with", "object": "Rivaroxaban", "guideline_source": "AF Guidelines"}
+{"type": "relation", "subject": "Digoxin", "relation": "monitors", "object": "CrCl", "guideline_source": "AF Guidelines"}

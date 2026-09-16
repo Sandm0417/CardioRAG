@@ -1,0 +1,5 @@
+config,blocked_n,oob_flagged_n,hallucination_n,clinical_harm_n,dev_harm_n,dev_harm_den,heldout_harm_n,heldout_harm_den,dev_harm_rate,heldout_harm_rate,input_screened_dev_n,input_emergency_dev_n,input_screened_heldout_n,input_emergency_heldout_n,input_screened_overall_n,input_emergency_overall_n,post_generation_oob_n,response_total_n,text_harm_total_n
+vanilla,10,0,1,0,0,96,0,24,0.0,0.0,6,12,4,4,10,16,0,120,0
+naive_rag,10,0,0,0,0,96,0,24,0.0,0.0,6,12,4,4,10,16,0,120,0
+lightrag_generic,10,0,1,0,0,96,0,24,0.0,0.0,6,12,4,4,10,16,0,120,0
+cardiorag_full,10,0,0,0,0,96,0,24,0.0,0.0,6,12,4,4,10,16,0,120,0

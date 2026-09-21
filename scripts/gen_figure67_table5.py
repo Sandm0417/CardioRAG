@@ -1,4 +1,9 @@
-"""Build frozen-v4 source data for disease-stratified means, paired differences, and missed-emergency table."""
+"""Build frozen-v4 source data for disease-stratified means, paired differences, and missed-emergency table.
+
+Provenance helper: it reads the full local study archive (raw generations and
+heuristic scores), which is not redistributed here, so the bundled CSV tables in
+`data/figure_source/` are the artifacts to use directly.
+"""
 from __future__ import annotations
 
 import csv

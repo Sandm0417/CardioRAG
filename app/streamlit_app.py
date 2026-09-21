@@ -17,6 +17,7 @@ import json
 import os
 import sys
 from pathlib import Path
+from xml.etree import ElementTree as ET
 
 APP_DIR = Path(__file__).resolve().parent
 ROOT = APP_DIR.parent
@@ -42,29 +43,39 @@ def load_progress() -> dict:
     return {}
 
 
-def freshness_pill(progress: dict) -> str:
-    """Index presence, not a rules.yaml SHA comparison.
+@st.cache_data
+def graph_stats() -> dict:
+    """Read node and edge counts from the current persisted GraphML file."""
+    graph = ROOT / "lightrag_index" / "graph_chunk_entity_relation.graphml"
+    if not graph.exists():
+        return {"nodes": None, "edges": None}
+    nodes = edges = 0
+    for _event, elem in ET.iterparse(graph, events=("end",)):
+        if elem.tag.endswith("node"):
+            nodes += 1
+        elif elem.tag.endswith("edge"):
+            edges += 1
+        elem.clear()
+    return {"nodes": nodes, "edges": edges}
 
-    `configs/rules.yaml` is empty by design; CV-Guardrail lives in code.
-    Comparing its SHA with the historical placeholder
-    `rules.yaml-empty-by-design` always looks stale and is not meaningful.
-    """
+
+def freshness_pill(progress: dict) -> str:
+    """Report the current persisted graph, never a historical progress snapshot."""
+    graph = graph_stats()
     phase4 = (progress.get("phases") or {}).get("phase4") or {}
-    index_dir = ROOT / "lightrag_index"
-    graph = index_dir / "graph_chunk_entity_relation.graphml"
-    if graph.exists():
-        stats = phase4.get("index_stats") or {}
-        nodes = stats.get("graph_nodes", "n/a")
-        edges = stats.get("graph_edges", "n/a")
+    if graph["nodes"] is not None:
         return (
             "🟢 local LightRAG index present. "
-            f"Progress-file snapshot: {nodes} nodes / {edges} edges. "
-            "Manuscript counts use the frozen archive: raw registry 401/501, "
-            "persisted index 369/489."
+            f"Current persisted graph: {graph['nodes']} nodes / {graph['edges']} edges. "
+            "Manuscript counts: raw registry 401/501, persisted index 369/489."
         )
-    if not phase4:
-        return "🔴 no local index and no phase4 record"
-    return "🟠 progress.json records an index, but lightrag_index/ is missing"
+    if phase4:
+        return (
+            "🟠 local GraphML index is missing. "
+            "The frozen manuscript counts are 369 nodes / 489 edges; "
+            "historical progress-file counts are not displayed."
+        )
+    return "🔴 no local index; frozen manuscript counts are 369 nodes / 489 edges"
 
 
 @st.cache_data
@@ -99,6 +110,18 @@ def build_stats() -> dict:
     }
 
 
+@st.cache_data
+def scenario_counts() -> dict:
+    """Count the bundled virtual scenarios by split."""
+    scen_dir = ROOT / "data" / "scenarios"
+    counts = {"development": 0, "held_out_synthetic": 0}
+    for filename, key in (("internal.jsonl", "development"), ("external.jsonl", "held_out_synthetic")):
+        path = scen_dir / filename
+        if path.exists():
+            counts[key] = sum(1 for line in path.read_text(encoding="utf-8").splitlines() if line.strip())
+    return counts
+
+
 # ── session state ───────────────────────────────────────────────────────
 if "guardrail" not in st.session_state:
     st.session_state.guardrail = CVGuardrail()
@@ -122,27 +145,31 @@ with tab_overview:
     st.subheader("📊 CardioKG 与索引")
     phase4 = (progress.get("phases") or {}).get("phase4") or {}
     kg = build_stats()
+    index = graph_stats()
     c1, c2, c3, c4 = st.columns(4)
     c1.metric("原始登记实体", kg["nodes"])
     c2.metric("原始登记关系", kg["relations"])
     c3.metric("唯一实体名", kg["unique_names"])
-    c4.metric("索引记录", phase4.get("status", "pending"))
+    c4.metric(
+        "持久化索引",
+        f"{index['nodes']}/{index['edges']}" if index["nodes"] is not None else "369/489",
+    )
     st.caption(
         "原始登记按 JSONL 的 node / relation 行计数，应为 401 实体 / 501 关系；"
-        f"唯一 `name` 为 {kg['unique_names']}，与持久化索引 369 个节点同一量级。"
-        "论文主数字以冻结档案为准：原始登记 401/501，持久化索引 369/489。"
+        f"唯一 `name` 为 {kg['unique_names']}。"
+        "当前持久化索引为 369 nodes / 489 edges；历史 progress 文件不用于显示索引数字。"
     )
 
-    st.subheader("🛡️ 规则与稿件参考文献")
-    manuscript_refs = ROOT / "最终数据" / "06_manuscript_clean" / "manuscript.en.md"
+    st.subheader("🛡️ 规则与场景")
+    scen = scenario_counts()
     c1, c2, c3 = st.columns(3)
     c1.metric("安全规则来源", "代码内 Guardrail")
     c2.metric("rules.yaml", "空文件（有意）")
-    c3.metric("稿件参考文献", "45 篇" if manuscript_refs.exists() else "未见稿件")
+    c3.metric("虚拟场景", f"{scen['development']} + {scen['held_out_synthetic']}")
     st.caption(
         "`configs/rules.yaml` 为空是设计如此，急诊/超界规则在 `normalize.py` 与 `guardrail.py`。"
-        "本页不再查找已废弃的 `outputs/citation_verification_report.json`；"
-        "那份文件缺失不表示论文参考文献未生成。"
+        f"`data/scenarios/` 含开发集 {scen['development']} 例与留出合成集 {scen['held_out_synthetic']} 例；"
+        "`external.jsonl` 是历史文件名，该留出集由同一流程构建，不是真实外部临床验证队列。"
     )
 
     st.subheader("🧪 本地索引")

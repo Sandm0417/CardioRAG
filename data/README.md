@@ -7,6 +7,6 @@ All cases are **standardized virtual scenarios**. There are no real patient reco
 | `cardiokg/*.jsonl` | Curated CardioKG nodes and relations for CAD, HF, and AF (401 node rows / 501 relation rows) |
 | `scenarios/internal.jsonl` | 96-scenario development split |
 | `scenarios/external.jsonl` | 24-scenario held-out synthetic split (same construction process; not a clinical external-validation cohort) |
-| `figure_source/*.csv` | Source tables used to redraw manuscript figures |
+| `figure_source/*.csv` | Source tables for the manuscript figures; filenames keep internal figure IDs, mapped to manuscript numbering in the top-level README |
 
 Society guideline PDFs are copyrighted and are **not** included. Rebuild CardioKG from locally obtained guideline files if you need to regenerate the graph.

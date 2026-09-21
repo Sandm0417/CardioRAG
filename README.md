@@ -11,7 +11,7 @@ This public package contains research code, synthetic virtual scenarios, CardioK
 - `scripts/` — v4 evaluation, heuristic scoring, optional LLM judging, figure rendering
 - `data/cardiokg/` — 401 entity rows and 501 relation rows
 - `data/scenarios/` — 96 development + 24 held-out synthetic scenarios
-- `data/figure_source/` — CSV tables for manuscript figures
+- `data/figure_source/` — CSV tables for the manuscript figures and the graphical abstract
 - `tests/` — guardrail and normalization tests that do not need network access
 
 ## What is not included
@@ -72,13 +72,23 @@ python scripts/fast_judge.py --input outputs/raw_generations/deepseek_full_zh.js
 python scripts/recompute_v4_primary.py
 ```
 
-Redraw figures from the bundled CSVs:
+Redraw the manuscript figures and the graphical abstract from the bundled CSVs:
 
 ```bash
-python scripts/render_figures_v2.py
+python scripts/render_figures.py              # Figures 1-3
+python scripts/render_graphical_abstract.py   # graphical abstract
 ```
 
 Outputs write to `outputs/figures/`.
+
+| Manuscript figure | Script output | Source CSV |
+|---|---|---|
+| Figure 1, primary rubric scores | `figure1_primary_rubric.*` | `figure4_ablation.csv`, `figure3_metrics_heatmap.csv` |
+| Figure 2, disease-stratified scores | `figure2_disease_robustness.*` | `figure6_disease_stratified.csv`, `figure7_paired_differences.csv` |
+| Figure 3, routing and safety audit | `figure3_routing_safety.*` | `figure2_performance_by_dataset.csv`, `figure5_safety.csv` |
+| Graphical abstract | `graphical_abstract.*` | inline values reported in the manuscript |
+
+The CSV filenames keep their internal identifiers; the table above maps them to the manuscript figure numbers. The manuscript Figure 4 is a composite of screenshots of the local Streamlit app, so it is reproduced by running the prototype rather than by a plotting script. `figure1_kg_stats.csv` holds the CardioKG layer counts reported in supplementary Table S3.
 
 Re-running generation (`scripts/run_eval_v4.py`) or LLM judging requires your own DeepSeek key and is optional.
 

@@ -13,6 +13,10 @@ fast_judge scores, then emits:
   outputs/figures/source_data/figure5_safety.csv
 
 Temporary helper script — deleted after use.
+
+Provenance helper: it reads the full local study archive (raw generations and
+heuristic scores), which is not redistributed here, so the bundled CSV tables in
+`data/figure_source/` are the artifacts to use directly.
 """
 from __future__ import annotations
 

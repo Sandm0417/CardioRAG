@@ -78,7 +78,9 @@ def main() -> None:
                 "bonferroni_m": 6,
                 "p_corrected": min(float(res.pvalue) * 6, 1.0),
                 "alpha_adjusted": 0.05 / 6,
-                "significant_at_adjusted_alpha": bool(float(res.pvalue) * 6 < 0.05 / 6),
+                # Compare the uncorrected p against the Bonferroni-adjusted alpha.
+                # Comparing p_corrected with alpha_adjusted would apply the factor twice.
+                "significant_at_adjusted_alpha": bool(float(res.pvalue) < 0.05 / 6),
             })
     (out / "v4_primary_friedman.json").write_text(json.dumps({
         "n_scenarios": len(wide), "configs": CONFIGS,

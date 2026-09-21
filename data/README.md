@@ -8,5 +8,6 @@ All cases are **standardized virtual scenarios**. There are no real patient reco
 | `scenarios/internal.jsonl` | 96-scenario development split |
 | `scenarios/external.jsonl` | 24-scenario held-out synthetic split (same construction process; not a clinical external-validation cohort) |
 | `figure_source/*.csv` | Source tables for the manuscript figures; filenames keep internal figure IDs, mapped to manuscript numbering in the top-level README |
+| `scores/llm_judge_full.csv` | 480-row deterministic rubric scores (120 scenarios × 4 configurations) used for all primary analyses |
 
 Society guideline PDFs are copyrighted and are **not** included. Rebuild CardioKG from locally obtained guideline files if you need to regenerate the graph.

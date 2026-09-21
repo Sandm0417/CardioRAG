@@ -87,7 +87,7 @@ def render_figure1_primary_rubric():
     )
     for i, (est, sd) in enumerate(zip(estimates, sds)):
         ax1.text(i, est + sd + 0.06, f"{est:.2f}", ha="center", va="bottom", fontsize=7)
-    _sig_bracket(ax1, 0, 1, 4.58, "ns")
+    _sig_bracket(ax1, 0, 1, 4.58, "*")
     _sig_bracket(ax1, 1, 2, 4.76, "***")
     _sig_bracket(ax1, 2, 3, 4.94, "***")
     _sig_bracket(ax1, 0, 2, 5.12, "***")
